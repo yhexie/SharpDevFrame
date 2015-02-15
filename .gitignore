@@ -1,0 +1,10 @@
+/*.suo
+/bin
+/Frame.Core/obj
+/Frame.GUI/obj
+/ICSharpCode/Project/obj
+/ICSharpCode.Core.WinForms/obj
+/StartUp/obj
+/Test/obj
+/Frame.GUI/*.user
+*.user

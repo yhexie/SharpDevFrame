@@ -1,0 +1,171 @@
+﻿<AddIn name        = "SharpDevFrame"
+       author      = "yangfan"
+       copyright   = ""
+       url         = "http://www.cnblogs.com/yhlx125"
+       description = "SharpDevelop-like User Interface App，欢迎大家与我讨论:-) "
+       addInManagerHidden = "true">
+	
+	<Manifest>
+		<Identity name = "SharpDevelop" version = "@SharpDevelopCoreVersion"/>
+	</Manifest>
+	
+	<Runtime>
+		<Import assembly="Frame.GUI.dll"/>
+	</Runtime>
+
+  <!-- Main Menu -->
+  <Path name = "/SharpDevelop/Workbench/MainMenu">
+    <MenuItem id = "View" label = "${res:XML.MainMenu.ViewMenu}" type="Menu">
+      <MenuItem id = "FullScreen"
+			          label         = "${res:XML.MainMenu.ViewMenu.FullScreen}"
+			          icon        = "Icons.16x16.FullScreen"
+			          class       = "Frame.GUI.ViewContent.ToggleFullscreenCommand" />
+      <MenuItem id = "Test"
+			          label         = "测试"
+			          icon        = "Icons.16x16.FullScreen"
+			          class       = "Frame.GUI.ViewContent.PanCommand" />
+    </MenuItem>
+  </Path>
+  
+	<Path name = "/SharpDevelop/Workbench/DisplayBindings">
+		<DisplayBinding id               = "Browser"
+		                supportedformats = "Web Pages"
+		                class            = "Frame.GUI.ViewContent.BrowserDisplayBinding"/>
+    <DisplayBinding id    = "Text"
+		                insertafter = "Browser"
+		                supportedformats = "Text Files,Source Files"
+		                class = "Frame.GUI.ViewContent.TextViewDisplayBinding" />
+	</Path>
+  <Path name = "/SharpDevelop/Workbench/DisplayBindings">
+    <DisplayBinding id    = "Image"
+		                insertbefore = "Text"
+		                supportedformats = "图片"
+		                class = "Frame.GUI.ViewContent.ImageDisplayBinding" />
+  </Path>
+	
+	<Path name = "/SharpDevelop/Workbench/Pads">
+		<!--
+		ProjectBrowser
+		ClassBrowser
+		SideBar
+		ErrorList
+		TaskList
+		CompilerMessageView
+		PropertyPad
+		SearchResults
+		Bookmarks
+		DefinitionView
+		...
+		-->
+		<Pad id       = "FileScout"
+		     category = "Tools"
+		     title    = "${res:MainWindow.Windows.FileScoutLabel}"
+		     icon     = "PadIcons.FileBrowser"
+		     shortcut = "Control|Alt|F"
+		     class    = "Frame.GUI.Pad.FileScout"/>
+    <Pad id       = "SDCatalog"
+		     category = "Tools"
+		     title    = "${res:MainWindow.Windows.SDCatalog}"
+		     icon     = "PadIcons.FileBrowser"
+		     shortcut = "Control|Alt|F"
+		     class    = "Frame.GUI.Pad.SDCatalog"/>
+	</Path>
+  <!--工具栏节点-->
+  <Path name = "/SharpDevelop/Workbench/ToolBars">
+    <ToolbarItem id      = "Map"
+		             icon    = "Icons.16x16.OpenFolderBitmap"
+		             tooltip = "地图文档"
+		             class   = "Frame.GUI.ViewContent.ShowMapCommand"/>
+    <ToolbarItem id      = "Pan"
+                icon    = "Icons.16x16.PanTool16"
+                tooltip = "${res:AddIns.HtmlHelp2.Back}"
+                class   = "Frame.GUI.ViewContent.PanCommand"/>
+  </Path>
+    <!-- Pad==>FileScout 中使用到该节点的定义，用以对不同的文件类型在列表中显示不同的图标
+       多个中间必须用 ; 分隔-->
+	<Path name = "/Workspace/Icons">
+		<Icon id         = "ResourceFileIcon"
+		      extensions = ".resources;.resx"
+		      resource   = "Icons.16x16.ResourceFileIcon" />
+    
+		<Icon id         = "XmlFileIcon"
+		      extensions = ".xml"
+		      resource   = "FileIcons.XmlIcon" />
+		
+		<Icon id         = "DtdFileIcon"
+		      extensions = ".dtd"
+		      resource   = "Icons.16x16.DTDIcon"/>
+		
+		<Icon id         = "XsdFileIcon"
+		      extensions = ".xsd"
+		      resource   = "Icons.16x16.XSDIcon"/>
+		
+		<Icon id         = "XslFileIcon"
+		      extensions = ".xsl"
+		      resource   = "Icons.16x16.XSLIcon"/>
+		
+		<Icon id         = "HtmlFileIcon"
+		      extensions = ".html;.htm"
+		      resource   = "Icons.16x16.HTMLIcon"/>
+		
+		<Icon id         = "AspFileIcon"
+		      extensions = ".asp;.aspx"
+		      resource   = "Icons.16x16.ASPFileIcon"/>
+		
+		<Icon id         = "AddInFileIcon"
+		      extensions = ".addin"
+		      resource   = "Icons.16x16.AddInIcon" />
+		<Icon id         = "TextFileIcon"
+		      extensions = ".txt;.doc;.ini"
+		      resource   = "Icons.16x16.TextFileIcon"/>
+    
+		<Icon id         = "CssFileIcon"
+		      extensions = ".css"
+		      resource   = "Icons.16x16.CSSIcon"/>
+	</Path>
+
+  <!--  ViewContent==>HtmlViewPane 中使用到了此节点用以显示相关导航按钮 -->
+  <Path name = "/SharpDevelop/ViewContent/Browser/Toolbar">
+    <ToolbarItem id      = "Back"
+		             icon    = "Icons.16x16.BrowserBefore"
+		             tooltip = "${res:AddIns.HtmlHelp2.Back}"
+		             class   = "Frame.GUI.ViewContent.GoBack"/>
+
+    <ToolbarItem id      = "Forward"
+		             icon    = "Icons.16x16.BrowserAfter"
+		             tooltip = "${res:AddIns.HtmlHelp2.Forward}"
+		             class   = "Frame.GUI.ViewContent.GoForward"/>
+
+    <ToolbarItem id      = "Stop"
+		             icon    = "Icons.16x16.BrowserCancel"
+		             tooltip = "${res:AddIns.HtmlHelp2.Stop}"
+		             class   = "Frame.GUI.ViewContent.Stop"/>
+
+    <ToolbarItem id      = "Refresh"
+		             icon    = "Icons.16x16.BrowserRefresh"
+		             tooltip = "${res:AddIns.HtmlHelp2.Refresh}"
+		             class   = "Frame.GUI.ViewContent.Refresh"/>
+
+    <ToolbarItem id = "Separator" type  = "Separator"/>
+
+    <ToolbarItem id      = "GoHome"
+		             icon    = "Icons.16x16.BrowserHome"
+		             tooltip = "${res:AddIns.HtmlHelp2.Homepage}"
+		             class   = "Frame.GUI.ViewContent.GoHome"/>
+
+    <ToolbarItem id      = "GoSearch"
+		             icon    = "Icons.16x16.FindIcon"
+		             tooltip = "${res:AddIns.HtmlHelp2.Search}"
+		             class   = "Frame.GUI.ViewContent.GoSearch"/>
+
+    <ToolbarItem id      = "URLComboBox"
+		             type    = "ComboBox"
+		             tooltip = "${res:AddIns.HtmlHelp2.EnterURL}"
+		             class   = "Frame.GUI.ViewContent.UrlComboBox"/>
+
+    <ToolbarItem id      = "NewWindow"
+		             icon    = "Icons.16x16.BrowserWindow"
+		             tooltip = "${res:AddIns.HtmlHelp2.NewWindow}"
+		             class   = "Frame.GUI.ViewContent.NewWindow"/>
+  </Path>
+</AddIn>

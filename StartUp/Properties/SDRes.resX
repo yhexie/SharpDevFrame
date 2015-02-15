@@ -1,0 +1,3570 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="MainWindow.Windows.ClassBrowser.ClassViewSettingsButton.ToolTip" xml:space="preserve">
+    <value>Class View Settings</value>
+  </data>
+  <data name="MainWindow.Windows.Debug.Local" xml:space="preserve">
+    <value>Local</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.FormDesigner.Gui.OptionPanels.GeneralOptionsPanel.GeneratedCodeGroupBox" xml:space="preserve">
+    <value>Generated code</value>
+  </data>
+  <data name="MainWindow.Windows.PropertiesScoutLabel" xml:space="preserve">
+    <value>Properties</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.FormDesigner.Gui.RenameCategoryDialog.NewCategoryDialogName" xml:space="preserve">
+    <value>New Category</value>
+  </data>
+  <data name="ICSharpCode.NAntAddIn.StopNAntMenuLabel" xml:space="preserve">
+    <value>&amp;Stop NAnt</value>
+  </data>
+  <data name="ICSharpCode.CodeCoverage.EndLine" xml:space="preserve">
+    <value>End Line</value>
+  </data>
+  <data name="XML.MainMenu.DebugMenu" xml:space="preserve">
+    <value>&amp;Debug</value>
+  </data>
+  <data name="ICSharpCode.NAntAddIn.NAntAddInOptionPanel.NAntVersionLabel" xml:space="preserve">
+    <value>NAnt &amp;Version</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Gui.Dialogs.SortOptionsDialog.RemoveDuplicateLinesCheckBox" xml:space="preserve">
+    <value>&amp;Remove duplicate lines</value>
+  </data>
+  <data name="CSharpBinding.InsertAnonymousMethodWithParameters" xml:space="preserve">
+    <value>Insert anonymous method with parameters.</value>
+  </data>
+  <data name="Dialog.ProjectOptions.Build.FileAlignment" xml:space="preserve">
+    <value>&amp;File Alignment:</value>
+  </data>
+  <data name="ICSharpCode.CodeCoverage.OptionsPanel.NCoverConfigurationGroupBoxText" xml:space="preserve">
+    <value>NCover Configuration</value>
+  </data>
+  <data name="MainWindow.Windows.ClassBrowser.NoResultsFound" xml:space="preserve">
+    <value>No search results found.</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Internal.Project.ProjectReference.PublicKeyToken.Description" xml:space="preserve">
+    <value>The public key token</value>
+  </data>
+  <data name="MainWindow.StatusBar.CompilingMessage" xml:space="preserve">
+    <value>Compiling ${Project}</value>
+  </data>
+  <data name="MainWindow.Windows.SearchResultPanel.ShowLast.ToolTip" xml:space="preserve">
+    <value>Show last searches</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Internal.Project.ProjectFile.CustomToolNamespace" xml:space="preserve">
+    <value>Custom Tool Namespace</value>
+  </data>
+  <data name="ICSharpCode.Services.FileUtilityService.CantLoadFileStandardText" xml:space="preserve">
+    <value>Can't load file ${FileNameWithoutPath} under ${Path}.
+Check the file permission and the existence of that file.</value>
+  </data>
+  <data name="Dialog.ProjectOptions.Build.Off" xml:space="preserve">
+    <value>Off</value>
+  </data>
+  <data name="XML.MainMenu.SearchMenu.ClrBookmark.Description" xml:space="preserve">
+    <value>Clear all bookmarks in current buffer</value>
+  </data>
+  <data name="MainWindow.Windows.FileScout.Size" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Commands.ConvertCommand.FinishedMessage" xml:space="preserve">
+    <value>Project conversion has been successfully finished. You can find the converted project at this location:</value>
+  </data>
+  <data name="Dialog.Goto.DialogName" xml:space="preserve">
+    <value>Go to</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.FormDesigner.Gui.ConfigureSidebarDialog.DialogName" xml:space="preserve">
+    <value>Configure Sidebar</value>
+  </data>
+  <data name="MainWindow.SaveChangesMessageHeader" xml:space="preserve">
+    <value>Save Changes in</value>
+  </data>
+  <data name="Global.BrowseButtonText" xml:space="preserve">
+    <value>&amp;Browse...</value>
+  </data>
+  <data name="MainWindow.Windows.BookmarksLabel" xml:space="preserve">
+    <value>Bookmarks</value>
+  </data>
+  <data name="Dialog.ProjectOptions.Build.OutputPath" xml:space="preserve">
+    <value>&amp;Output Path:</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.FormDesigner.Gui.ConfigureSidebarDialog.Categories" xml:space="preserve">
+    <value>Categories</value>
+  </data>
+  <data name="XML.TextAreaContextMenu.BufferOptions" xml:space="preserve">
+    <value>Buffer Options</value>
+  </data>
+  <data name="FormsDesigner.DesignTabPages.DesignTabPage" xml:space="preserve">
+    <value>Design</value>
+  </data>
+  <data name="MainWindow.Windows.Debug.ExceptionHistory.Time" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="XML.MainMenu.FormatMenu.HorizontalSpacingMenu.HorizSpaceMakeEqual" xml:space="preserve">
+    <value>Make &amp;Equal</value>
+  </data>
+  <data name="ICSharpCode.XmlEditor.XmlSchemaPanel.SchemasGroupBoxText" xml:space="preserve">
+    <value>Schemas</value>
+  </data>
+  <data name="ICSharpCode.ConsolePad.GotoSdkItem" xml:space="preserve">
+    <value>Change to SDK directory</value>
+  </data>
+  <data name="XML.MainMenu.EditMenu.WordCount" xml:space="preserve">
+    <value>&amp;Word Count…</value>
+  </data>
+  <data name="XML.MainMenu.EditMenu.FormatMenu.Capitalize" xml:space="preserve">
+    <value>Capitalize</value>
+  </data>
+  <data name="XML.StartupTips.Tip2" xml:space="preserve">
+    <value>That you can open the template completion window with Ctrl+J?</value>
+  </data>
+  <data name="XML.StartupTips.Tip3" xml:space="preserve">
+    <value>That you can type "? name = ...;" (C#) or "Dim name As ? = ..." (VB) and SharpDevelop will substitute the question mark with the type of "..."?</value>
+  </data>
+  <data name="XML.StartupTips.Tip1" xml:space="preserve">
+    <value>That you should look out for new SharpDevelop versions and tell all your friends how good SharpDevelop is and write cool C# programs with it!</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Gui.Dialogs.UserCredentialsDialog.UserNameLabel" xml:space="preserve">
+    <value>&amp;User name:</value>
+  </data>
+  <data name="XML.MainMenu.DebugMenu.Continue.Description" xml:space="preserve">
+    <value>Continues the process execution.</value>
+  </data>
+  <data name="XML.MainMenu.RunMenu.Run.Description" xml:space="preserve">
+    <value>Run compiled exe (does recompile)</value>
+  </data>
+  <data name="Dialog.ProjectOptions.ApplicationSettings.Win32Resource" xml:space="preserve">
+    <value>Win32 R&amp;esource File:</value>
+  </data>
+  <data name="XML.MainMenu.FileMenu.New.File" xml:space="preserve">
+    <value>&amp;File…</value>
+  </data>
+  <data name="Dialog.ProjectOptions.BuildOptions.OptimizeCode" xml:space="preserve">
+    <value>O&amp;ptimize code</value>
+  </data>
+  <data name="ICSharpCode.XmlEditor.ValidateXmlMenuLabel" xml:space="preserve">
+    <value>&amp;Validate XML</value>
+  </data>
+  <data name="ICSharpCode.NUnitPad.NUnitPadContent.PadName" xml:space="preserve">
+    <value>Unit Tests</value>
+  </data>
+  <data name="XML.MainMenu.EditMenu.FormatMenu" xml:space="preserve">
+    <value>&amp;Format</value>
+  </data>
+  <data name="ICSharpCode.PInvokeAddIn.InsertPInvokeSignaturesForm.DialogName" xml:space="preserve">
+    <value>Insert PInvoke Signature</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.FormDesigner.Gui.ConfigureSidebarDialog.Namespace" xml:space="preserve">
+    <value>Namespace</value>
+  </data>
+  <data name="ICSharpCode.PInvokeAddIn.InsertPInvokeSignaturesForm.MoreInfoLinkLabel" xml:space="preserve">
+    <value>More info</value>
+  </data>
+  <data name="XML.MainMenu.FileMenu.RecentFiles" xml:space="preserve">
+    <value>Recent &amp;Files</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.FormDesigner.ToolboxProvider.CantLoadSidbarComponentLibraryWarning" xml:space="preserve">
+    <value>Can't load side bar component library.
+No Windows Forms components will be avaiable, please configure the side bar manually.
+(right click on a side bar category-&gt;Customize SideBar)</value>
+  </data>
+  <data name="MainWindow.Windows.SearchResultPanel.CollapseAll.ToolTip" xml:space="preserve">
+    <value>Collapse all</value>
+  </data>
+  <data name="Dialog.SelectReferenceDialog.GacReferencePanel.ChooseSpecificAssemblyVersion" xml:space="preserve">
+    <value>Choose specific assembly version</value>
+  </data>
+  <data name="MainWindow.Windows.Debug.Threads.Priority.AboveNormal" xml:space="preserve">
+    <value>Above normal</value>
+  </data>
+  <data name="ICSharpCode.NAntAddIn.AbstractRunNAntCommand.RunningNAntMessage" xml:space="preserve">
+    <value>Running NAnt.</value>
+  </data>
+  <data name="Dialog.ProjectOptions.Build.SuppressWarnings" xml:space="preserve">
+    <value>&amp;Suppress Warnings:</value>
+  </data>
+  <data name="MainWindow.Windows.Debug.CallStack" xml:space="preserve">
+    <value>Callstack</value>
+  </data>
+  <data name="MainWindow.Windows.Debug.Threads.Priority.Lowest" xml:space="preserve">
+    <value>Lowest</value>
+  </data>
+  <data name="MainWindow.Windows.UnitTestsTreeView.ClearResults" xml:space="preserve">
+    <value>Clear results</value>
+  </data>
+  <data name="XML.MainMenu.EditMenu.SelectAll" xml:space="preserve">
+    <value>Select &amp;All</value>
+  </data>
+  <data name="ICSharpCode.XmlEditor.XmlSchemaPanel.FileExtensionsGroupBoxText" xml:space="preserve">
+    <value>File Extensions</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.FormDesigner.Gui.AddSidebarComponents.Components.Location" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="ICSharpCode.Core.Services.ErrorDialogs.ShowExceptionButton" xml:space="preserve">
+    <value>Show Exception</value>
+  </data>
+  <data name="ICSharpCode.CodeAnalysis.ProjectOptions.LoadingRules" xml:space="preserve">
+    <value>Loading available rules...</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Commands.ChooseLayoutCommand.PlainItem" xml:space="preserve">
+    <value>Plain</value>
+  </data>
+  <data name="XML.MainMenu.FileMenu.New.File.Description" xml:space="preserve">
+    <value>Open new buffer</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.FormDesigner.Gui.ConfigureSidebarDialog.AddComponentsButton" xml:space="preserve">
+    <value>&amp;Add Components</value>
+  </data>
+  <data name="Dialog.SelectReferenceDialog.SelectButton" xml:space="preserve">
+    <value>S&amp;elect</value>
+  </data>
+  <data name="Dialog.ProjectOptions.Signing.PasswordsDontMatch" xml:space="preserve">
+    <value>The entered passwords do not match.</value>
+  </data>
+  <data name="Dialog.ProjectOptions.DebugOptions.StartOptions" xml:space="preserve">
+    <value>Start Options</value>
+  </data>
+  <data name="XML.MainMenu.DebugMenu.StepInto" xml:space="preserve">
+    <value>Step into</value>
+  </data>
+  <data name="Dialog.TipOfTheDay.checkBox1Text" xml:space="preserve">
+    <value>Show tips at startup</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Internal.Project.ProjectFile.BuildAction" xml:space="preserve">
+    <value>Build action</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Commands.ChooseLayoutCommand.ResetToDefaultsQuestion" xml:space="preserve">
+    <value>Are you sure that you want to reset the layout configuration ?
+Note: This doesn't affect own custom layouts.</value>
+  </data>
+  <data name="Dialog.WordCountDialog.WordsText" xml:space="preserve">
+    <value>Words</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.FormDesigner.Gui.OptionPanels.GridOptionsPanel.ShowGridComboBox" xml:space="preserve">
+    <value>&amp;Show Grid</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Gui.Dialogs.AddWebReferenceDialog.StopButtonTooltip" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Gui.Components.BooleanTypeConverter.TrueString" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Gui.Dialogs.AddWebReferenceDialog.DialogTitle" xml:space="preserve">
+    <value>Add Web Reference</value>
+  </data>
+  <data name="ICSharpCode.NAntAddIn.NAntPadContent.NAntPropertiesToolTip" xml:space="preserve">
+    <value>Enter NAnt properties.</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Internal.Project.ProjectFile.CustomToolNamespace.Description" xml:space="preserve">
+    <value>Specifies the namespace the custom tool places it's output.</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Gui.Dialogs.AddWebReferenceDialog.ServiceNameProperty" xml:space="preserve">
+    <value>Service</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Commands.SaveFile.InvalidFileNameError" xml:space="preserve">
+    <value>File name '${FileName}' is invalid.</value>
+  </data>
+  <data name="Dialog.WizardDialog.FinishButton" xml:space="preserve">
+    <value>Finish</value>
+  </data>
+  <data name="XML.MainMenu.EditMenu.FormatMenu.LowerCase" xml:space="preserve">
+    <value>To Lower Case</value>
+  </data>
+  <data name="ICSharpCode.PInvokeAddIn.InsertPInvokeSignaturesForm.ModuleNameLabel" xml:space="preserve">
+    <value>Module:</value>
+  </data>
+  <data name="XML.MainMenu.DebugMenu.Break" xml:space="preserve">
+    <value>&amp;Break</value>
+  </data>
+  <data name="XML.MainMenu.ToolMenu.InsGUID" xml:space="preserve">
+    <value>Insert new &amp;GUID</value>
+  </data>
+  <data name="ICSharpCode.CodeCoverage.Line" xml:space="preserve">
+    <value>Line</value>
+  </data>
+  <data name="MainWindow.Windows.HelpScoutLabel" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Commands.ChooseLayoutCommand.EditItem" xml:space="preserve">
+    <value>&lt;Edit&gt;</value>
+  </data>
+  <data name="Dialog.ProjectOptions.Build.DLLBaseAddress" xml:space="preserve">
+    <value>DLL Base Address:</value>
+  </data>
+  <data name="XML.MainMenu.DebugMenu.RunWithoutDebug" xml:space="preserve">
+    <value>Run &amp;without debugger</value>
+  </data>
+  <data name="MainWindow.Windows.ClassBrowser.CommitSearch.ToolTip" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="XML.MainMenu.FormatMenu.VerticalSpacingMenu.VertSpaceMakeEqual" xml:space="preserve">
+    <value>Make &amp;Equal</value>
+  </data>
+  <data name="MainWindow.Windows.ClassBrowser.ClassViewSettings.ShowOtherMembers.Label" xml:space="preserve">
+    <value>Show &amp;Other Members</value>
+  </data>
+  <data name="Global.HelpButtonText" xml:space="preserve">
+    <value>&amp;Help</value>
+  </data>
+  <data name="XML.MainMenu.HelpMenu.DynamicHelp" xml:space="preserve">
+    <value>&amp;Dynamic Help</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Gui.Dialogs.UserCredentialsDialog.DialogTitle" xml:space="preserve">
+    <value>Discovery Credential</value>
+  </data>
+  <data name="MainWindow.XmlValidationMessages.ValidationFailed" xml:space="preserve">
+    <value>Validation: failed</value>
+  </data>
+  <data name="Dialog.ExportProjectToHtml.FolderLabel" xml:space="preserve">
+    <value>Folder:</value>
+  </data>
+  <data name="ICSharpCode.CodeCoverage.OptionsPanel.CommandLineLabel" xml:space="preserve">
+    <value>&amp;Command:</value>
+  </data>
+  <data name="Dialog.About.label1Text" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="Dialog.About.label2Text" xml:space="preserve">
+    <value>Build</value>
+  </data>
+  <data name="Dialog.DirtyFiles.SaveAllButton" xml:space="preserve">
+    <value>Save &amp;all</value>
+  </data>
+  <data name="MainWindow.Windows.Debug.Threads.Priority.Normal" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="Global.DeleteButtonText" xml:space="preserve">
+    <value>&amp;Delete</value>
+  </data>
+  <data name="MainWindow.Windows.FileScout.LastModified" xml:space="preserve">
+    <value>Last modified</value>
+  </data>
+  <data name="ICSharpCode.CodeCoverage.EndColumn" xml:space="preserve">
+    <value>End Column</value>
+  </data>
+  <data name="MainWindow.Windows.ClassScoutLabel" xml:space="preserve">
+    <value>Classes</value>
+  </data>
+  <data name="Global.OpenButtonText" xml:space="preserve">
+    <value>&amp;Open</value>
+  </data>
+  <data name="CSharpBinding.InsertAnonymousMethod" xml:space="preserve">
+    <value>Insert anonymous method without parameters.</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Gui.Dialogs.AddWebReferenceDialog.GoButtonTooltip" xml:space="preserve">
+    <value>Go</value>
+  </data>
+  <data name="Dialog.ProjectOptions.BuildOptions" xml:space="preserve">
+    <value>Compiling</value>
+  </data>
+  <data name="ICSharpCode.NAntAddIn.CreateNAntBuildFileCommand.OverwriteBuildFileQuestion" xml:space="preserve">
+    <value>NAnt build file already exists.  Overwrite?</value>
+  </data>
+  <data name="Global.RetryButtonText" xml:space="preserve">
+    <value>Retry</value>
+  </data>
+  <data name="ICSharpCode.CodeCoverage.CodeCovered" xml:space="preserve">
+    <value>Code Covered</value>
+  </data>
+  <data name="Dialog.Componnents.RichMenuItem.NoRecentFilesString" xml:space="preserve">
+    <value>recent files</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.FormDesigner.Gui.AddSidebarComponents.Components.Namespace" xml:space="preserve">
+    <value>Namespace</value>
+  </data>
+  <data name="Dialog.Componnents.RichMenuItem.LoadFileDescription" xml:space="preserve">
+    <value>load file ${File}</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.FormDesigner.Gui.OptionPanels.GridOptionsPanel.PanelName" xml:space="preserve">
+    <value>Grid Options</value>
+  </data>
+  <data name="Dialog.Goto.IntroText" xml:space="preserve">
+    <value>Please enter an expression to jump to.
+You can enter line number, class names and file names.
+Examples: "120", "MainClass", "Main.cs, 120".</value>
+  </data>
+  <data name="XML.MainMenu.EditMenu.Cut" xml:space="preserve">
+    <value>Cu&amp;t</value>
+  </data>
+  <data name="XML.MainMenu.FileMenu.Open.File" xml:space="preserve">
+    <value>&amp;File…</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Internal.Project.ProjectReference.LocalCopy" xml:space="preserve">
+    <value>Local copy</value>
+  </data>
+  <data name="ResourceEditor.ResourceEdit.ContentColumn" xml:space="preserve">
+    <value>Content</value>
+  </data>
+  <data name="Dialog.Componnents.RichMenuItem.NoRecentProjectsString" xml:space="preserve">
+    <value>recent projects</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Gui.Dialogs.OptionPanels.RegisterFiletypesPanel.CaptionLabel" xml:space="preserve">
+    <value>&amp;Select the file types you want to associate with SharpDevelop:</value>
+  </data>
+  <data name="Dialog.Options.TreeViewOptions.DialogName" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="Dialog.DirtyFiles.DialogName" xml:space="preserve">
+    <value>Save dirty files?</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.FormDesigner.Gui.ConfigureSideBarDialog.RemoveCategoryQuestion" xml:space="preserve">
+    <value>Are you sure to remove this category?</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Gui.Dialogs.SortOptionsDialog.DialogName" xml:space="preserve">
+    <value>Sort Options</value>
+  </data>
+  <data name="XML.MainMenu.FormatMenu.VerticalSpacingMenu" xml:space="preserve">
+    <value>&amp;Vertical Spacing</value>
+  </data>
+  <data name="XML.MainMenu.ProjectMenu.Options" xml:space="preserve">
+    <value>Project &amp;Options…</value>
+  </data>
+  <data name="Dialog.WordCountDialog.CharsText" xml:space="preserve">
+    <value>Chars</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Commands.ConvertVBNetProjectToBoo" xml:space="preserve">
+    <value>From VB.NET to Boo</value>
+  </data>
+  <data name="Dialog.ProjectOptions.BuildOptions.NoCorlib" xml:space="preserve">
+    <value>Do not reference &amp;mscorlib.dll</value>
+  </data>
+  <data name="Global.Location.allopenfiles" xml:space="preserve">
+    <value>all open files</value>
+  </data>
+  <data name="XML.MainMenu.FileMenu.ClearRecentProjects" xml:space="preserve">
+    <value>Clear recent projects list</value>
+  </data>
+  <data name="MainWindow.Windows.Debug.Breakpoints" xml:space="preserve">
+    <value>Breakpoints</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.FormDesigner.Hosts.DefaultDesignerHost.ExceptionDuringComponentCreationError" xml:space="preserve">
+    <value>Exception while creating the component for the Forms Designer (a component has thrown an exception in the constructor).
+THIS DOES NOT AFFECT THE SOURCE CODE.</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.FormDesigner.Gui.ConfigureSidebarDialog.RenameButton" xml:space="preserve">
+    <value>R&amp;ename</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Internal.Project.ProjectReference.WebReferenceUrl.Description" xml:space="preserve">
+    <value>Web reference URL</value>
+  </data>
+  <data name="Dialog.ProjectOptions.RunPostBuildEvent.OnOutputUpdated" xml:space="preserve">
+    <value>When the build updates the project output</value>
+  </data>
+  <data name="MainWindow.Windows.BookmarkPad.GotoPrev.ToolTip" xml:space="preserve">
+    <value>Goto previous bookmark</value>
+  </data>
+  <data name="ICSharpCode.CodeAnalysis.ProjectOptions.SpecifyFxCopPath" xml:space="preserve">
+    <value>You can specify the path to FxCop in the SharpDevelop options.</value>
+  </data>
+  <data name="Dialog.ProjectOptions.ApplicationSettings.ApplicationIcon" xml:space="preserve">
+    <value>Application i&amp;con:</value>
+  </data>
+  <data name="MainWindow.Windows.TreeView.CollapseCurrent" xml:space="preserve">
+    <value>Collapse current</value>
+  </data>
+  <data name="MainWindow.Windows.Debug.Threads.Priority" xml:space="preserve">
+    <value>Priority</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Internal.Templates.ProjectDescriptor.OverwriteQuestion.InfoName" xml:space="preserve">
+    <value>File already exists</value>
+  </data>
+  <data name="ICSharpCode.FiletypeRegisterer.XMLFormFileAssozisation" xml:space="preserve">
+    <value>#Develop XML Form</value>
+  </data>
+  <data name="ICSharpCode.UnitTesting.RunInTestPad" xml:space="preserve">
+    <value>Run in unit test pad</value>
+  </data>
+  <data name="XML.MainMenu.EditMenu.Delete.Description" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="ICSharpCode.NAntAddIn.CreateBuildFileMenuLabel" xml:space="preserve">
+    <value>Create &amp;Build File</value>
+  </data>
+  <data name="MainWindow.Windows.ErrorList.MessageButton.Label" xml:space="preserve">
+    <value>${TaskService.Messages} Messages</value>
+  </data>
+  <data name="Dialog.ProjectOptions.Signing.CreateKey.Title" xml:space="preserve">
+    <value>Create Strong Name Key</value>
+  </data>
+  <data name="Global.OKButtonText" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Dialog.HighlightingEditor.Change" xml:space="preserve">
+    <value>Change...</value>
+  </data>
+  <data name="MainWindow.Windows.Debug.Threads.Priority.BelowNormal" xml:space="preserve">
+    <value>Below normal</value>
+  </data>
+  <data name="Dialog.About.VersionInfoTabName.CopyButton" xml:space="preserve">
+    <value>&amp;Copy</value>
+  </data>
+  <data name="ICSharpCode.CodeAnalysis.ProjectOptions.RunOnBuild" xml:space="preserve">
+    <value>&amp;Run Code Analysis when compiling (defines CODE_ANALYSIS constant)</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.FormDesigner.Gui.OptionPanels.GridOptionsPanel.PropertyGridGroupBox" xml:space="preserve">
+    <value>Property pad settings</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.FormDesigner.Gui.AddSidebarComponentsFileNameLabel" xml:space="preserve">
+    <value>&amp;File Name</value>
+  </data>
+  <data name="Dialog.ProjectOptions.BuildEvents.RunPostBuild" xml:space="preserve">
+    <value>&amp;Run the post-build event:</value>
+  </data>
+  <data name="ICSharpCode.PInvokeAddIn.InsertPInvokeSignaturesForm.NoSignatureFoundForLanguage" xml:space="preserve">
+    <value>No signature found for language '{0}'.</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.FormDesigner.Hosts.DefaultDesignerHost.CyclicDependencyError" xml:space="preserve">
+    <value>You're trying to add a component which will result into a cyclic dependency.</value>
+  </data>
+  <data name="Dialog.ProjectOptions.Build.TreatWarningsAsErrors.All" xml:space="preserve">
+    <value>A&amp;ll</value>
+  </data>
+  <data name="Dialog.ProjectOptions.Build.TreatWarningsAsErrors.Specific" xml:space="preserve">
+    <value>Sp&amp;ecific Warnings:</value>
+  </data>
+  <data name="Dialog.WordCountDialog.StartButton" xml:space="preserve">
+    <value>&amp;Start</value>
+  </data>
+  <data name="XML.MainMenu.HelpMenu.About" xml:space="preserve">
+    <value>&amp;About…</value>
+  </data>
+  <data name="XML.MainMenu.SearchMenu.ToggleBookmark.Description" xml:space="preserve">
+    <value>Set/unset bookmark at current line</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Gui.Pads.PropertyPad.ContextMenu.Reset" xml:space="preserve">
+    <value>&amp;Reset</value>
+  </data>
+  <data name="XML.MainMenu.HelpMenu.StyleGuide" xml:space="preserve">
+    <value>Coding Style Guide</value>
+  </data>
+  <data name="XML.MainMenu.FormatMenu.AlignMenu.AlignHorizontalCenters" xml:space="preserve">
+    <value>&amp;Centers</value>
+  </data>
+  <data name="XML.MainMenu.EditMenu.Copy.Description" xml:space="preserve">
+    <value>Copy selection to clipboard</value>
+  </data>
+  <data name="XML.MainMenu.EditMenu.FoldingMenu.ToggleFolding" xml:space="preserve">
+    <value>&amp;Toggle fold</value>
+  </data>
+  <data name="Dialog.SelectReferenceDialog.GacTabPage" xml:space="preserve">
+    <value>GAC</value>
+  </data>
+  <data name="MainWindow.Windows.TaskList" xml:space="preserve">
+    <value>Task List</value>
+  </data>
+  <data name="ICSharpCode.Core.Services.ErrorDialogs.ExceptionGotDescription" xml:space="preserve">
+    <value>Exception got</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.FormDesigner.Gui.ShowComponentsButton" xml:space="preserve">
+    <value>&amp;Show Components</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.FormDesigner.Gui.ConfigureSidebarDialog.NewButton" xml:space="preserve">
+    <value>&amp;New</value>
+  </data>
+  <data name="MainWindow.Windows.Debug.Modules" xml:space="preserve">
+    <value>Loaded modules</value>
+  </data>
+  <data name="ICSharpCode.NAntAddIn.RunTargetMenuLabel" xml:space="preserve">
+    <value>Run &amp;Target</value>
+  </data>
+  <data name="ICSharpCode.CodeCoverage.NCoverNotFound" xml:space="preserve">
+    <value>Unable to locate the NCover console application.
+
+If NCover is installed, please specify the location of the application in the Code Coverage options.</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Internal.Templates.ProjectDescriptor.CantCreateProjectWithTypeError" xml:space="preserve">
+    <value>Can't create project with type '${type}'.</value>
+  </data>
+  <data name="XML.MainMenu.FormatMenu.ShowProperties" xml:space="preserve">
+    <value>&amp;Properties</value>
+  </data>
+  <data name="Global.NextButtonText" xml:space="preserve">
+    <value>Next &gt;</value>
+  </data>
+  <data name="ICSharpCode.NAntAddIn.NAntPadContent.StopCommandBarButtonText" xml:space="preserve">
+    <value>Stops the current build</value>
+  </data>
+  <data name="MainWindow.Windows.ErrorList.WarningButton.ToolTip" xml:space="preserve">
+    <value>Select whether warnings are displayed in the list.</value>
+  </data>
+  <data name="XML.MainMenu.BuildMenu.BuildSolution" xml:space="preserve">
+    <value>&amp;Build Solution</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Gui.Dialogs.UserCredentialsDialog.UrlLabel" xml:space="preserve">
+    <value>Url:</value>
+  </data>
+  <data name="Dialog.ProjectOptions.Configuration" xml:space="preserve">
+    <value>&amp;Configuration</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Internal.Project.ProjectFile.CustomTool" xml:space="preserve">
+    <value>Custom Tool</value>
+  </data>
+  <data name="XML.MainMenu.SearchMenu.Find" xml:space="preserve">
+    <value>&amp;Find…</value>
+  </data>
+  <data name="Dialog.ProjectOptions.Signing.ChangePassword" xml:space="preserve">
+    <value>Change Pass&amp;word...</value>
+  </data>
+  <data name="FormsDesigner.DesignErrorPanel.ErrorText" xml:space="preserve">
+    <value>Please correct all source code errors before designing</value>
+  </data>
+  <data name="Dialog.ProjectOptions.ReferencePaths" xml:space="preserve">
+    <value>Reference Paths</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Gui.Dialogs.SortOptionsDialog.SortDirectionGroupBox.Ascending" xml:space="preserve">
+    <value>&amp;Ascending</value>
+  </data>
+  <data name="XML.MainMenu.FormatMenu.OrderMenu.SendToBack" xml:space="preserve">
+    <value>&amp;Send to Back</value>
+  </data>
+  <data name="MainWindow.Windows.ClassBrowser.ClassViewSettings.ShowPublicMembers.Label" xml:space="preserve">
+    <value>&amp;Show Public Members</value>
+  </data>
+  <data name="Dialog.ProjectOptions.Build.TargetCPU.Itanium" xml:space="preserve">
+    <value>Intel 64-bit Itanium processor</value>
+  </data>
+  <data name="Dialog.ProjectOptions.ApplicationSettings.ProjectFolder" xml:space="preserve">
+    <value>Project folder:</value>
+  </data>
+  <data name="XML.MainMenu.FormatMenu.HorizontalSpacingMenu.HorizSpaceConcatenate" xml:space="preserve">
+    <value>&amp;Remove</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.FormDesigner.Gui.AddSidebarComponents.NoComponentsFound" xml:space="preserve">
+    <value>The assembly ${Name} does not contain any components.</value>
+  </data>
+  <data name="ICSharpCode.CodeCoverage.NoCodeCoverageResultsGenerated" xml:space="preserve">
+    <value>No code coverage results file generated:</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Gui.Dialogs.OptionPanels.RegisterFiletypesPanel.RegisterCheckBox" xml:space="preserve">
+    <value>&amp;Register file types at application startup</value>
+  </data>
+  <data name="Dialog.SelectReferenceDialog.DialogName" xml:space="preserve">
+    <value>Add Reference</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Internal.Project.ProjectReference.Version" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Gui.Dialogs.AddWebReferenceDialog.ValueColumnHeader" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="ICSharpCode.FiletypeRegisterer.Project" xml:space="preserve">
+    <value>Project</value>
+  </data>
+  <data name="ICSharpCode.PInvokeAddIn.InsertPInvokeSignaturesForm.InsertButtonText" xml:space="preserve">
+    <value>Insert</value>
+  </data>
+  <data name="XML.MainMenu.FileMenu.New.Project" xml:space="preserve">
+    <value>&amp;Solution...</value>
+  </data>
+  <data name="XML.MainMenu.SearchMenu.ClrBookmark" xml:space="preserve">
+    <value>&amp;Clear All Bookmarks</value>
+  </data>
+  <data name="Dialog.WordCountDialog.IsNotTextFile" xml:space="preserve">
+    <value>The current file is not a text file and cannot be counted.</value>
+  </data>
+  <data name="XML.MainMenu.FormatMenu.CenterMenu" xml:space="preserve">
+    <value>&amp;Center in Form</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Internal.Project.ProjectReference.WebReferenceUrl" xml:space="preserve">
+    <value>Web Reference URL</value>
+  </data>
+  <data name="MainWindow.Windows.SearchResultPanel.OneFile" xml:space="preserve">
+    <value>1 file</value>
+  </data>
+  <data name="MainWindow.Windows.Debug.CallStack.Language" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="MainWindow.Windows.SearchResultPanel.OneOccurrence" xml:space="preserve">
+    <value>1 occurrence</value>
+  </data>
+  <data name="MainWindow.Windows.SearchResultPanel.In" xml:space="preserve">
+    <value>in</value>
+  </data>
+  <data name="ICSharpCode.CodeAnalysis.CheckWithFxCop" xml:space="preserve">
+    <value>Check with FxCop</value>
+  </data>
+  <data name="Global.LargeIconToolTip" xml:space="preserve">
+    <value>Large Icons</value>
+  </data>
+  <data name="Dialog.ProjectOptions.Signing.SNnotFound" xml:space="preserve">
+    <value>sn.exe was not found. Make sure the .NET Framework SDK is installed on your computer.</value>
+  </data>
+  <data name="XML.MainMenu.FileMenu.Open.Project" xml:space="preserve">
+    <value>&amp;Project/Solution…</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Internal.Project.ProjectReference.UrlBehaviour" xml:space="preserve">
+    <value>URL Behaviour</value>
+  </data>
+  <data name="MainWindow.Windows.SearchResultPanel.BackToNormalView.ToolTip" xml:space="preserve">
+    <value>Back to normal search results</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.DefaultEditor.Gui.Editor.InsightWindow.NumberOfText" xml:space="preserve">
+    <value>${CurrentMethodNumber} of ${NumberOfTotalMethods}</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Commands.RunCompile.LanguageBindingCantCompileFileError" xml:space="preserve">
+    <value>Language binding ${LanguageBinding} can't compile ${FileName}.</value>
+  </data>
+  <data name="MainWindow.Windows.Debug.HasSymbols" xml:space="preserve">
+    <value>Symbols loaded.</value>
+  </data>
+  <data name="MainWindow.Windows.Debug.CallStack.ShowArgumentValues" xml:space="preserve">
+    <value>Show argument values</value>
+  </data>
+  <data name="XML.MainMenu.ViewMenu" xml:space="preserve">
+    <value>&amp;View</value>
+  </data>
+  <data name="ICSharpCode.UnitTesting.RunWithCoverage" xml:space="preserve">
+    <value>Run with code coverage</value>
+  </data>
+  <data name="XML.MainMenu.ToolMenu.ConvertBufferToVBNET" xml:space="preserve">
+    <value>Convert buffer C# to VB.NET</value>
+  </data>
+  <data name="Dialog.DirtyFiles.DirtyFiles" xml:space="preserve">
+    <value>Dirty Files</value>
+  </data>
+  <data name="XML.MainMenu.FileMenu.Print" xml:space="preserve">
+    <value>P&amp;rint</value>
+  </data>
+  <data name="MainWindow.DialogName" xml:space="preserve">
+    <value>SharpDevelop</value>
+  </data>
+  <data name="MainWindow.Windows.ErrorList.MessageButton.ToolTip" xml:space="preserve">
+    <value>Select whether messages are displayed in the list.</value>
+  </data>
+  <data name="XML.MainMenu.FileMenu.Close" xml:space="preserve">
+    <value>&amp;Close</value>
+  </data>
+  <data name="XML.MainMenu.EditMenu.Redo.Description" xml:space="preserve">
+    <value>Redo last undo action</value>
+  </data>
+  <data name="XML.MainMenu.FileMenu.SaveAll" xml:space="preserve">
+    <value>Save A&amp;ll</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.FormDesigner.Gui.ConfigureSidebarDialog.Assembly" xml:space="preserve">
+    <value>Assembly</value>
+  </data>
+  <data name="MainWindow.Windows.ClassBrowser.ForwardButton.ToolTip" xml:space="preserve">
+    <value>Forward</value>
+  </data>
+  <data name="XML.MainMenu.RunMenu.Compile.Description" xml:space="preserve">
+    <value>Build active project or buffer (when no project is open) (does autosave)</value>
+  </data>
+  <data name="XML.MainMenu.FormatMenu.CenterMenu.CenterHorizontally" xml:space="preserve">
+    <value>&amp;Horizontally</value>
+  </data>
+  <data name="Global.CloseButtonText" xml:space="preserve">
+    <value>&amp;Close</value>
+  </data>
+  <data name="Dialog.Goto.GotoLine" xml:space="preserve">
+    <value>Go to line</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Gui.Dialogs.AddWebReferenceDialog.DocumentationProperty" xml:space="preserve">
+    <value>Documentation</value>
+  </data>
+  <data name="XML.MainMenu.ToolMenu.ConvertBufferToCSharp" xml:space="preserve">
+    <value>Convert buffer VB.NET to C#</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Gui.Dialogs.SortOptionsDialog.IgnoreTrailingWhitespacesCheckBox" xml:space="preserve">
+    <value>&amp;Ignore trailing whitespaces</value>
+  </data>
+  <data name="ICSharpCode.XmlEditor.XmlEditorOptionsPanel.ShowSchemaAnnotationLabel" xml:space="preserve">
+    <value>Show schema anno&amp;tation</value>
+  </data>
+  <data name="Dialog.HighlightingEditor.Add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="Dialog.ProjectOptions.DebugOptions.WorkingDir" xml:space="preserve">
+    <value>&amp;Working directory:</value>
+  </data>
+  <data name="XML.MainMenu.HelpMenu.GPL" xml:space="preserve">
+    <value>&amp;GPL...</value>
+  </data>
+  <data name="XML.MainMenu.EditMenu.Undo.Description" xml:space="preserve">
+    <value>Undo last action</value>
+  </data>
+  <data name="XML.TextAreaContextMenu.Paste" xml:space="preserve">
+    <value>&amp;Paste</value>
+  </data>
+  <data name="XML.MainMenu.ToolsMenu.RegularExpressionToolkit" xml:space="preserve">
+    <value>Regular Expressions Toolkit</value>
+  </data>
+  <data name="XML.MainMenu.EditMenu.Cut.Description" xml:space="preserve">
+    <value>Cut selection to clipboard</value>
+  </data>
+  <data name="XML.MainMenu.BuildMenu.PublishSolution" xml:space="preserve">
+    <value>&amp;Publish Solution</value>
+  </data>
+  <data name="XML.FormsDesigner.SideBar.CustomizeSidebar" xml:space="preserve">
+    <value>Configure Sidebar...</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.FormDesigner.DesignPanel.CantCreateRootDesignerError" xml:space="preserve">
+    <value>Can't create root designer for component '${RootComponent}'.</value>
+  </data>
+  <data name="XML.MainMenu.FormatMenu.VerticalSpacingMenu.VertSpaceDecrease" xml:space="preserve">
+    <value>&amp;Decrease</value>
+  </data>
+  <data name="XML.MainMenu.RunMenu.Run" xml:space="preserve">
+    <value>&amp;Run</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Commands.Convert" xml:space="preserve">
+    <value>Convert</value>
+  </data>
+  <data name="XML.MainMenu.FileMenu.Open.File.Description" xml:space="preserve">
+    <value>Open buffer from disc</value>
+  </data>
+  <data name="MainWindow.Windows.ClassBrowser.ClassViewSettings.ShowProjectReferences.Label" xml:space="preserve">
+    <value>Show &amp;Project References</value>
+  </data>
+  <data name="XML.MainMenu.BuildMenu.CleanSolution" xml:space="preserve">
+    <value>&amp;Clean Solution</value>
+  </data>
+  <data name="Dialog.ProjectOptions.Platform" xml:space="preserve">
+    <value>Platform</value>
+  </data>
+  <data name="Dialog.ProjectOptions.ConfigurationSpecific" xml:space="preserve">
+    <value>Configuration-specific</value>
+  </data>
+  <data name="MainWindow.Windows.OutputWindow.DebugCategory" xml:space="preserve">
+    <value>Debug</value>
+  </data>
+  <data name="Dialog.ProjectOptions.DebugOptions.Arguments" xml:space="preserve">
+    <value>Co&amp;mmand line arguments:</value>
+  </data>
+  <data name="Dialog.ProjectOptions.Signing.PasswordTooShort" xml:space="preserve">
+    <value>The password should be at least 6 characters long.</value>
+  </data>
+  <data name="ICSharpCode.NAntAddIn.NAntAddInOptionPanel.VerboseLabel" xml:space="preserve">
+    <value>Ver&amp;bose</value>
+  </data>
+  <data name="Dialog.About.DialogName" xml:space="preserve">
+    <value>About SharpDevelop</value>
+  </data>
+  <data name="MainWindow.Windows.Debug.TimestampColumn" xml:space="preserve">
+    <value>Timestamp</value>
+  </data>
+  <data name="XML.MainMenu.EditMenu.Paste" xml:space="preserve">
+    <value>&amp;Paste</value>
+  </data>
+  <data name="XML.MainMenu.FileMenu.PrintPreview" xml:space="preserve">
+    <value>Print &amp;Preview</value>
+  </data>
+  <data name="Dialog.ProjectOptions.Build.Advanced" xml:space="preserve">
+    <value>Advanced</value>
+  </data>
+  <data name="XML.TextAreaContextMenu.Refactoring" xml:space="preserve">
+    <value>Refactoring</value>
+  </data>
+  <data name="XML.MainMenu.SearchMenu.PrevBookmark" xml:space="preserve">
+    <value>&amp;Prev Bookmark</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Gui.Pads.PropertyPadResetCommand" xml:space="preserve">
+    <value>Reset failed. Reason: Reset value might now be invalid because another property changed.</value>
+  </data>
+  <data name="ICSharpCode.XmlEditor.XmlSchemasPanel.NoTargetNamespace" xml:space="preserve">
+    <value>Schema '{0}' does not have a target namespace.</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Internal.Project.ProjectReference.UrlBehaviour.Description" xml:space="preserve">
+    <value>Web reference URL behaviour</value>
+  </data>
+  <data name="XML.MainMenu.FormatMenu.SameSizeMenu.SizeToControl" xml:space="preserve">
+    <value>&amp;Both</value>
+  </data>
+  <data name="MainWindow.Windows.SearchResultsLabel" xml:space="preserve">
+    <value>Search Results</value>
+  </data>
+  <data name="XML.MainMenu.FormatMenu.ShowLargeIcons" xml:space="preserve">
+    <value>&amp;Show large icons</value>
+  </data>
+  <data name="MainWindow.Windows.SearchResultPanel.ClearHistory" xml:space="preserve">
+    <value>&lt;Clear History&gt;</value>
+  </data>
+  <data name="XML.MainMenu.EditMenu.FormatMenu.LdSpace2Tab" xml:space="preserve">
+    <value>Leading Spaces to Tabs</value>
+  </data>
+  <data name="XML.MainMenu.FileMenu.SaveAs" xml:space="preserve">
+    <value>Save &amp;As…</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.FormDesigner.Gui.OptionPanels.GridOptionsPanel.SmartTagAutoShowCheckBox" xml:space="preserve">
+    <value>Automatically open Smart Tags</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Gui.Dialogs.AddWebReferenceDialog.WebServicesTabPageTitle" xml:space="preserve">
+    <value>Available Web Services</value>
+  </data>
+  <data name="XML.MainMenu.FormatMenu.VerticalSpacingMenu.VertSpaceIncrease" xml:space="preserve">
+    <value>&amp;Increase</value>
+  </data>
+  <data name="ICSharpCode.XmlEditor.XmlEditorOptionsPanel.ShowAttributesWhenFoldedLabel" xml:space="preserve">
+    <value>Show &amp;attributes when folded</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Internal.Templates.CombineDescriptor.OverwriteProjectQuestion" xml:space="preserve">
+    <value>Solution file ${combineLocation} already exists, do you want to overwrite the existing file ?</value>
+  </data>
+  <data name="XML.TextAreaContextMenu.Cut" xml:space="preserve">
+    <value>Cu&amp;t</value>
+  </data>
+  <data name="Dialog.ProjectOptions.Signing.CreateKey.ConfirmPassword" xml:space="preserve">
+    <value>Con&amp;firm password:</value>
+  </data>
+  <data name="FileUtilityService.ErrorWhileLoading" xml:space="preserve">
+    <value>Error while loading</value>
+  </data>
+  <data name="ICSharpCode.Services.FileUtilityService.CantSaveFileStandardText" xml:space="preserve">
+    <value>Can't save file ${FileNameWithoutPath} under ${Path}.
+Choose another file name or check if the directory exists and that
+you have write permission in that path and file. (maybe a write protection problem?)
+</value>
+  </data>
+  <data name="Global.ChangeButtonText" xml:space="preserve">
+    <value>&amp;Change</value>
+  </data>
+  <data name="XML.MainMenu.FormatMenu.AlignMenu" xml:space="preserve">
+    <value>&amp;Align</value>
+  </data>
+  <data name="MainWindow.Windows.CompilerMessageView.ShowOutputFromComboBox.ToolTip" xml:space="preserve">
+    <value>Show output from:</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.DefaultEditor.Gui.Editor.CodeCompletionData.OverloadsCounter" xml:space="preserve">
+    <value>(+${NumOverloads} overloads)</value>
+  </data>
+  <data name="ResourceEditor.ResourceEdit.ContextMenu.AddFiles" xml:space="preserve">
+    <value>Add &amp;files...</value>
+  </data>
+  <data name="Dialog.ProjectOptions.Signing.CreateKey.EnterPassword" xml:space="preserve">
+    <value>&amp;Enter password:</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Gui.Dialogs.NewProjectDialog.CantCreateDirectoryError" xml:space="preserve">
+    <value>Can't create output directory.
+Check if you've the required permission.</value>
+  </data>
+  <data name="Dialog.ProjectOptions.Signing.CreateKey.KeyName" xml:space="preserve">
+    <value>Key file &amp;name:</value>
+  </data>
+  <data name="Dialog.ProjectOptions.BuildOptions.General" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="XML.MainMenu.FileMenu.RecentProjects" xml:space="preserve">
+    <value>Recent P&amp;rojects</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.FormDesigner.Gui.AddSidebarComponents.DialogName" xml:space="preserve">
+    <value>Add Components</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.FormDesigner.Gui.OptionPanels.GeneralOptionsPanel.PanelName" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="XML.MainMenu.FileMenu.ClearRecentFiles" xml:space="preserve">
+    <value>Clear recent files list</value>
+  </data>
+  <data name="XML.MainMenu.FileMenu.Save.Description" xml:space="preserve">
+    <value>Save current buffer</value>
+  </data>
+  <data name="ICSharpCode.CodeAnalysis.Rule" xml:space="preserve">
+    <value>Rule</value>
+  </data>
+  <data name="XML.MainMenu.FormatMenu.SameSizeMenu.SizeToControlHeight" xml:space="preserve">
+    <value>&amp;Height</value>
+  </data>
+  <data name="XML.MainMenu.FormatMenu.SameSizeMenu.SizeToControlWidth" xml:space="preserve">
+    <value>&amp;Width</value>
+  </data>
+  <data name="ResourceEditor.DeleteEntry.Title" xml:space="preserve">
+    <value>Delete resource</value>
+  </data>
+  <data name="MainWindow.Windows.TreeView.ExpandCurrent" xml:space="preserve">
+    <value>Expand current</value>
+  </data>
+  <data name="MainWindow.Windows.BookmarkPad.EnableDisableAll.ToolTip" xml:space="preserve">
+    <value>Enable/Disable all</value>
+  </data>
+  <data name="Dialog.ProjectOptions.PlatformSpecific" xml:space="preserve">
+    <value>Platform-specific</value>
+  </data>
+  <data name="Global.Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Global.Path" xml:space="preserve">
+    <value>Path</value>
+  </data>
+  <data name="Dialog.ProjectOptions.ApplicationSettings.ProjectFile" xml:space="preserve">
+    <value>Project &amp;file:</value>
+  </data>
+  <data name="MainWindow.CompilerMessages.BuildStartedOutput" xml:space="preserve">
+    <value>------ Build started: Project: ${Project} Configuration: ${Config} ------</value>
+  </data>
+  <data name="ICSharpCode.PInvokeAddIn.InsertPInvokeSignaturesMenuLabel" xml:space="preserve">
+    <value>Insert PInvoke signatures...</value>
+  </data>
+  <data name="Dialog.WordCountDialog.DialogName" xml:space="preserve">
+    <value>Word Count</value>
+  </data>
+  <data name="Dialog.SelectReferenceDialog.ReferenceHeader" xml:space="preserve">
+    <value>Reference Name</value>
+  </data>
+  <data name="ICSharpCode.UnitTesting.RunWithDebugger" xml:space="preserve">
+    <value>Run with debugger</value>
+  </data>
+  <data name="Global.SmallIconToolTip" xml:space="preserve">
+    <value>Small Icons</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Gui.Pads.ClassScout.LoadingNode" xml:space="preserve">
+    <value>Loading...</value>
+  </data>
+  <data name="XML.MainMenu.SearchMenu.FindNext" xml:space="preserve">
+    <value>Find &amp;Next</value>
+  </data>
+  <data name="Dialog.ProjectOptions.ReferencePaths.AddPath" xml:space="preserve">
+    <value>&amp;Add path</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Gui.Dialogs.AddWebReferenceDialog.RetrievalUriProperty" xml:space="preserve">
+    <value>Retrieval URI</value>
+  </data>
+  <data name="MainWindow.Windows.ToolbarLabel" xml:space="preserve">
+    <value>Tools</value>
+  </data>
+  <data name="XML.MainMenu.ToolMenu.InsColor" xml:space="preserve">
+    <value>Insert Color…</value>
+  </data>
+  <data name="XML.MainMenu.FileMenu.Reload" xml:space="preserve">
+    <value>R&amp;eload file</value>
+  </data>
+  <data name="XML.MainMenu.DebugMenu.StepOver.Description" xml:space="preserve">
+    <value>Step over</value>
+  </data>
+  <data name="XML.MainMenu.FormatMenu.OrderMenu" xml:space="preserve">
+    <value>&amp;Order</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Internal.Project.ProjectReference.Name.Description" xml:space="preserve">
+    <value>The reference name</value>
+  </data>
+  <data name="Global.Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="Gui.ProjectBrowser.FileInUseError" xml:space="preserve">
+    <value>File or directory name is already in use, choose a different one.</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.FormDesigner.Gui.OptionPanels.GridOptionsPanel.SnapModeGroupBox" xml:space="preserve">
+    <value>Align Mode</value>
+  </data>
+  <data name="XML.MainMenu.FileMenu" xml:space="preserve">
+    <value>&amp;File</value>
+  </data>
+  <data name="ICSharpCode.XmlEditor.XmlEditorOptionsPanel.XmlCompletionGroupLabel" xml:space="preserve">
+    <value>XML Completion</value>
+  </data>
+  <data name="XML.MainMenu.FormatMenu.OrderMenu.BringToFront" xml:space="preserve">
+    <value>&amp;Bring to Front</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Gui.Dialogs.AddWebReferenceDialog.RefreshButtonTooltip" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="XML.MainMenu.SearchMenu.GotoLineNr" xml:space="preserve">
+    <value>&amp;Goto Line Number...</value>
+  </data>
+  <data name="MainWindow.Windows.Debug.HasNoSymbols" xml:space="preserve">
+    <value>No symbols loaded.</value>
+  </data>
+  <data name="MainWindow.Windows.SearchResultPanel.Flat" xml:space="preserve">
+    <value>Flat</value>
+  </data>
+  <data name="MainWindow.Windows.BookmarkPad.GotoNext.ToolTip" xml:space="preserve">
+    <value>Goto next bookmark</value>
+  </data>
+  <data name="XML.MainMenu.FormatMenu.ShowTabOrder" xml:space="preserve">
+    <value>Show &amp;tab order</value>
+  </data>
+  <data name="Dialog.ExportProjectToHtml.DialogName" xml:space="preserve">
+    <value>Export to Html</value>
+  </data>
+  <data name="Dialog.DirtyFiles.Files" xml:space="preserve">
+    <value>Files</value>
+  </data>
+  <data name="Dialog.ProjectOptions.BuildOptions.ConditionalSymbols" xml:space="preserve">
+    <value>Con&amp;ditional Compilation Symbols:</value>
+  </data>
+  <data name="Dialog.ProjectOptions.Build.ErrorsAndWarnings" xml:space="preserve">
+    <value>Errors and Warnings</value>
+  </data>
+  <data name="Dialog.ProjectOptions.BuildOptions.VBOptionsDefaultValues" xml:space="preserve">
+    <value>Default values for VB Options:</value>
+  </data>
+  <data name="ICSharpCode.NAntAddIn.RunDefaultTargetMenuLabel" xml:space="preserve">
+    <value>Run Default &amp;Target</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Internal.Project.ProjectFile.CopyToOutputDirectory.Description" xml:space="preserve">
+    <value>Specifies if the file should be copied to the output directory</value>
+  </data>
+  <data name="XML.MainMenu.DebugMenu.RunWithoutDebug.Description" xml:space="preserve">
+    <value>Runs the program without attached debugger.</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.FormDesigner.Gui.ConfigureSideBarDialog.RemoveComponentsQuestion" xml:space="preserve">
+    <value>Are you sure to remove the selected components from the category?</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.FormDesigner.Gui.AddSidebarComponents.Components.Assembly" xml:space="preserve">
+    <value>Assembly</value>
+  </data>
+  <data name="Dialog.SelectReferenceDialog.GacReferencePanel.ReferenceHeader" xml:space="preserve">
+    <value>Reference Name</value>
+  </data>
+  <data name="Dialog.About.ThrowExceptionButton" xml:space="preserve">
+    <value>&amp;Throw Exception</value>
+  </data>
+  <data name="ICSharpCode.NAntAddIn.GotoErrorMenuLabel" xml:space="preserve">
+    <value>&amp;Goto Error</value>
+  </data>
+  <data name="XML.MainMenu.HelpMenu.Tips" xml:space="preserve">
+    <value>&amp;Tip of the Day…</value>
+  </data>
+  <data name="FileUtilityService.ErrorWhileSaving" xml:space="preserve">
+    <value>Error while saving</value>
+  </data>
+  <data name="XML.MainMenu.SearchMenu" xml:space="preserve">
+    <value>&amp;Search</value>
+  </data>
+  <data name="Dialog.ProjectOptions.Build.IntermediateOutputPath" xml:space="preserve">
+    <value>Intermediate Output Path:</value>
+  </data>
+  <data name="MainWindow.Windows.Debug.Threads.Freeze" xml:space="preserve">
+    <value>Freeze</value>
+  </data>
+  <data name="XML.MainMenu.BuildMenu.RebuildProject" xml:space="preserve">
+    <value>R&amp;ebuild ${CurrentProjectName}</value>
+  </data>
+  <data name="MainWindow.Windows.Debug.Threads.Frozen" xml:space="preserve">
+    <value>Frozen</value>
+  </data>
+  <data name="XML.MainMenu.SearchMenu.GotoBrace" xml:space="preserve">
+    <value>Goto &amp;Matching Brace</value>
+  </data>
+  <data name="MainWindow.Windows.Debug.ExceptionHistory" xml:space="preserve">
+    <value>Exception history</value>
+  </data>
+  <data name="XML.MainMenu.EditMenu.Delete" xml:space="preserve">
+    <value>&amp;Delete</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.FormDesigner.Gui.OptionPanels.GridOptionsPanel.WidthLabel" xml:space="preserve">
+    <value>&amp;Width</value>
+  </data>
+  <data name="Dialog.ProjectOptions.RunPostBuildEvent.OnSuccessfulBuild" xml:space="preserve">
+    <value>On successful build</value>
+  </data>
+  <data name="Global.QuestionText" xml:space="preserve">
+    <value>Question</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.FormDesigner.Gui.ConfigureSidebarDialog.RemoveComponentsButton" xml:space="preserve">
+    <value>Re&amp;move Components</value>
+  </data>
+  <data name="XML.MainMenu.DebugMenu.Break.Description" xml:space="preserve">
+    <value>Break the debugging process</value>
+  </data>
+  <data name="MainWindow.Windows.BookmarkPad.DeleteMark.ToolTip" xml:space="preserve">
+    <value>Delete bookmark</value>
+  </data>
+  <data name="ICSharpCode.CodeCoverage.RunWithCodeCoverage" xml:space="preserve">
+    <value>Run with code coverage</value>
+  </data>
+  <data name="Dialog.ProjectOptions.ProjectImports.Namespace" xml:space="preserve">
+    <value>&amp;Namespace:</value>
+  </data>
+  <data name="XML.MainMenu.DebugMenu.StepOut" xml:space="preserve">
+    <value>Step out</value>
+  </data>
+  <data name="Dialog.ProjectOptions.ProjectImports.RemoveImport" xml:space="preserve">
+    <value>&amp;Remove import</value>
+  </data>
+  <data name="Dialog.ProjectOptions.BuildOptions.CheckForOverflow" xml:space="preserve">
+    <value>&amp;Check for arithmetic overflow/underflow</value>
+  </data>
+  <data name="MainWindow.CompilerMessages.ExecuteScript" xml:space="preserve">
+    <value>Execute : ${Script}</value>
+  </data>
+  <data name="Dialog.ProjectOptions.BuildOptions.AllowUnsafeCode" xml:space="preserve">
+    <value>Allow &amp;Unsafe code</value>
+  </data>
+  <data name="MainWindow.CompilerMessages.PerformingMainCompilationOutput" xml:space="preserve">
+    <value>Performing main compilation...</value>
+  </data>
+  <data name="ICSharpCode.PInvokeAddIn.InsertPInvokeSignaturesForm.FindButtonText" xml:space="preserve">
+    <value>Find</value>
+  </data>
+  <data name="ICSharpCode.XmlEditor.XmlEditorOptionsPanel.Title" xml:space="preserve">
+    <value>XML Options</value>
+  </data>
+  <data name="XML.MainMenu.SearchMenu.PrevBookmark.Description" xml:space="preserve">
+    <value>Goto previous bookmark</value>
+  </data>
+  <data name="MainWindow.Windows.Debug.AddressColumn" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="ICSharpCode.CodeAnalysis.ProjectOptions.CannotFindFxCop" xml:space="preserve">
+    <value>Cannot find FxCop - Make sure FxCop is installed.</value>
+  </data>
+  <data name="Dialog.SelectReferenceDialog.LocationHeader" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="MainWindow.Windows.Debug.OrderColumn" xml:space="preserve">
+    <value>Order</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Gui.Dialogs.AddWebReferenceDialog.UrlAddressLabel" xml:space="preserve">
+    <value>&amp;Address:</value>
+  </data>
+  <data name="XML.MainMenu.ToolMenu.GenerateCode" xml:space="preserve">
+    <value>Auto code generation</value>
+  </data>
+  <data name="Dialog.ProjectOptions.Publish" xml:space="preserve">
+    <value>Publish</value>
+  </data>
+  <data name="ICSharpCode.CodeAnalysis.ProjectOptions.Enable" xml:space="preserve">
+    <value>&amp;Enable Code Analysis (defines CODE_ANALYSIS constant)</value>
+  </data>
+  <data name="Global.StartButtonText" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="Dialog.SelectReferenceDialog.ProjectReferencePanel.NameHeader" xml:space="preserve">
+    <value>Project Name</value>
+  </data>
+  <data name="CompilerResultView.LineText" xml:space="preserve">
+    <value>Line</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.FormDesigner.Gui.AddSidebarComponents.ComponentsToAddLabel" xml:space="preserve">
+    <value>C&amp;omponents to add</value>
+  </data>
+  <data name="MainWindow.Windows.ErrorList.ErrorButton.ToolTip" xml:space="preserve">
+    <value>Select whether errors are displayed in the list.</value>
+  </data>
+  <data name="Dialog.WordCountDialog.LinesText" xml:space="preserve">
+    <value>Lines</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Commands.Print.CantPrintWindowContentError" xml:space="preserve">
+    <value>Can't print this window content.</value>
+  </data>
+  <data name="MainWindow.XmlValidationMessages.ValidationSuccess" xml:space="preserve">
+    <value>Validation:  succeeded</value>
+  </data>
+  <data name="Global.FinishedCaptionText" xml:space="preserve">
+    <value>Finished</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.FormDesigner.Gui.OptionPanels.GridOptionsPanel.InPlaceEditCheckBox" xml:space="preserve">
+    <value>Enable in-place editing of ToolStrips</value>
+  </data>
+  <data name="Dialog.ProjectOptions.BuildEvents.PostBuild" xml:space="preserve">
+    <value>P&amp;ost-build event command line:</value>
+  </data>
+  <data name="Dialog.ProjectOptions.ApplicationSettings.InvalidIconFile" xml:space="preserve">
+    <value>{0} is not a valid icon file.</value>
+  </data>
+  <data name="MainWindow.Windows.ErrorList.WarningButton.Label" xml:space="preserve">
+    <value>${TaskService.Warnings} Warnings</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.FormDesigner.Gui.RenameCategoryDialog.RenameCategoryDialogName" xml:space="preserve">
+    <value>Rename Category</value>
+  </data>
+  <data name="Global.Location.wholeproject" xml:space="preserve">
+    <value>whole project</value>
+  </data>
+  <data name="Dialog.ProjectOptions.Signing.EnterKeyName" xml:space="preserve">
+    <value>You have to enter a key name.</value>
+  </data>
+  <data name="MainWindow.XmlValidationMessages.ValidationStarted" xml:space="preserve">
+    <value>------ Validating XML ------</value>
+  </data>
+  <data name="XML.MainMenu.EditMenu.FormatMenu.LdTab2Space" xml:space="preserve">
+    <value>Leading Tabs to Spaces</value>
+  </data>
+  <data name="XML.MainMenu.ViewMenu.DebugMenu" xml:space="preserve">
+    <value>&amp;Debug</value>
+  </data>
+  <data name="MainWindow.Windows.SearchResultPanel.OccurrencesOf" xml:space="preserve">
+    <value>Occurrences of '${Pattern}'</value>
+  </data>
+  <data name="XML.MainMenu.FormatMenu.LineUpIcons" xml:space="preserve">
+    <value>&amp;Line up icons</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.FormDesigner.Gui.OptionPanels.GridOptionsPanel.OptimizedCodeGenerationCheckBox" xml:space="preserve">
+    <value>Use optimized code generation</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Commands.VBConvertProjectToCSharp" xml:space="preserve">
+    <value>From VB.NET to C#</value>
+  </data>
+  <data name="BackendBindings.ExecutionManager.NoSingleFileCompilation" xml:space="preserve">
+    <value>Compiling single files is not supported, please create a project!</value>
+  </data>
+  <data name="Dialog.SelectReferenceDialog.BrowserTabPage" xml:space="preserve">
+    <value>.NET Assembly Browser</value>
+  </data>
+  <data name="MainWindow.Windows.Debug.Threads.Priority.Highest" xml:space="preserve">
+    <value>Highest</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Commands.SaveFile.FileSaved" xml:space="preserve">
+    <value>File saved</value>
+  </data>
+  <data name="XML.MainMenu.FormatMenu.AlignMenu.AlignVerticalCenters" xml:space="preserve">
+    <value>&amp;Middles</value>
+  </data>
+  <data name="ICSharpCode.FiletypeRegisterer.XmlFileAssozisation" xml:space="preserve">
+    <value>XML Document</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.FormDesigner.CantDeserializeFormError" xml:space="preserve">
+    <value>Can't deserialize form. Possible reason: Initialize component method was changed manually.</value>
+  </data>
+  <data name="XML.MainMenu.EditMenu.FoldingMenu.ToggleAllFoldings" xml:space="preserve">
+    <value>Toggle &amp;all folds</value>
+  </data>
+  <data name="MainWindow.Windows.Debug.LocalVariables" xml:space="preserve">
+    <value>Local variables</value>
+  </data>
+  <data name="Dialog.ProjectOptions.Build.Auto" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="XML.MainMenu.BuildMenu.RebuildSolution" xml:space="preserve">
+    <value>&amp;Rebuild Solution</value>
+  </data>
+  <data name="ICSharpCode.TextEditor.Document.SearchReplaceManager.MarkAllDone" xml:space="preserve">
+    <value>Mark all done.</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Gui.Dialogs.AddWebReferenceDialog.ReferenceNameLabel" xml:space="preserve">
+    <value>&amp;Reference Name:</value>
+  </data>
+  <data name="Dialog.ProjectOptions.Signing.CreateKey.UsePassword" xml:space="preserve">
+    <value>&amp;Protect my key file with a password</value>
+  </data>
+  <data name="CompilerResultView.FileText" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="Dialog.ProjectOptions.Build.BaseIntermediateOutputPath" xml:space="preserve">
+    <value>Base Intermediate Output Path:</value>
+  </data>
+  <data name="Global.RemoveButtonText" xml:space="preserve">
+    <value>&amp;Remove</value>
+  </data>
+  <data name="ICSharpCode.CodeCoverage.ProjectOptionsPanel.AssemblyListLabel" xml:space="preserve">
+    <value>&amp;Assemblies to watch:</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Gui.Pads.PropertyPad.ContextMenu.ShowDescription" xml:space="preserve">
+    <value>&amp;Show Description</value>
+  </data>
+  <data name="XML.MainMenu.FileMenu.New" xml:space="preserve">
+    <value>&amp;New</value>
+  </data>
+  <data name="Dialog.ProjectOptions.Build.TargetCPU.x64" xml:space="preserve">
+    <value>AMD 64-bit processor</value>
+  </data>
+  <data name="Dialog.ProjectOptions.Build.TargetCPU.x86" xml:space="preserve">
+    <value>32-bit Intel-compatible processor</value>
+  </data>
+  <data name="Dialog.ProjectOptions.Build.TargetCPU.Any" xml:space="preserve">
+    <value>Any processor</value>
+  </data>
+  <data name="Gui.ProjectBrowser.IllegalCharactersInFileNameError" xml:space="preserve">
+    <value>The file name you have chosen contains illegal characters. Please choose a different file name.</value>
+  </data>
+  <data name="XML.MainMenu.RunMenu.BuildProject.Description" xml:space="preserve">
+    <value>Builds the current project.</value>
+  </data>
+  <data name="Dialog.ProjectOptions.ApplicationSettings.OutputName" xml:space="preserve">
+    <value>Output name:</value>
+  </data>
+  <data name="Dialog.ProjectOptions.ApplicationSettings.OutputType" xml:space="preserve">
+    <value>&amp;Output type:</value>
+  </data>
+  <data name="XML.MainMenu.SearchMenu.NextBookmark" xml:space="preserve">
+    <value>Ne&amp;xt Bookmark</value>
+  </data>
+  <data name="XML.MainMenu.EditMenu.Copy" xml:space="preserve">
+    <value>&amp;Copy</value>
+  </data>
+  <data name="XML.MainMenu.EditMenu.Undo" xml:space="preserve">
+    <value>&amp;Undo</value>
+  </data>
+  <data name="XML.MainMenu.EditMenu.Redo" xml:space="preserve">
+    <value>&amp;Redo</value>
+  </data>
+  <data name="XML.MainMenu.HelpMenu" xml:space="preserve">
+    <value>&amp;Help</value>
+  </data>
+  <data name="Dialog.ProjectOptions.BuildEvents.PreBuild" xml:space="preserve">
+    <value>P&amp;re-build event command line:</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Internal.Templates.ProjectDescriptor.OverwriteProjectQuestion" xml:space="preserve">
+    <value>Project file ${projectLocation} already exists, do you want to overwrite the existing file ?</value>
+  </data>
+  <data name="Dialog.ProjectOptions.Build.TreatWarningsAsErrors.None" xml:space="preserve">
+    <value>&amp;None</value>
+  </data>
+  <data name="MainWindow.Windows.UnitTestsTreeView.ExpandCurrentIgnoredTests" xml:space="preserve">
+    <value>Expand current ignored</value>
+  </data>
+  <data name="MainWindow.Windows.ErrorList" xml:space="preserve">
+    <value>Errors</value>
+  </data>
+  <data name="Dialog.ProjectOptions.Signing.ErrorCreatingKey" xml:space="preserve">
+    <value>There was an error creating the key file.</value>
+  </data>
+  <data name="ICSharpCode.XmlEditor.XmlSchemaPanel.SchemaLabelText" xml:space="preserve">
+    <value>&amp;Schema:</value>
+  </data>
+  <data name="Dialog.ProjectOptions.Build.TreatWarningsAsErrors" xml:space="preserve">
+    <value>Treat Warnings as Errors</value>
+  </data>
+  <data name="XML.MainMenu.HelpMenu.WebMenu" xml:space="preserve">
+    <value>Web</value>
+  </data>
+  <data name="XML.MainMenu.EditMenu.FormatMenu.Tab2Space" xml:space="preserve">
+    <value>Tabs to Spaces</value>
+  </data>
+  <data name="ICSharpCode.NAntAddIn.NAntPadContent.RunCommandBarButtonText" xml:space="preserve">
+    <value>Runs the selected target</value>
+  </data>
+  <data name="XML.MainMenu.BuildMenu.PublishProject" xml:space="preserve">
+    <value>Publish ${CurrentProjectName}</value>
+  </data>
+  <data name="XML.TextAreaContextMenu.Indent" xml:space="preserve">
+    <value>Indent</value>
+  </data>
+  <data name="Dialog.TipOfTheDay.button1Text" xml:space="preserve">
+    <value>&amp;Next Tip</value>
+  </data>
+  <data name="Internal.Templates.CodeTemplateLoader.CantLoadTemplatesWarning" xml:space="preserve">
+    <value>Can't load templates configuration file</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Internal.Project.ProjectReference.SpecificVersion.Description" xml:space="preserve">
+    <value>Indicates if this reference is bound to a specific version of the assembly</value>
+  </data>
+  <data name="XML.MainMenu.EditMenu.FoldingMenu" xml:space="preserve">
+    <value>F&amp;olding</value>
+  </data>
+  <data name="ICSharpCode.NAntAddIn.NAntAddInOptionPanel.DebugLabel" xml:space="preserve">
+    <value>&amp;Debug</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Internal.Templates.ProjectDescriptor.OverwriteQuestion" xml:space="preserve">
+    <value>File ${fileName} already exists, do you want to overwrite the existing file ?</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Internal.Project.ProjectReference.PublicKeyToken" xml:space="preserve">
+    <value>Public Key Token</value>
+  </data>
+  <data name="Dialog.ProjectOptions.ProjectImports" xml:space="preserve">
+    <value>Imports</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Internal.Project.ProjectFile.CopyToOutputDirectory" xml:space="preserve">
+    <value>Copy to output directory</value>
+  </data>
+  <data name="ICSharpCode.ConsolePad.GotoProjectItem" xml:space="preserve">
+    <value>Change to project directory</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Internal.Project.ProjectFile.BuildAction.Description" xml:space="preserve">
+    <value>The build action of that file</value>
+  </data>
+  <data name="BackendBindings.ExecutionManager.CantExecuteDLLError" xml:space="preserve">
+    <value>Project is configured as dll and no execution command is specified.
+You can specifiy an execution command in the project options.</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.FormDesigner.Gui.RenameCategoryDialog.DuplicateNameError" xml:space="preserve">
+    <value>Duplicate name, please choose another one.</value>
+  </data>
+  <data name="XML.MainMenu.SearchMenu.NextBookmark.Description" xml:space="preserve">
+    <value>Goto next bookmark</value>
+  </data>
+  <data name="ResourceEditor.ResourceList.KeyAlreadyDefinedWarning" xml:space="preserve">
+    <value>This key is already defined! Please choose another one.</value>
+  </data>
+  <data name="Global.FinishButtonText" xml:space="preserve">
+    <value>Finish</value>
+  </data>
+  <data name="Fileutility.CantFindFileError" xml:space="preserve">
+    <value>Can't load ${File}.File not found.</value>
+  </data>
+  <data name="ResourceEditor.ResourceEdit.ContextMenu.AddStringEntry" xml:space="preserve">
+    <value>Add string e&amp;ntry</value>
+  </data>
+  <data name="XML.MainMenu.DebugMenu.Stop" xml:space="preserve">
+    <value>Stop process</value>
+  </data>
+  <data name="XML.MainMenu.DebugMenu.Step" xml:space="preserve">
+    <value>Step</value>
+  </data>
+  <data name="ICSharpCode.XmlEditor.XmlSchemaPanel.FileExtensionLabelText" xml:space="preserve">
+    <value>&amp;Extension:</value>
+  </data>
+  <data name="XML.MainMenu.BuildMenu.SetConfiguration" xml:space="preserve">
+    <value>Set configuration</value>
+  </data>
+  <data name="Global.ErrorText" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="Global.UpdateButtonText" xml:space="preserve">
+    <value>&amp;Update</value>
+  </data>
+  <data name="ResourceEditor.BitmapView.UpdateBitmap" xml:space="preserve">
+    <value>Update bitmap ...</value>
+  </data>
+  <data name="MainWindow.SaveChangesMessage" xml:space="preserve">
+    <value>Do you want to save the current changes?</value>
+  </data>
+  <data name="ICSharpCode.PInvokeAddIn.InsertPInvokeSignaturesForm.NoSignaturesFound" xml:space="preserve">
+    <value>No signatures found.</value>
+  </data>
+  <data name="ICSharpCode.BooInterpreter" xml:space="preserve">
+    <value>Boo Interpreter</value>
+  </data>
+  <data name="XML.MainMenu.FormatMenu.AlignMenu.AlignHorizontalRight" xml:space="preserve">
+    <value>&amp;Rights</value>
+  </data>
+  <data name="Global.ID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="Global.No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.FormDesigner.Gui.AddSidebarComponents.GACTabPage" xml:space="preserve">
+    <value>GAC</value>
+  </data>
+  <data name="MainWindow.Windows.SearchResultPanel.PerFile" xml:space="preserve">
+    <value>Per file</value>
+  </data>
+  <data name="Dialog.SelectReferenceDialog.ProjectReferencePanel.DirectoryHeader" xml:space="preserve">
+    <value>Project Directory</value>
+  </data>
+  <data name="XML.MainMenu.FormatMenu.VerticalSpacingMenu.VertSpaceConcatenate" xml:space="preserve">
+    <value>&amp;Remove</value>
+  </data>
+  <data name="Dialog.ProjectOptions.DebugOptions.StartBrowser" xml:space="preserve">
+    <value>Start browser in &amp;URL:</value>
+  </data>
+  <data name="ICSharpCode.CodeAnalysis.ProjectOptions.AddRemoveRuleAssembly" xml:space="preserve">
+    <value>Add/Remove rule assembly</value>
+  </data>
+  <data name="ICSharpCode.NAntAddIn.AbstractRunNAntCommand.TerminateNAntQuestion" xml:space="preserve">
+    <value>This will terminate the NAnt process.  Are you sure?</value>
+  </data>
+  <data name="ICSharpCode.NAntAddIn.NAntAddInOptionPanel.BuildFileGenerationGroupBoxName" xml:space="preserve">
+    <value>Build File Generation</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.FormDesigner.Gui.OptionPanels.GridOptionsPanel.HeightLabel" xml:space="preserve">
+    <value>&amp;Height</value>
+  </data>
+  <data name="ICSharpCode.NAntAddIn.NAntPadContent.RefreshCommandBarButtonText" xml:space="preserve">
+    <value>Reloads the build files</value>
+  </data>
+  <data name="XML.MainMenu.EditMenu.FormatMenu.SortLines" xml:space="preserve">
+    <value>Sort Lines...</value>
+  </data>
+  <data name="Dialog.ProjectOptions.DebugSymbolType.None" xml:space="preserve">
+    <value>No debug information</value>
+  </data>
+  <data name="Dialog.ProjectOptions.DebugSymbolType.Full" xml:space="preserve">
+    <value>Full debug information</value>
+  </data>
+  <data name="ICSharpCode.FiletypeRegisterer.BinaryResourceFilesFileAssozisation" xml:space="preserve">
+    <value>.NET Resource File (binary)</value>
+  </data>
+  <data name="ICSharpCode.FiletypeRegisterer.VBNetSourceFileAssozisation" xml:space="preserve">
+    <value>VB.NET Source File</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Commands.ProjectBrowser.AddFilesToProject.MoveOrCopyMessageBox.CopyButton" xml:space="preserve">
+    <value>&amp;Copy</value>
+  </data>
+  <data name="XML.MainMenu.WindowMenu" xml:space="preserve">
+    <value>&amp;Window</value>
+  </data>
+  <data name="ICSharpCode.CodeCoverage.OptionsPanel.ItemForegroundLabel" xml:space="preserve">
+    <value>Item fo&amp;reground:</value>
+  </data>
+  <data name="XML.MainMenu.FormatMenu.HorizontalSpacingMenu.SendToBack" xml:space="preserve">
+    <value>&amp;Send to Back</value>
+  </data>
+  <data name="Dialog.ProjectOptions.Build.DebugInfo" xml:space="preserve">
+    <value>Debug &amp;Info:</value>
+  </data>
+  <data name="Dialog.ProjectOptions.Build.WarningLevel" xml:space="preserve">
+    <value>&amp;Warning Level:</value>
+  </data>
+  <data name="ResourceEditor.ResourceEdit.TypeColumn" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="XML.MainMenu.FormatMenu.SameSizeMenu" xml:space="preserve">
+    <value>&amp;Make Same Size</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Commands.ChooseLayoutCommand.DefaultItem" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="Dialog.ProjectOptions.Signing.ClickOnce" xml:space="preserve">
+    <value>ClickOnce signing</value>
+  </data>
+  <data name="Dialog.ProjectOptions.StoreInUserFile" xml:space="preserve">
+    <value>Store in .user-file</value>
+  </data>
+  <data name="ICSharpCode.CodeAnalysis.ProjectOptions.WarningErrorMixed" xml:space="preserve">
+    <value>Mixed</value>
+  </data>
+  <data name="ICSharpCode.CodeCoverage.VisitCount" xml:space="preserve">
+    <value>Visit Count</value>
+  </data>
+  <data name="XML.MainMenu.FormatMenu.AlignMenu.AlignBottom" xml:space="preserve">
+    <value>&amp;Bottoms</value>
+  </data>
+  <data name="XML.MainMenu.ViewMenu.ShowStartPage" xml:space="preserve">
+    <value>&amp;Show start page</value>
+  </data>
+  <data name="ICSharpCode.NAntAddIn.NAntAddInOptionPanel.ShowLogoLabel" xml:space="preserve">
+    <value>Show &amp;Logo</value>
+  </data>
+  <data name="XML.MainMenu.DebugMenu.Continue" xml:space="preserve">
+    <value>&amp;Continue debugging</value>
+  </data>
+  <data name="MainWindow.Windows.CompilerMessageView.ToggleWordWrapButton.ToolTip" xml:space="preserve">
+    <value>Toggle Word Wrap</value>
+  </data>
+  <data name="Dialog.ViewGPL.DialogName" xml:space="preserve">
+    <value>GNU General Public License</value>
+  </data>
+  <data name="XML.MainMenu.BuildMenu.BuildProject" xml:space="preserve">
+    <value>B&amp;uild ${CurrentProjectName}</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Gui.Dialogs.AddWebReferenceDialog.BackButtonTooltip" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="ICSharpCode.Core.Services.ErrorDialogs.DescriptionLabel" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Gui.Dialogs.NewProjectDialog.IllegalProjectNameError" xml:space="preserve">
+    <value>Illegal project name.
+Only use letters, digits, space, '.' or '_' are allowed.</value>
+  </data>
+  <data name="Internal.ExternalTool.CantLoadToolConfigWarining" xml:space="preserve">
+    <value>Can't load external tools configuration file</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Gui.Dialogs.AddWebReferenceDialog.BindingProperty" xml:space="preserve">
+    <value>Binding</value>
+  </data>
+  <data name="ICSharpCode.NAntAddIn.NAntAddInOptionPanel.CommandLabel" xml:space="preserve">
+    <value>&amp;Command</value>
+  </data>
+  <data name="Dialog.ProjectOptions.DebugOptions.StartAction" xml:space="preserve">
+    <value>Start Action</value>
+  </data>
+  <data name="Dialog.DirtyFiles.SaveButton" xml:space="preserve">
+    <value>&amp;Save</value>
+  </data>
+  <data name="MainWindow.Windows.SearchResultPanel.FileCount" xml:space="preserve">
+    <value>${Count} files</value>
+  </data>
+  <data name="XML.MainMenu.DebugMenu.Stop.Description" xml:space="preserve">
+    <value>Stops the current process and terminates debugging.</value>
+  </data>
+  <data name="FormsDesigner.DesignTabPages.SourceTabPage" xml:space="preserve">
+    <value>Source</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Gui.Dialogs.UserCredentialsDialog.InformationLabel" xml:space="preserve">
+    <value>Please supply the credentials to access the specified url.</value>
+  </data>
+  <data name="Global.IgnoreButtonText" xml:space="preserve">
+    <value>Ignore</value>
+  </data>
+  <data name="Dialog.Options.TreeViewOptions.SharpDevelopOptionsText" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="MainWindow.Windows.ProjectScoutLabel" xml:space="preserve">
+    <value>Projects</value>
+  </data>
+  <data name="XML.MainMenu.SearchMenu.ToggleBookmark" xml:space="preserve">
+    <value>&amp;Toggle Bookmark</value>
+  </data>
+  <data name="ICSharpCode.CodeAnalysis.ProjectOptions.WarningOrError" xml:space="preserve">
+    <value>Warning or Error</value>
+  </data>
+  <data name="Dialog.ProjectOptions.ProjectImports.AddImport" xml:space="preserve">
+    <value>&amp;Add import</value>
+  </data>
+  <data name="XML.MainMenu.FormatMenu.HorizontalSpacingMenu.HorizSpaceIncrease" xml:space="preserve">
+    <value>&amp;Increase</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Gui.Dialogs.UserCredentialsDialog.PasswordLabel" xml:space="preserve">
+    <value>&amp;Password:</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Commands.ChooseLayoutCommand.DebugItem" xml:space="preserve">
+    <value>Debug</value>
+  </data>
+  <data name="ICSharpCode.XmlEditor.XmlEditorOptionsPanel.FoldingGroupLabel" xml:space="preserve">
+    <value>Folding</value>
+  </data>
+  <data name="XML.TextAreaContextMenu.CommentUncommentSelection" xml:space="preserve">
+    <value>Comment region</value>
+  </data>
+  <data name="Dialog.ProjectOptions.Signing.SignAssembly" xml:space="preserve">
+    <value>Sign the &amp;assembly</value>
+  </data>
+  <data name="Dialog.ProjectOptions.DebugOptions" xml:space="preserve">
+    <value>Debug</value>
+  </data>
+  <data name="Dialog.ProjectOptions.Signing.ClickOnceNotSupported" xml:space="preserve">
+    <value>ClickOnce signing is currently not supported.</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Gui.Dialogs.AddWebReferenceDialog.NamespaceLabel" xml:space="preserve">
+    <value>&amp;Namespace:</value>
+  </data>
+  <data name="XML.MainMenu.FileMenu.Close.Project" xml:space="preserve">
+    <value>&amp;Solution</value>
+  </data>
+  <data name="ICSharpCode.NAntAddIn.AbstractRunNAntCommand.NoBuildFileErrorText" xml:space="preserve">
+    <value>Project does not contain a '.build' file.</value>
+  </data>
+  <data name="XML.MainMenu.EditMenu.FoldingMenu.ShowDefinitions" xml:space="preserve">
+    <value>Show &amp;definitions only</value>
+  </data>
+  <data name="MainWindow.Windows.Debug.VersionColumn" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.FormDesigner.Gui.OptionPanels.GridOptionsPanel.SmartTagsCheckBox" xml:space="preserve">
+    <value>Use Smart Tags</value>
+  </data>
+  <data name="MainWindow.Windows.SearchResultPanel.ExpandAll.ToolTip" xml:space="preserve">
+    <value>Expand all</value>
+  </data>
+  <data name="MainWindow.Windows.Debug.InformationColumn" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Gui.Dialogs.AddWebReferenceDialog.PropertyColumnHeader" xml:space="preserve">
+    <value>Property</value>
+  </data>
+  <data name="ICSharpCode.XmlEditor.XmlSchemasPanel.UnableToAddSchema" xml:space="preserve">
+    <value>Unable to add schema.</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Gui.Dialogs.SortOptionsDialog.SortDirectionGroupBox.Descending" xml:space="preserve">
+    <value>&amp;Descending</value>
+  </data>
+  <data name="ICSharpCode.CodeCoverage.RunTestsWithCodeCoverage" xml:space="preserve">
+    <value>Run tests with code coverage</value>
+  </data>
+  <data name="Gui.ProjectBrowser.ShowAllFiles" xml:space="preserve">
+    <value>Show all files</value>
+  </data>
+  <data name="ICSharpCode.CodeCoverage.Column" xml:space="preserve">
+    <value>Column</value>
+  </data>
+  <data name="ResourceEditor.ResourceEdit.ContextMenu.Rename" xml:space="preserve">
+    <value>&amp;Rename</value>
+  </data>
+  <data name="XML.TextAreaContextMenu.Copy" xml:space="preserve">
+    <value>&amp;Copy</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Commands.CharpConvertProjectToVB" xml:space="preserve">
+    <value>From C# to VB.NET</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Services.AmbienceService.AmbienceNotFoundError" xml:space="preserve">
+    <value>Current ambience not found.
+Goto 'Options-&gt;Visual Style' and change the current language ambience.</value>
+  </data>
+  <data name="XML.MainMenu.ToolMenu" xml:space="preserve">
+    <value>&amp;Tools</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.FormDesigner.Gui.OptionPanels.GridOptionsPanel.SnapLinesRadioButton" xml:space="preserve">
+    <value>Snap Lines</value>
+  </data>
+  <data name="Global.Location.directories" xml:space="preserve">
+    <value>Directories</value>
+  </data>
+  <data name="Dialog.ProjectOptions.Build.XmlDocumentationFile" xml:space="preserve">
+    <value>&amp;XML documentation:</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Internal.Project.ProjectReference.Culture.Description" xml:space="preserve">
+    <value>The culture supported by the reference</value>
+  </data>
+  <data name="Dialog.About.VersionInfoTabName.VersionColumn" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="Dialog.DirtyFiles.DiscardAllButton" xml:space="preserve">
+    <value>&amp;Discard all</value>
+  </data>
+  <data name="Global.ChooseLocationButtonText" xml:space="preserve">
+    <value>Choose location</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Gui.Dialogs.AddWebReferenceDialog.ParametersProperty" xml:space="preserve">
+    <value>Parameters</value>
+  </data>
+  <data name="MainWindow.Windows.OutputWindow.BuildCategory" xml:space="preserve">
+    <value>Build</value>
+  </data>
+  <data name="XML.MainMenu.FormatMenu.HorizontalSpacingMenu.BringToFront" xml:space="preserve">
+    <value>&amp;Bring to Front</value>
+  </data>
+  <data name="Dialog.ProjectOptions.Build.On" xml:space="preserve">
+    <value>On</value>
+  </data>
+  <data name="XML.MainMenu.ToolMenu.QuickXmlDoc" xml:space="preserve">
+    <value>Quick XML doc</value>
+  </data>
+  <data name="ICSharpCode.XmlEditor.XmlSchemaPanel.NamespacePrefixLabelText" xml:space="preserve">
+    <value>&amp;Prefix:</value>
+  </data>
+  <data name="MainWindow.Windows.OutputWindow" xml:space="preserve">
+    <value>Output</value>
+  </data>
+  <data name="ICSharpCode.XmlEditor.XmlSchemasPanel.Title" xml:space="preserve">
+    <value>XML Schemas</value>
+  </data>
+  <data name="XML.MainMenu.FormatMenu.HorizontalSpacingMenu.HorizSpaceDecrease" xml:space="preserve">
+    <value>&amp;Decrease</value>
+  </data>
+  <data name="ICSharpCode.NAntAddIn.CreateNAntBuildFileCommand.CreateBuildFileErrorText" xml:space="preserve">
+    <value>Unable to create NAnt build file.</value>
+  </data>
+  <data name="MainWindow.DiscardChangesMessage" xml:space="preserve">
+    <value>Do you really want to discard your changes ?</value>
+  </data>
+  <data name="Dialog.ProjectOptions.StorageLocationHelp" xml:space="preserve">
+    <value>With the small button in front of each configuration setting, you can choose where a setting is stored.
+Configuration-specific means the setting can have a different value in each configuration (Debug/Release).
+Platform-specific means the setting can have a different value on each platform.
+You can also choose to store the setting in the .user-file instead of the project file, so every developer can use a different value without getting conflicts in source control systems.</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Commands.ReloadFile.ReloadFileQuestion" xml:space="preserve">
+    <value>Are you sure that you want to reload the file ?
+All changes get lost.</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Commands.ProjectBrowser.AddFilesToProject.FileIsReadOnly" xml:space="preserve">
+    <value>A write protected file with this name already exists at this location.</value>
+  </data>
+  <data name="MainWindow.Windows.Debug.SetCurrentStatement" xml:space="preserve">
+    <value>Set current statement</value>
+  </data>
+  <data name="Global.BackButtonText" xml:space="preserve">
+    <value>&lt; Back</value>
+  </data>
+  <data name="ICSharpCode.XmlEditor.SelectXmlSchema.DialogTitle" xml:space="preserve">
+    <value>Select XML Schema</value>
+  </data>
+  <data name="Dialog.ProjectOptions.ApplicationSettings.AssemblyName" xml:space="preserve">
+    <value>Assembly &amp;name:</value>
+  </data>
+  <data name="MainWindow.Windows.ClassBrowser.ClearSearch.ToolTip" xml:space="preserve">
+    <value>Clear Search</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.FormDesigner.Gui.OptionPanels.GeneralOptionsPanel.InitializeComponentesReadOnlyCheckBox" xml:space="preserve">
+    <value>mark InitializeComponents method in code view as readonly</value>
+  </data>
+  <data name="Dialog.ProjectOptions.RunPostBuildEvent.Always" xml:space="preserve">
+    <value>Always</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Commands.ConvertCSharpProjectToBoo" xml:space="preserve">
+    <value>From C# to Boo</value>
+  </data>
+  <data name="MainWindow.Windows.Debug.ExceptionHistory.Exception" xml:space="preserve">
+    <value>Exception</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Internal.Project.ProjectReference.Culture" xml:space="preserve">
+    <value>Culture</value>
+  </data>
+  <data name="MainWindow.Windows.Debug.Threads" xml:space="preserve">
+    <value>Threads</value>
+  </data>
+  <data name="MainWindow.Windows.UnitTestsTreeView.ExpandAllIgnoredTests" xml:space="preserve">
+    <value>Expand all ignored</value>
+  </data>
+  <data name="ResourceEditor.ResourceEdit.ContextMenu.CopyResourceName" xml:space="preserve">
+    <value>Copy resource name</value>
+  </data>
+  <data name="XML.MainMenu.ViewMenu.ToolsMenu" xml:space="preserve">
+    <value>&amp;Tools</value>
+  </data>
+  <data name="XML.MainMenu.EditMenu.FormatMenu.UpperCase" xml:space="preserve">
+    <value>To Upper Case</value>
+  </data>
+  <data name="MainWindow.CompilerMessages.ProjectStatsOutput" xml:space="preserve">
+    <value>Build complete -- ${Errors} errors, ${Warnings} warnings</value>
+  </data>
+  <data name="Dialog.ProjectOptions.Signing.DelaySignWarning" xml:space="preserve">
+    <value>When delay signed, the project will not run or be debuggable.</value>
+  </data>
+  <data name="Dialog.ProjectOptions.BuildOptions.RemoveOverflowChecks" xml:space="preserve">
+    <value>Remove integer overflow &amp;checks</value>
+  </data>
+  <data name="XML.MainMenu.HelpMenu.ReadMe" xml:space="preserve">
+    <value>&amp;ReadMe…</value>
+  </data>
+  <data name="MainWindow.StatusBar.ReadyMessage" xml:space="preserve">
+    <value>Ready</value>
+  </data>
+  <data name="ICSharpCode.CodeCoverage.OptionsPanel.DisplayItemsLabel" xml:space="preserve">
+    <value>&amp;Display Items:</value>
+  </data>
+  <data name="ICSharpCode.FiletypeRegisterer.JavaSourceFileAssozisation" xml:space="preserve">
+    <value>Java Source File</value>
+  </data>
+  <data name="Global.CreateButtonText" xml:space="preserve">
+    <value>Create</value>
+  </data>
+  <data name="ICSharpCode.CodeCoverage.OptionsPanel.CodeCoverageColoursGroupBoxText" xml:space="preserve">
+    <value>Code Coverage Colours</value>
+  </data>
+  <data name="Dialog.TipOfTheDay.DidYouKnowText" xml:space="preserve">
+    <value>Did you know...</value>
+  </data>
+  <data name="Global.EditButtonText" xml:space="preserve">
+    <value>&amp;Edit</value>
+  </data>
+  <data name="XML.MainMenu.BuildMenu.CleanProject" xml:space="preserve">
+    <value>Clea&amp;n ${CurrentProjectName}</value>
+  </data>
+  <data name="MainWindow.Windows.SearchResultPanel.SelectViewMode.ToolTip" xml:space="preserve">
+    <value>Select search list mode</value>
+  </data>
+  <data name="ResourceEditor.DeleteEntry.Confirm" xml:space="preserve">
+    <value>Do you really want to delete the selected resource(s)?</value>
+  </data>
+  <data name="XML.MainMenu.FormatMenu.Lock" xml:space="preserve">
+    <value>&amp;Lock Controls</value>
+  </data>
+  <data name="MainWindow.Windows.SearchResultPanel.OccurrencesCount" xml:space="preserve">
+    <value>${Count} occurrences</value>
+  </data>
+  <data name="XML.MainMenu.ViewMenu.FullScreen" xml:space="preserve">
+    <value>&amp;Fullscreen</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Commands.ProjectBrowser.RefreshWebReference.ReadServiceDescriptionError" xml:space="preserve">
+    <value>Unable to read web service description.  Url='{0}'</value>
+  </data>
+  <data name="MainWindow.Windows.UnitTestsTreeView.ExpandAllFailures" xml:space="preserve">
+    <value>Expand all failures</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.FormDesigner.Gui.OptionPanels.GridOptionsPanel.SnapToGridRadioButton" xml:space="preserve">
+    <value>Snap to Grid</value>
+  </data>
+  <data name="XML.MainMenu.FileMenu.Close.File" xml:space="preserve">
+    <value>&amp;File</value>
+  </data>
+  <data name="Dialog.SelectReferenceDialog.ProjectTabPage" xml:space="preserve">
+    <value>Projects</value>
+  </data>
+  <data name="Dialog.ProjectOptions.Signing.ChooseKeyFile" xml:space="preserve">
+    <value>Choose a strong name key file:</value>
+  </data>
+  <data name="MainWindow.Windows.DefinitionViewLabel" xml:space="preserve">
+    <value>Definition View</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.FormDesigner.Gui.OptionPanels.GridOptionsPanel.PropertyGridSortCheckBox" xml:space="preserve">
+    <value>Sort properties alphabetically</value>
+  </data>
+  <data name="ICSharpCode.CodeCoverage.OptionsPanel.ItemBackgroundLabel" xml:space="preserve">
+    <value>Item bac&amp;kground:</value>
+  </data>
+  <data name="ResourceEditor.Messages.CantLoadResource" xml:space="preserve">
+    <value>Can't load resource</value>
+  </data>
+  <data name="Global.WarningText" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.FormDesigner.Gui.AddSidebarComponents.GAC.Version" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="XML.MainMenu.ToolMenu.ConvertBufferToBoo" xml:space="preserve">
+    <value>Convert buffer to Boo</value>
+  </data>
+  <data name="Global.AddButtonText" xml:space="preserve">
+    <value>&amp;Add</value>
+  </data>
+  <data name="Dialog.TipOfTheDay.DialogName" xml:space="preserve">
+    <value>Tip of the Day</value>
+  </data>
+  <data name="Global.BrowseText" xml:space="preserve">
+    <value>Browse</value>
+  </data>
+  <data name="ICSharpCode.XmlEditor.XmlSchemasPanel.UnableToSaveChanges" xml:space="preserve">
+    <value>Unable to save changes.</value>
+  </data>
+  <data name="ICSharpCode.NAntAddIn.RunCleanTargetMenuLabel" xml:space="preserve">
+    <value>Run &amp;Clean Target</value>
+  </data>
+  <data name="ICSharpCode.PInvokeAddIn.InsertPInvokeSignaturesForm.FunctionNameLabel" xml:space="preserve">
+    <value>Function:</value>
+  </data>
+  <data name="XML.MainMenu.FormatMenu.AlignMenu.AlignToGrid" xml:space="preserve">
+    <value>To &amp;Grid</value>
+  </data>
+  <data name="XML.MainMenu.EditMenu.FormatMenu.InvertCase" xml:space="preserve">
+    <value>Invert Case</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Internal.Project.ProjectFile.CustomTool.Description" xml:space="preserve">
+    <value>Specifies the tool that converts the file to the output.</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Internal.Templates.ProjectDescriptor.FileCouldntBeWrittenError" xml:space="preserve">
+    <value>File ${fileName} could not be written.</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Gui.Dialogs.AddWebReferenceDialog.InvalidReferenceNameError" xml:space="preserve">
+    <value>Reference name contains invalid characters.</value>
+  </data>
+  <data name="ICSharpCode.CodeCoverage.ToggleCodeCoverage" xml:space="preserve">
+    <value>Toggle Code Coverage</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Internal.Project.ProjectReference.LocalCopy.Description" xml:space="preserve">
+    <value>If true the referenced assembly is copied to the output path</value>
+  </data>
+  <data name="XML.MainMenu.HelpMenu.Topics" xml:space="preserve">
+    <value>&amp;Help Topics</value>
+  </data>
+  <data name="Dialog.ProjectOptions.Signing.StrongName" xml:space="preserve">
+    <value>Strong name signing</value>
+  </data>
+  <data name="ICSharpCode.NAntAddIn.ProcessRunner.NoProcessRunningErrorText" xml:space="preserve">
+    <value>No process running.</value>
+  </data>
+  <data name="Global.CancelButtonText" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="MainWindow.Windows.ErrorList.ErrorButton.Label" xml:space="preserve">
+    <value>${TaskService.Errors} Errors</value>
+  </data>
+  <data name="XML.MainMenu.FormatMenu.CenterMenu.CenterVertically" xml:space="preserve">
+    <value>&amp;Vertically</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Gui.Dialogs.AddWebReferenceDialog.InvalidNamespaceError" xml:space="preserve">
+    <value>The namespace contains invalid characters.  A namespace can only contain letters, digits or underscores.</value>
+  </data>
+  <data name="Dialog.ProjectOptions.BuildEvents" xml:space="preserve">
+    <value>Build Events</value>
+  </data>
+  <data name="XML.MainMenu.FileMenu.Save" xml:space="preserve">
+    <value>&amp;Save</value>
+  </data>
+  <data name="XML.MainMenu.FileMenu.Open" xml:space="preserve">
+    <value>&amp;Open</value>
+  </data>
+  <data name="XML.MainMenu.FileMenu.Exit" xml:space="preserve">
+    <value>E&amp;xit</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Gui.Dialogs.OptionPanels.RegisterFiletypesPanel.PanelName" xml:space="preserve">
+    <value>File Format Associations</value>
+  </data>
+  <data name="MainWindow.Windows.ClassBrowser.SearchButton.ToolTip" xml:space="preserve">
+    <value>Class View Search</value>
+  </data>
+  <data name="ICSharpCode.TextEditor.Document.SearchReplaceManager.ReplaceAllDone" xml:space="preserve">
+    <value>Replace all done.</value>
+  </data>
+  <data name="XML.MainMenu.ToolMenu.Options" xml:space="preserve">
+    <value>O&amp;ptions…</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Commands.ProjectBrowser.AddFilesToProject.MoveOrCopyMessageBox.Name" xml:space="preserve">
+    <value>Move or copy</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Gui.Dialogs.SortOptionsDialog.SortDirectionGroupBox" xml:space="preserve">
+    <value>Sort Direction</value>
+  </data>
+  <data name="ICSharpCode.NAntAddIn.NAntAddInOptionPanel.QuietLabel" xml:space="preserve">
+    <value>&amp;Quiet</value>
+  </data>
+  <data name="MainWindow.Windows.Debug.CallStack.ShowArgumentNames" xml:space="preserve">
+    <value>Show argument names</value>
+  </data>
+  <data name="MainWindow.Windows.Debug.CallStack.ShowExternalMethods" xml:space="preserve">
+    <value>Show external methods</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.FormDesigner.Gui.OptionPanels.PanelName" xml:space="preserve">
+    <value>Windows Forms Designer</value>
+  </data>
+  <data name="XML.MainMenu.FormatMenu.AlignMenu.AlignHorizontalLeft" xml:space="preserve">
+    <value>&amp;Lefts</value>
+  </data>
+  <data name="Dialog.ProjectOptions.ApplicationSettings.ProjectInformation" xml:space="preserve">
+    <value>Project Information</value>
+  </data>
+  <data name="XML.MainMenu.EditMenu.FormatMenu.RlWs" xml:space="preserve">
+    <value>Remove Leading Ws</value>
+  </data>
+  <data name="XML.MainMenu.EditMenu.FormatMenu.RtWs" xml:space="preserve">
+    <value>Remove Trailing Ws</value>
+  </data>
+  <data name="ICSharpCode.FiletypeRegisterer.SolutionFileAssozisation" xml:space="preserve">
+    <value>SharpDevelop Solution</value>
+  </data>
+  <data name="XML.MainMenu.FormatMenu.HorizontalSpacingMenu" xml:space="preserve">
+    <value>&amp;Horizontal Spacing</value>
+  </data>
+  <data name="Dialog.WordCountDialog.TotalText" xml:space="preserve">
+    <value>total</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Commands.ProjectBrowser.AddFilesToProject.MoveOrCopyMessageBox.Question" xml:space="preserve">
+    <value>Do you want to copy or move the files?</value>
+  </data>
+  <data name="ICSharpCode.CodeAnalysis" xml:space="preserve">
+    <value>Code Analysis</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Internal.Project.ProjectReference.Name" xml:space="preserve">
+    <value>(Name)</value>
+  </data>
+  <data name="ICSharpCode.UnitTesting.CodeCoverage" xml:space="preserve">
+    <value>Code Coverage</value>
+  </data>
+  <data name="Dialog.SelectReferenceDialog.GacReferencePanel.VersionHeader" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="ICSharpCode.NAntAddIn.GotoDefinitionMenuLabel" xml:space="preserve">
+    <value>&amp;Goto Definition</value>
+  </data>
+  <data name="Dialog.About.License" xml:space="preserve">
+    <value>Released under the terms of the ${License}.</value>
+  </data>
+  <data name="Dialog.WordCountDialog.MustBeInProtectedModeWarning" xml:space="preserve">
+    <value>You must be in project mode</value>
+  </data>
+  <data name="MainWindow.Windows.Debug.ProgramColumn" xml:space="preserve">
+    <value>Program</value>
+  </data>
+  <data name="XML.MainMenu.FileMenu.SaveAll.Description" xml:space="preserve">
+    <value>Save all buffers currently open</value>
+  </data>
+  <data name="MainWindow.Windows.ClassBrowser.ClassViewSettings.ShowPrivateMembers.Label" xml:space="preserve">
+    <value>Show P&amp;rivate Members</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Internal.Project.ProjectReference.SpecificVersion" xml:space="preserve">
+    <value>Specific Version</value>
+  </data>
+  <data name="MainWindow.Windows.UnitTestsTreeView.ExpandCurrentFailures" xml:space="preserve">
+    <value>Expand current failures</value>
+  </data>
+  <data name="ICSharpCode.PInvokeAddIn.InsertPInvokeSignaturesForm.LanguageLabel" xml:space="preserve">
+    <value>Language:</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.FormDesigner.Gui.RenameCategoryDialog.CategoryNameLabel" xml:space="preserve">
+    <value>&amp;Category Name</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.FormDesigner.Gui.AddSidebarComponents.CustomTabPage" xml:space="preserve">
+    <value>Custom</value>
+  </data>
+  <data name="Dialog.ProjectOptions.Build.TargetFramework" xml:space="preserve">
+    <value>Target Framework:</value>
+  </data>
+  <data name="MainWindow.Windows.CompilerMessageView.ClearAllButton.ToolTip" xml:space="preserve">
+    <value>Clear All</value>
+  </data>
+  <data name="MainWindow.Windows.ClassBrowser.ClassViewSettings.ShowProtectedMembers.Label" xml:space="preserve">
+    <value>Show Pr&amp;otected Members</value>
+  </data>
+  <data name="Dialog.ProjectOptions.DebugOptions.StartProject" xml:space="preserve">
+    <value>&amp;Start project</value>
+  </data>
+  <data name="XML.MainMenu.WindowMenu.PrvWindow" xml:space="preserve">
+    <value>&amp;Prev Window</value>
+  </data>
+  <data name="Dialog.ProjectOptions.DebugOptions.StartProgram" xml:space="preserve">
+    <value>Start e&amp;xternal program:</value>
+  </data>
+  <data name="Dialog.Componnents.RichMenuItem.LoadProjectDescription" xml:space="preserve">
+    <value>load project ${Project}</value>
+  </data>
+  <data name="Dialog.ProjectOptions.ContinueSwitchConfiguration" xml:space="preserve">
+    <value>Changing the configuration will save the current values. Continue?</value>
+  </data>
+  <data name="XML.MainMenu.SearchMenu.Replace" xml:space="preserve">
+    <value>&amp;Replace…</value>
+  </data>
+  <data name="XML.TextAreaContextMenu.UncommentSelection" xml:space="preserve">
+    <value>Uncomment region</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Gui.Components.BooleanTypeConverter.FalseString" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="ICSharpCode.NAntAddIn.AbstractRunNAntCommand.NAntStoppedMessage" xml:space="preserve">
+    <value>NAnt build stopped.</value>
+  </data>
+  <data name="ICSharpCode.CodeCoverage.RunningCodeCoverage" xml:space="preserve">
+    <value>Running code coverage...</value>
+  </data>
+  <data name="Global.Location.currentfile" xml:space="preserve">
+    <value>current file</value>
+  </data>
+  <data name="Dialog.ProjectOptions.Build.TargetCPU" xml:space="preserve">
+    <value>&amp;Target CPU:</value>
+  </data>
+  <data name="XML.MainMenu.BuildMenu" xml:space="preserve">
+    <value>B&amp;uild</value>
+  </data>
+  <data name="Dialog.ProjectOptions.Build.Output" xml:space="preserve">
+    <value>Output</value>
+  </data>
+  <data name="XML.MainMenu.EditMenu.FormatMenu.Space2Tab" xml:space="preserve">
+    <value>Spaces to Tabs</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Commands.ChooseLayoutCommand.ResetToDefaultItem" xml:space="preserve">
+    <value>&lt;Reset to defaults&gt;</value>
+  </data>
+  <data name="ICSharpCode.CodeCoverage.CodeNotCovered" xml:space="preserve">
+    <value>Code Not Covered</value>
+  </data>
+  <data name="Dialog.WordCountDialog.SaveTheFileWarning" xml:space="preserve">
+    <value>You must save the file</value>
+  </data>
+  <data name="XML.TextAreaContextMenu.FileMode" xml:space="preserve">
+    <value>File mode</value>
+  </data>
+  <data name="Internal.Templates.ProjectTemplate.LoadingError" xml:space="preserve">
+    <value>Error while loading project template:</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Gui.Dialogs.SortOptionsDialog.CaseSensitiveCheckBox" xml:space="preserve">
+    <value>&amp;Case sensitive</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Commands.Print.CreatePrintDocumentError" xml:space="preserve">
+    <value>Couldn't create PrintDocument</value>
+  </data>
+  <data name="Dialog.SelectReferenceDialog.TypeHeader" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Commands.ProjectBrowser.AddFilesToProject.MoveOrCopyMessageBox.MoveButton" xml:space="preserve">
+    <value>&amp;Move</value>
+  </data>
+  <data name="XML.MainMenu.EditMenu.Paste.Description" xml:space="preserve">
+    <value>Paste text from clipboard</value>
+  </data>
+  <data name="ICSharpCode.XmlEditor.CreateSchemaMenuLabel" xml:space="preserve">
+    <value>&amp;Create Schema</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.DefaultEditor.Gui.Editor.TextEditorDisplayBinding.FileAlteredMessage" xml:space="preserve">
+    <value>The file
+${File}
+has been changed externally do you want to reload it?</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.FormDesigner.DesignPanel.RootDesignerNotWindowsFormsError" xml:space="preserve">
+    <value>Root designer does not support Windows Forms view technology.</value>
+  </data>
+  <data name="Dialog.ProjectOptions.Build.GenerateSerializationAssembly" xml:space="preserve">
+    <value>&amp;Generate serialization assembly:</value>
+  </data>
+  <data name="ICSharpCode.XmlEditor.XmlSchemasPanel.NamespaceExists" xml:space="preserve">
+    <value>Unable to add schema.  The namespace '{0}' already exists.</value>
+  </data>
+  <data name="ICSharpCode.NAntAddIn.NAntAddInOptionPanel.NAntConfigGroupBoxName" xml:space="preserve">
+    <value>NAnt Configuration</value>
+  </data>
+  <data name="ICSharpCode.NAntAddIn.NAntAddInOptionPanel.ArgumentsLabel" xml:space="preserve">
+    <value>&amp;Arguments</value>
+  </data>
+  <data name="ICSharpCode.NAntAddIn.AbstractRunNAntCommand.BuildRunningErrorText" xml:space="preserve">
+    <value>A NAnt build is currently running.</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Gui.Dialogs.UserCredentialsDialog.DomainLabel" xml:space="preserve">
+    <value>&amp;Domain:</value>
+  </data>
+  <data name="ICSharpCode.CodeCoverage.OptionsPanel.SampleText" xml:space="preserve">
+    <value>AaBbCcXxYyZz</value>
+  </data>
+  <data name="ICSharpCode.CodeAnalysis.ProjectOptions.ChooseRuleAssemblyDirectory" xml:space="preserve">
+    <value>Choose directory containing rule assemblies:</value>
+  </data>
+  <data name="Dialog.ExportProjectToHtml.SelectTargetDirInfo" xml:space="preserve">
+    <value>Select target directory.</value>
+  </data>
+  <data name="Dialog.ProjectOptions.ProjectImports.Title" xml:space="preserve">
+    <value>Project-wide Imports</value>
+  </data>
+  <data name="Dialog.About.ChangeLogTabName" xml:space="preserve">
+    <value>ChangeLog</value>
+  </data>
+  <data name="Dialog.ProjectOptions.DebugSymbolType.PdbOnly" xml:space="preserve">
+    <value>Only .pdb files</value>
+  </data>
+  <data name="CompilerResultView.DescriptionText" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Commands.OpenCombine.InvalidProjectOrCombine" xml:space="preserve">
+    <value>Can't open file '${FileName}'. It is no valid solution or project file.</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Internal.Project.ProjectReference.Version.Description" xml:space="preserve">
+    <value>The major, minor, revision and build numbers of the reference</value>
+  </data>
+  <data name="Dialog.ProjectOptions.Signing.DelaySignOnly" xml:space="preserve">
+    <value>Dela&amp;y Sign only</value>
+  </data>
+  <data name="ICSharpCode.FiletypeRegisterer.ResXResourceFilesFileAssozisation" xml:space="preserve">
+    <value>.NET Resource File</value>
+  </data>
+  <data name="XML.MainMenu.ProjectMenu" xml:space="preserve">
+    <value>&amp;Project</value>
+  </data>
+  <data name="Dialog.ProjectOptions.Signing" xml:space="preserve">
+    <value>Signing</value>
+  </data>
+  <data name="Dialog.ProjectOptions.ApplicationSettings.StartupObject" xml:space="preserve">
+    <value>&amp;Startup object:</value>
+  </data>
+  <data name="ICSharpCode.ConsolePad.PadName" xml:space="preserve">
+    <value>Console</value>
+  </data>
+  <data name="Dialog.WordCountDialog.FileText" xml:space="preserve">
+    <value>file</value>
+  </data>
+  <data name="XML.MainMenu.EditMenu" xml:space="preserve">
+    <value>&amp;Edit</value>
+  </data>
+  <data name="Dialog.ProjectOptions.Build.RegisterForCOM" xml:space="preserve">
+    <value>&amp;Register for COM Interop</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.FormDesigner.Gui.OptionPanels.GridOptionsPanel.SnapToGridComboBox" xml:space="preserve">
+    <value>S&amp;nap to Grid</value>
+  </data>
+  <data name="Dialog.SelectReferenceDialog.ReferencesLabel" xml:space="preserve">
+    <value>Selected References</value>
+  </data>
+  <data name="Dialog.ProjectOptions.ApplicationSettings.RootNamespace" xml:space="preserve">
+    <value>&amp;Root namespace:</value>
+  </data>
+  <data name="XML.MainMenu.FormatMenu" xml:space="preserve">
+    <value>F&amp;ormat</value>
+  </data>
+  <data name="ICSharpCode.PInvokeAddIn.InsertPInvokeSignaturesForm.AllLanguages" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="XML.MainMenu.FormatMenu.AlignMenu.AlignTop" xml:space="preserve">
+    <value>Top&amp;s</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Commands.SaveFileAs.FileSavedCaption" xml:space="preserve">
+    <value>File Saved</value>
+  </data>
+  <data name="XML.MainMenu.WindowMenu.NxtWindow" xml:space="preserve">
+    <value>&amp;Next Window</value>
+  </data>
+  <data name="XML.MainMenu.WindowMenu.Split" xml:space="preserve">
+    <value>&amp;Split</value>
+  </data>
+  <data name="Dialog.WordCountDialog.Label1Text" xml:space="preserve">
+    <value>&amp;Count where</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.FormDesigner.Gui.OptionPanels.GridOptionsPanel.GridPropertiesGroupBox" xml:space="preserve">
+    <value>Grid Properties</value>
+  </data>
+  <data name="ICSharpCode.FiletypeRegisterer.CSharpSourceFileAssozisation" xml:space="preserve">
+    <value>C# Source File</value>
+  </data>
+  <data name="Dialog.ProjectOptions.ApplicationSettings" xml:space="preserve">
+    <value>Application</value>
+  </data>
+  <data name="MainWindow.Windows.FileScoutLabel" xml:space="preserve">
+    <value>文件</value>
+    <comment>Files</comment>
+  </data>
+  <data name="Dialog.About.VersionInfoTabName" xml:space="preserve">
+    <value>Version Info</value>
+  </data>
+  <data name="XML.MainMenu.FileMenu.CloseAll" xml:space="preserve">
+    <value>C&amp;lose All Documents</value>
+  </data>
+  <data name="MainWindow.Windows.ClassBrowser.BackButton.ToolTip" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="ICSharpCode.SharpDevelop.Gui.Dialogs.AddWebReferenceDialog.ForwardButtonTooltip" xml:space="preserve">
+    <value>Forward</value>
+  </data>
+  <data name="XML.MainMenu.FormatMenu.SameSizeMenu.SizeToGrid" xml:space="preserve">
+    <value>Size to Gri&amp;d</value>
+  </data>
+  <data name="MainWindow.Windows.UnitTestsTreeView.TreeMenu" xml:space="preserve">
+    <value>Tree</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Icons.16.16.SharpReport.Textbox" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAABAA
+        AAAAAAAAAACAAACAAAAAgIAAgAAAAIAAgACAgAAAgICAAMDAwAAAAP8AAP8AAAD//wD/AAAA/wD/AP//
+        AAD///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABwAHAAAAAAcAAABwAAAABwAAAAcAAABw
+        AAcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABwAAAAAAAAAAcAAAAAAAAAAHAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAD//wAA//8AAP//AAAMCAAAnkUAAM5JAADgTAAA9mQAAPpyAAD8fwAA/H8AAP5/
+        AAD/fwAA//8AAP//AAD//wAA
+</value>
+  </data>
+  <data name="Icons.16x16.DTDIcon" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAldJREFUOE+NktFP
+        UnEUx28PwN/QW29uvbq5HnxxbW6lPdicLz7mmm0O51AJpylLmjoDBHRKBhmINmqsO+raAgJcgNRos2lb
+        sbZEZqMtsxazCL6d309g3MZDd/vse+7hnu85/H7nlFB+Zmefxksl1TmlUiEoFEqeVSgUgkql4mSze8cN
+        DWcvtLefDldqZDq38BL+90AJ9TE5UjAag8UrGtvFugYGgwTpA/CbHAqMIsUEjwmDZxeimMWUJVJUT7jP
+        V02SySK2tv4gkSggFvuFzc08wuEfCIWOEAgcorVVh3wBMK1uw+fbg99/AKMpVDSbpcvchBW73e/gdG5j
+        cfEVTKYoDIYNjI36MDS0hpaWQaw/EmH1vOUmbBLz3SRmZqQilZ8RWNeV+zu4s5yC1RajHwLQ6/24rvNi
+        YMCF5mY1XF4RuZ9ALk+QJvYBhyMJMhgV2LjV7sYobrHuYz4MUne1+h4aG6/C+UDE/ndwMsSbA8BujzOD
+        CaG7+za6uqbQ0XETbW03+Misa1PTNV7MsHtEpL8C6UOCdOcLeFNuUH4udXZqYV8TMe+uwUUxg3K7uZNC
+        BjNZWnotMxCGh9er46VoxCqfT0ZmpChmefY3rNaY3ECjWa0eEDukeIYgTZDydxaXYYdpNEbkBv39K/h2
+        DEQ/ARHiX63kWP6IvpueDsgN+vocfGECH+sTrMmz7yYnJblBb6+dr66UJmiluRIbNcpiBlvz8fHHcgO9
+        3hsfGfHQJj6BeU7iWCzPaLmewzYfgG0hSLyAldDpHkKrXc7UXmPlOnvKSXa//0PPX3vSddxpnEbUAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="Icons.16x16.CombineIcon" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAALEwAA
+        CxMBAJqcGAAAAmxJREFUOE+lk2tI02EUh/9lEQV9MAkSoaAg+hBkBQkRREQXTA0LirJUvA3z7gzTRJxO
+        Z85pOpc3LC9pY5MyUVsimqS2JCtvUOJaqPMWWJKKuuBpW1ghri8deL695/m953056wDhvypTPclqolST
+        WEmpmCK+dJKIggmuyEycl4xxJmmM4/GjHBWP2BCszWr9IkW6P2SqFy3SRe42mpHXLSPVLnGrcoHYsnnC
+        iucJUX3nUEiPDZtghXj1rC3ZygXpNFGFEwTmjNs48VeqNdk1UG9DUOv0mM1my1OsXcMGIyX5qdxJu422
+        vvn3odHpJY64B/1bMGwY5k1/g6VpElWkKxVZsSQmnKauMIHu7qZfgiL12jeY+bpA+6vdjIzLedE9SKNK
+        Qnt6KHn+Dix0CHRVC7idswl0a47w+u0nVPnb6R1KItY3DIwfQFNCgrCRNplAe7JAtlRuX1CliKO1Ohm9
+        sYn7IdEgK+DdFmfEgkBThsBzxQGeZMbaF7RkebI89JQpUz86RT7fLgZSb2m+bmFQs4+OahFlwQftC14W
+        BzD3vpypNgUT3eWYNMUorwXjG5eMVi5GetmFmjA3+4Ku4iCWBx7xpVOJsSGFPk0kxs579NTKyfLaRZKX
+        Izk+e+wLekr8+NH3gPGWTAx1ifQ/DGeoJoJmiSep7s5kXd1Jgf9eBGXlM9t/riY3xoO5tjRm26QYtGJ6
+        y0P4qI6kVXaJZA8nym7sR+TmiGDdxrWwbKj4sMsGRWnMSQaqQjE9DudzbQwt6d7k+uwg8dQORH4+9gUr
+        0m0OwvqtmzdlS/yOMdMYj17pzc2zTkSLAkjKyPP4Cf3jyhXaSVHhAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="Icons.16x16.CloseAllDocuments" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAALEwAA
+        CxMBAJqcGAAAAVtJREFUOE+dkjFuwjAYhc0NcgSzdWTsmCP4CDmCR8aMjB7phKVKbdSqkodKIHXJ2DEj
+        Y0ZG3+D1/Q4xQQ0DRHoSiv73/Z8dFurOpzQWY6UNbnFnXSkBSF52uwxahsZhGlKXt8hSfvtoEuT98xVK
+        ivEUgBgQJT1h3gn9JkTg3/uvBFEyPBfP934rqf/lZ8/NfDIAsaXBNIMRTp5xAK1wrIHOcqxCbat8fiWb
+        hvLlGIiTYn8udhXHDLqtTgAxSybyYwq42irlI7dK+Zc5GLSugK3MxWQEyAUOmxlRninHUKLdFKjMxUR5
+        JwaTM1+VuV02U13KsVkh1AVMSdDZJAHSZ8wXNmpPyoeh3PsBUD6vsolymxEw1Z4pC4AX6NcaqyedTQjg
+        cO95URY9L6kPHORw5zVaFlonw2MKOKuhdZFNEqBeW1h+moq3a0yZFGWLDOpiPqNJ/ss/anIFeMTkDxpP
+        LI5ErCP5AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="PadIcons.FileBrowser" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAScwAA
+        EnMBjCK5BwAAAxVJREFUOE+t01tMk2cYwHET4oVXZvHKczTTaGJ0WeNiPCyZJh5j1BvUBRPiiXiYm6Kg
+        Fa2IAoLGGiSexQFFAQV1RWRQmhYK1UQOVYFSQEutBVoqIvj1/N/H9zGj977Jc/n/Pc/NO2bM93iZRX2c
+        1fRw8o6Toze6OZj9lr3qTnZmdrAtzUp0cisbk16xJtHCikONLPvjBb/EPeen7Wak/RkicCbfxYkcJwnX
+        HfwlAV0SEJNqZXNyyzfA0lFgwf9A3mMzIy8cjhAIRhD8EYaEEIPDIQY+Ben/GKTPG8Tl8fOuL0B3rw+t
+        sZ2Fa3bIF4wAYksgFMEXiPBZCPNpNPYOBnEPBOn1BnC6/Th6/bzt8fHIYJWB36PXjcsv1eP90E+/p58+
+        twePd0jaPBJ7BgJS/N4TELf7sYtx13sfD/VtMpB14dixKm02NZVXxblC7b/ZmIzl2N+5xVje7PoS+3nj
+        8tHhFCipbpWBf4ov4XZoEAaK8HsLCLpvYzOlUV1RgrmuFlONEYNeT7VOh6XFTqcYt3d/5n7V61Gg6CKC
+        J1+KQ2IccVwg0noIuzEemy6e9sqDtFX8SdmdeAyGemwOAatdoLjylQyUFmQy3HNLih3Nl3n2NAOzNgXT
+        o2QMJSp0RUlUFCgpvKYk7/p5NDnZ5N68zL0Kiww8yEtj2JHFR5sac3k6XfWp+G2n5Wk/jc96Cl/rcYSX
+        hxlu2Efz/Rju3jhHQXmzDBTeSmHQlk6nOQNjWSYfGpXwei+83A2W7URebCFUvx5Bt5y23J9RKzdQWKJD
+        82QU0FxV4WxQUVeWSmddCrQcEMOd0BBD2LwJn34lg0+W4Lo7j5tHfkSVGMvfpbXkaRvlC3KyjmOpVlGr
+        TWfIcgSaYgk/jyZQs5ahp7/iLVXgzJ2NIW0KSbsULPptLYpVsVIsAVfOK6kqTqapeDMdmpl05E6m7fYk
+        mq5NwqSeTOW5qTw8NZX0uOmsXzGnfqFi/txvPrD67GGyzuzhYtJWUg6sJGHHMuKiFWxZPZdVi2eweP5E
+        FsyawOxpPzB94vj9UVFRY78G/gPfvK2gRp7p5gAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="Icons.16x16.BrowserBefore" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAScwAA
+        EnMBjCK5BwAAApdJREFUOE+lk11IFFEUx1fRNjVr/agV3WB10+xD0zQLtZpQ0V6C7KHwQVZSQ4Ma+1CK
+        asQiilY3BT8ISsvFHlJrzd2VFXfSNbOsJpK0TBnLKCNoKNIefPjn3G2m1aCXLhzuMHPO7/8/597xAKD4
+        ryUC3IOf5bXMW6acGqRYqs8VJc9oIzvNUotzibj0UpgTVPQobdw9lInqsQtoGTegergYzNAe5LExSDKr
+        kWlJY7kvXJw7iADE4u2PU7ny0TK0TTagYbQUF5/n4PjDZBzui5UjtycaUTdCBO7zHwgBiMrnR06iaawC
+        VS8LcWowHaYxBrNz39E6cXkBJJ/dgHV1Ol74KahIC/wMr011xKP21TFUPM0G3b8FzW/OzH9zLccH0wJA
+        cV8MdtwOxdV+I00AzAhTXjCQjtJHO0mie/HUj9c4MZAiAwp7NyKHjcR+hw4pdQkcAezqptgjzoS/iiV1
+        y7t6iGGerEUrX4O9PeHIsGsQxCjFlHlAF8WKyueeZMm2//WQbg9DcpcaYZW+vwFmF2Cx/Zm5b0RRjOaJ
+        KtyaqMT18StItAVjkzUAqjJvF6CklzbmdkfLfd50GyD7sRWZ3Rqk2UOxrWsl4qyBWG9ZgdUdvlh7OoIn
+        gAfvWWqrSU0A0pBqR0rlLu5MXkO8NQix86rh9/2g6fBBYL038qr0jfJNzDKlsftsOhxwrJGHdGn4qOsY
+        py2I6lxOVEPMSvi3eyK4SCXwn3itDOC/8lqdQS1kWDWQhiTazXamIsYWirCOpQi46wWfNgW8DynQZG3U
+        S9dZ/hdeTHFxSYbNXETDMjKkyE5/YnfVvSXwa/eAslqB4AKV4F4sO5Bo4t7kbNQnno3nfIo8ocz3hFeu
+        ArqDWr6khjZKtt3zfwGdNHb6Y/TG2gAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="Icons.16x16.BrowserHome" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAPcAAP8A/01Neo6O6YaE4mtq2oyM3IOC3paW6b29/5aW4Jqa8IuL44GA3FxcwUBAeikp
+        SEpKd5eX2qen9peX6oGA3XZ22WZmxEFBeEBAVmBgcCgoREhIdb+//6Oj8IOC4nBwzDg4UMvL0P///5eX
+        oS0tRkZGckZGZoeGx6mp+JiY646O53p50EREezc3UMnJzvz8/KursiwsREdHcoOEhkFBWVRUipaW6oaG
+        2kVFezk5U/b29Onp6e/v7p6epenn525ufjs7Yzs7a8nJzObn7qqswn2Ao7e6x+Dg3sfHxlBQVv7+/rGx
+        uH9/j9DQ1K2vxT9Ed0BEd6eputnZ2Lq6ultcW/v7+/7++q2vxEhNfkVKfaOkttDQz7K0tFtcXNfX1/Pz
+        8/T08Kmqv0ZLfZ6fsczMyrKysn+AgcLCxPr6+uvr6+3t6aOlukdNfkVKfpiZq7KxsHV2dl1eXn1+f7S0
+        tPj4+Ofn5+fm456gtU1Se1hbdXZ2eKqqq+Xl5cTFxWxtbXR1dgAAAAAAAAAAAAAAAAAAAAAAAAAAABLa
+        gAAAAJcAAHf0fB+4aGfhAHh39AAVE/Rn+QAAd+UAAHf0ZgAAAIwQAIwBsgEoCgAAVdoMAAIAEgAAAAoA
+        CK6QAAJ3+AAAAKQAouwAAEF//QF1BBLanAAAABoAAAAAAgAAAACiALwAAAAS1xLbaLhwACgAHwAAAhLX
+        sAMsAEwBsAAS2/RaNK5wd/93+P////SwUrHGdwF39AAAABLaYNrkAAAAEgAAABUAAOwAAEV//QAAAAGY
+        ENnMAIAAEsAQABLbTFo0AFh39Hf4lP///2f5/wB39AAAAPRm5ZhgdwB35AAAALegyP//AcgAAAG3oAAA
+        GAAAAOQAAAAS2gAAQAAAAMgAAAAS2gAAAAAAAAAAAAAAAAAAAAAMAAIAAAAAAPQBAewAd6J//QAAAAAA
+        AAACAKoAAAIaAB+4cP//AAAAAAAAAB+4cAAFACAAAAAS2+SacTODdyF39HfkkgAB6NtEAEwAEgAS2wAA
+        CCH5BAEAAAAALAAAAAAQABAAAAjWAAEIFBggAICCAxMODCBgQEECBhUSLCDAwAEEECUeTKBgAQMDCBo4
+        eAAhYYAIEiYsoFDBwgUMGTRsWMihg0oPHy6ACCFiBIkSAk2cQJFCxQoWLVyIeCECRgwZAGbQqGHjBo4c
+        SkXo2MGjB4ioPn4ACZJDiIghRIoYOYIkSVQlIpYwaSJChJMnUKJImUIlKtO6IqpYuYIli5YtXLpE9QL4
+        xRcwYbCIGUOmjGIAZs7URZNGzRo2bdy8gRNnoJw5IujUsXMHTx44cCTq2cOnD2w/Ggf+gZ07IAA7
+</value>
+  </data>
+  <data name="Icons.16x16.BrowserRefresh" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAScwAA
+        EnMBjCK5BwAAAdtJREFUOE+lkdtKG1EUhuMDiLntnU9QX8GH8FYsVqSKaNWqiKeKgrSUWq1aquApaI0p
+        MWgpxSiCrUV6YTT1jEastsZAGE0yjpPT76wV9zDbG5Eu+GbvffF/a8/aWQBs/1Uk6FuKoMt5cC+1bbPQ
+        9JSdMgLe9C4oxpKpZDKJeDwOTdOgqiouLyMIhS+wvn8OEgzOHfg0PWlKWNDzLYR0Os1Yi05XcSCqA/5j
+        lQUFn8L44NrySTfonvuLVCrFiLKGQyqwFoixQCAJ3riP+Oqiqlaew/bRxozuzvC6EQSWVwGPB6hpMT63
+        c+BfeD21h0QiwXlrWEiEgCRr/4DqJrcs6BrzQ9d1luSM2LlrMAazuxCsngI/T4DKxs+yoHPoFyJqRkBB
+        wd0brBjh5WOgon5KFrT3f4cSvTaxSn6cKCCo+2IA8B4C5bUTsqD17QKCisZYu9KegvMBBbO7xgB3gC97
+        wLOqcVnQ/OorTsMqIwTZw3Y4tn0seDSeawpIUloxLAsaOzw4PI8xd29A58fT+SxwbmYoKRuUBQ1tLuyf
+        RRnx9vSceUaw0PsSk5sK3NuAw5+huHRAFtQ1TeL3nwhDb+09UkATp6HNG0Oj7iSYuBUUPX0vC140OPAQ
+        Cp+8MwU3iWXjyLT/UAoAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="Icons.16x16.ArrowLeftRight" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAK7wAA
+        Cu8BfXaKSAAAAHBJREFUOE+1U4sKwCAIdP//zzNcu+bsgokrkMDT6/JxyCnFYwQVKyVf6tnrIjr5mY8S
+        WOCKgPq9AgtQXRMwbEhFMoKgxN+GRZK7jR3IGL7zD0EfpkcBkx9x1O7VrlIRB2OljZ4kDtjnQcruxZ5d
+        SKhozzc3Mznl+hYAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="Icons.16x16.ArrowDown" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAK7wAA
+        Cu8BfXaKSAAAAFdJREFUOE9jZPjHQCEAGUAJxqmZgeE/0GgExmUJXgP+///PAMIgg0YNoFcYoEcdcizg
+        ilKM6AEphGlEp7FFJ9b4xWYIrrRAu4QEyWT4UyFYDSUZiRoGAAC3DiM1S8MyLwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="Icons.16x16.BrowserCancel" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAScwAA
+        EnMBjCK5BwAAAfBJREFUOE+lke9LU1EYx+0/2J/QnzDwfb7vbWKvpJEhFZLkrzFWShRIIaZpCQpBmaYY
+        c0wRSWNUGFLg9JI/Nn9MUacu9c612+XOe/ftPM92lgeEiA587rn3xfdzvue5FwCU/NciQXc4jdbhtb9S
+        3xKCaTkuykj45dm0Lrb8sm0b2WwWpmnCMAycnKSRPEphPnYAEvSOrUVMyy5KWNA5mUQul2POLvr6lQV+
+        WoC2ZbCg/O0RekYWI0qDp2O7cByHketsOGkAcxsZFkgUQVsgXgyeCoc5NYrUDx37GSCR0LH9LYLoIfBp
+        FggGgbr74lGYA1/hyVAUFOTwbBgoLcHpVTf2YnFYFW44ZS6sLMQxlxBNBHf9AVXQ+kpDRtyTSJni3n4P
+        SyTHXg8Hv2znueN7pwoe9X3lICFr06kksC+5ML+qc/DjprjGFlDTNKQKHjz/zEEZptoUti5f5D1T7sbM
+        ko6pdTC36wdUQXP7NHbSYGhgdLqsnWz0IH3FjbCmYzwK5mbta1Vw7/EE1o/B0LTlwKg2VZbh4LL4C4Lq
+        mpeqwPcwyEFC289PWoapMp1KweHveW7c6lUF3pYRDp4Xnoj9Cb/RgH7B9eoXqqDRP1gULBQazIj6HzaA
+        96JBaAUILAEDBcG1qi5V0ODtx79Q6ekoCn4DMAIK1/DasaIAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="PadIcons.ProjectBrowser" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAScwAA
+        EnMBjCK5BwAAApZJREFUOE+tk9tL02Ech/0T+gO6i64K7KauCqSCkvBAYIUZlVqRGahoVqZpeCA1NNC0
+        LA84NfNQmkdcmmUeEc00nYc5ddM5dW5zuv1+m3v6uaVhN1H0hc/l83ze9/3yurn9j0l7oyOpREtcoYa7
+        ebOEZ6sIyZwiOG2SSykKziWM4vtgGM/oIU5EDHDsdj9HbvRyKLAbZ3+qJEiULRBboOHOiznCnAKlUxCQ
+        rOB8wvddgqM/Be7bgkpZBrKXKbzKike0ObAIDswWO6Z1O4Y1GytGGzq9jYVlAbVOZHbRSt2ncQ57BuFW
+        XpTOatO+neSk32c7W7DeZGPJYGNRL6JZEphbFFBprdS0K1yCfKkVR81OLOp0TH3eKEr3O+Flg+iE55dF
+        qV1gRoKV81betY25BM+kRuwVbGifY1bGsTZ0BeMXD5oL/amq/0jlhwEey+oJS86XYIHpBSuTGgvVraMu
+        QUZiBI7lTCdskmBDhwdjjf68bepixWrGCExsbFLco+TC7VSmJHh8doNK+YhLkBITwlqXL9NV7gwV7mUw
+        bw811fko1Do2HWCTBAuSoHNpk7S6QSbmLChmLFS0DLsE90IDCA/y4+ZFL4L9TnHZ5zjJOeVoLDakZWDe
+        FFEZrbTPWMn9PI9Cah9VbfC6ecgl2Jri2m6M0spWTXZpZSIFZXLapvVMW2HEINA7b+L92DoPy/qc8Ihy
+        ndLGr7sFBrPd+eq6VRHtikhMQT1yjYBc7aBWKZDRouRs6BMexVzl29Q6JQ2/Cdr752jtm0Heo6K5S0lD
+        xyTX44uILe4mKrcVr1tPSY8+jX40BVlWEMV1A7tPsHWfP8Xb9wzduQfRjyVRkh34S/A3H9LHx4vOnANE
+        XjvpesB/majIiB34Byhqb9W784RUAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="Icons.16x16.ClosedResourceFolder" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAALEwAA
+        CxMBAJqcGAAAAVdJREFUOE/NUr9Lw0AUzp/gKG79BxRaXJy04K4BVxeRgs6iZHaS0im0W7fWqW51q1iE
+        OGiCIqSDcA6CwUgaQiAh09PvxbNpqpJF8ODj3oX3/bh3UZT/sEqDiwHl8RGsVCgciL7vUxzHDNSO47Bg
+        IZHv3PvnffoJvbMeAZ1uBwaKgsb8SpKEgDAMyRuPGUglnl7osO1xXW/UpwUW1Ds60E0KgoBQS4hHm+wH
+        i0zLpOO2wwKoZwSkI2bgum7qKATZI5sJe81X0k4T3o1rg7QjLU2A+2DJBJ7nfbmDDIC0dfLGAthnBOAe
+        RRG/QN59ff8+JY1iFsAZArXd2iRBdmCI7jwLjo9mkLLAt8vhkNRNNRXAc2DaGF7WfX61RXMrDcK+uNGl
+        pe0rWt65ZVEIVNeq0wIgy6Hx3T8nb90YHBkAUaJSrkwE9KbOz4LJ4m6IBwc0/YZCv/qfN70D77X2qO4z
+        MBQAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="PadIcons.TaskList" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAScwAA
+        EnMBjCK5BwAAAr9JREFUOE+lk1tI01Ecx7Ueopdeeui16EJGED2UJURBIdQSKe3yEqEzK+hGQVlmZoqK
+        WWksM5UUb3PZrDa3vC2dzqUuy5rz7qaSzftt0y5Kn/7/CSOR8KED5zwczvdzft/z+x5Pj3+MGnUsExNO
+        j4lxp8epS489/3XOva81tPPqXTOvdE0U511l3J6Lw55OjzmB66G+ZBRWkVpQQUp+OYtg6po2xDE795u5
+        2RnU8rtkFWZzLzGDltowwi8c5tuwg5auITTV7XgfkrJx4/plblCRcLMo/v5zDq0ijt5WGZP9TxlovUOn
+        IRhlagD3o69ibGyjUGtij38osbF3VkgkvvPWXlZ8cYkd07MUPI9AFh+ELFZKfHgQMWGneRh9haz0JAYy
+        E2j238KBwHNERd1c5a5CUfqJqelfjE7MMDjipH/IQY99kg7bCB/MVsr19QwmR2CRbEL75Cm+x88TE3N7
+        1eXL5+Zt5GnqGR5z8NU+irVviM6eQVq77YK4mwp9HWMJ17D4baY0OZF0eRn7jp4lMvLGSpcFcclWGenr
+        H8bS1oXTqKPhYzNGk5myylpGk8LpOLYNZegJlBo9aYoafPzOcPFi6HLX7aKPTGW1ILbyMyuOH0/CmHp0
+        iyJVMWOySGzB+yk6vhfFGx2ays+kvmhgp9AFdwdEQLpCx0dzB+8OrGXy5FZ+RAfhuB6AXboH1b515Cnf
+        ohbyUVprRab4IABCFmTB85m8nCaLjRJdLZV+XgwFemGTbKB492r0KWkUlbznraGTEmMvj+WNiwAeqfIK
+        zJ2DGExtvNZWojuyHZXPGmrCzqNQ6ymuahEANjSGPh7kiBYWVuAClBitQoxbyFXVkyZUJMvSIMspI0Vu
+        QFbQQHK+SRCbiM+sWwwQH0Sk7jgodcXU+1AwuyRS1/SWhLgEf88lP5bYWvFx3VFdUvEfB/4Aw4r7wppb
+        B5QAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="Icons.16x16.CDROM" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAScwAA
+        EnMBjCK5BwAAARdJREFUOE+NkzEWhCAMRPFInskj6BEsLS1pPYJXsKS0tLW0tMxmwo4Lq67Le/MQyHxJ
+        gEJE3K/WNM0R0HVdcYoF4Ep1XQvkg5cQKpmmycZQGn9rLr2XSs0EjONoEKgsywNyAuAPMEKEBP2GEZBl
+        Wawn5ARo21aNQSrIQEEwB9M8zwfoEoC/930vwzAo4GPWwhkE8wAFhUKAZDsAAAEMggnmfd+tx5jmW8C6
+        rmZADxAhTGPbNlvPAFhMxa2ih2JdvBUQYLSjBlhMG9KgkYXDKcRT0dw1ODsFAnjGvDB5weJ9cAowaT14
+        mRwB2FIqphSLFgFcvwQ4PRDXGtlaeuto5O4yAHL+LuLTOAO8X6Pl9a8eH9PdC72afwHh1JGBgab+xgAA
+        AABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="Icons.16x16.ResourceEditor.string" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAACAAACAAAAAgIAAgAAAAIAAgACAgAAAwMDAAICAgAAAAP8AAP8AAAD//wD/AAAA/wD/AP//
+        AAD///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAiIiIiIiIiIiAAAgAAAgACAzMzMzMAMzAzAzAzAzM
+        wMwMzMDMDMzAAMwMwMwMzMDMDMwAzMwAzMAAAADMAAAAAAAAAMwAAAAAgAAIAAAIAAiIiIiIiIiIiAAA
+        AAAAAAAAAAAAAAAAAAD//wAA//8AAP//AAAAAAAAe+4AAIAxAAAkhAAAhIcAACSEAACMMQAA/P8AAPz/
+        AAB77gAAAAAAAP//AAD//wAA
+</value>
+  </data>
+  <data name="Icons.16x16.CopyIcon" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAScwAA
+        EnMBjCK5BwAAAaRJREFUOE+NkltLAkEYhu22n9B99/2HfkH/oKu674BliXYwyexCCITAjqJtYZZFYUGR
+        4IUmlmaloESWKGSp6OIB621mdLfaVWnhYYbZnWe+99vpAqAwnWRQLvEK6ZN9eFAMD/UP9PZ0H8heCgtU
+        sOx6IQNQr9dRqVTA8zxy+QJGNS6YL1IIxXOD9LtWsEWjI4FanTkaoi+gUAETCHQULNqjKFb/bn4vA4/p
+        GpYOc0zSUbCwFcYbDxHj/hP0XLwlVJb5KPcJQhZh3hJAMg/Ywg0MXAy1z59IdFYlEfPNWFoukUtneSZh
+        ghmzF7EsRPTWCErNSL83p4vyvjCBxnSJUAbYiTTQrQVZHOnmZ1Jl+Bk48wAj007WFyZQG93wv0JkbtWH
+        ZAFtkQmm9MfwJgH7XQPtiofFEXoiHWWCyVknrqMQoQIaqR0ygVK9i3GVTURtOIU/BezdAxztC6mKVmEl
+        bN626IH0kqh0LhapHbIKpIIJrUPsCT11KwRskJPXbwBL8B8VKNUcPKR02hffI9j8inBOJG4iOQpIfqO0
+        AtqPMeV2R4R78A3FuR2Sj2Pp1AAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="Icons.16x16.BoldText" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAOwQAA
+        DsEBuJFr7QAAAC1JREFUOE9jYBiW4D/QV/gwUZ5GNgCmAZsYTsMGlwHo4TESwoAq6YCogBomigDsBDrG
+        E13vtwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="Icons.16x16.BrowserAfter" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAScwAA
+        EnMBjCK5BwAAAnVJREFUOE+lk21IU1EYx+fQ1jRrljRpC6ZLsxdN0wzM6orK7EtQEZXQmKWGBnE1Ugpi
+        w6IXWM5FqZ/SD2J9SGvmpiju5ktvmN2sdGHWLS0qii5o2Qc//POctUtXCYIeeOAezvP/Pf/7nHOCACj+
+        KwhgbgrTgsH6ympjHjIc0+vP0kHWwX3imLm1MrE4I2pYH+vYMWCCc/QsmsbscD4vgXVgJ/K5BKS5tDC5
+        szj+C58UAEkAIt76KIO3+SrQ/LYOdb5ynHuSh+P30nG0N1FKc3c84q5FifxnP0QCkM5nRk6gYbQSVc+K
+        JIH7Xa0MQGAF3DqsqTEK4k9RQwHCD8GQ4U3G1eEyVD7eDbZ/ExUNffXObgMT31/KICW9Cdh2fQWq+x0s
+        BVhHrLbC+9kof7BdVnh+cC+mZyZlkKKe9cjjYrHPa8SWmhSeAjK7GO5YX8o8q8TFzdcXKYDE+JSP1uzq
+        jkZOpx7LrCr/EWZ2MBzZqB46JBX/7ePN1DCyO3VI79BCdyn0N8D17wDPhxtIbY/EBk8ENBUhfkBpD+sw
+        d8VLv2Dq0oPkAW8sakfKJTOu901UvNa9BCtbQ7H6VIxAAXfHOWZzo5YCAkMigCuzxxoIIk6c7Rp9Jwz6
+        VjWW1oYgv8pSL92D3MYsbk+7Efu9q6QhjU2+oHoijmtbTLtGuVQIb1EislgjCh8FgwQQvgkGo10r5nj0
+        0pDKBg/iwvBJ2lXXuhARt4KhblYg5IgCDZ56i+wmksXTCT4pzb6Rj6lbRIcU2xZO7S6/vQBhLUFQORWI
+        LNSIAfE8QOCBNPTVW1JPJ/PqYiVUBUoEmxUwHjYIpZdZB7H954v8BbLLdo8Aua5pAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="Icons.16x16.ResourceEditor.bmp" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAACAAACAAAAAgIAAgAAAAIAAgACAgAAAwMDAAICAgAAAAP8AAP8AAAD//wD/AAAA/wD/AP//
+        AAD///8AAAAAAAAAAAAAAAAAAAAAAAg4ODg4ODgwA4AAAwAAA4AIOAoIB3A4MAODCgOAA4OACDgKoDg4
+        ODAAAAoKAAAAAA7gqgCg/v7wDwoKAKDv7+AOCgoADv4A8A/gCg/v4LsADv4KDv7wuwAP7+Dv7+8A4A7+
+        /v7+/v7wAAAAAAAAAAD//wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAA
+</value>
+  </data>
+  <data name="C#.FileIcon" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAALEwAA
+        CxMBAJqcGAAAAZ5JREFUOE+tkktLAmEUhvsD/pI2taltbVv1C4IgcBm0a92qTZsKuxBIA4ZlF1wklqRZ
+        VpKm4yU1u2pZStrMOI5pwdt3xqYoG2uRcPhm8z7vc+S0tf33z+5NYm0nhpWtMCybAXD2Q5jX9zG/7IZp
+        yYXxmVW07Fx3xyHIryhJr3gUXmAwGfBQqiNXrGGac2Jy0dEaYnPxKEqNYP6prr402cKzGqbp6hvSh1id
+        oS9BCmfyNVzdP6ujAQhC07QO7a21UlD7Pr+rIp2tIplRvpg0ATj7EdP9DBIgfVtFKqsgcaMgflVB9LIB
+        +dHAvOH7aE2zVgKowetGMHJRQfi8og9YsHlBuhQkXQrHWLh7+BKdxgjaB3YRTJX1AXNW96futcJaK+Av
+        ZITSMoJnMo6TZfgTLQAmyzbTpWBDt3+sgJ7RnGrQYeRVg4N4C8AU50CEtdKeIdYYSFGrDP9pmQUl+KIi
+        vBFRfwX6d0l3ZLaAwYmCatD7zcAT/gUQeN/ziLX6YhL2ohJ2eRGesICdExGuoKBvQIehnexv7493QADt
+        TP/yvgGuZ/QZVZX4MAAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="Icons.16x16.Enum" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAScwAA
+        EnMBjCK5BwAAAeNJREFUOE/dkcsvY2EYxt+T/hGzmM0kNvZMux0kjLIZUnbiEsxEE0SrLu2uJHYuFRKJ
+        y44FMcxmhgWxsqAXS0lpO+JSoR0qaSt5vO93TstE/QNO8yQ93/me53l/36dlbw/obH+QNE2jj5Yx4j8k
+        D7/jbH+A1BuvyS/xL66+Xd9cUvGXafpQZNUomzikyO9KVhXrK0X+VFNUtGVFOrmJTHwRmeslpKI+PMR8
+        yJx4cH/igLOlHCaTaZoeE/68WRl1M8U4QMxZNnd7V9DhXkCTY4bNTtwGfqC/tSIXEFDNOTMbKbRqpr/b
+        Ncr8EJ3KN4tRdHdgexGQDILNStIqOlo142jNgp25TwjvtqN3dAWdngU098/idK8Dlzu1sDeY9QnEmE5u
+        IH3FrDxyKsKN3JoJe3CnWCuQOnUiwc0XbBTz/wFbHGCYu73LaB+eN1gdalwJmHTXw8XMrjZd0h4KbOoT
+        5A4rJaxG843/NatsLiSKbVv5inRzz0iOdUaxyshdBis300BbOblY9obPFPT/JADEp833HXYzbx+P/F2N
+        fc+nrFh3nw/L3mg2Aso4oJQD1vWA8+NfGB/6honhOmatU9eTZ21k1qDOyswUCmyQq7WMumwlzwGS8hbf
+        y3XZV0gFF9/a/E4DngD1gnBtabvHLQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="Icons.16x16.DRIVE" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAScwAA
+        EnMBjCK5BwAAAIZJREFUOE+tksEJwCAMRdOZXaEjeHQNV/DYo0dXSf0BpUIKpmngg6B5+Yk5mJlcAYBH
+        rmRx76m+AEIIbNUEIDHnbBJy+vCZcLBGSkncTkCtlUspr4I7unq1k8RljHEFtNbkQoNoramA3QGqDtDC
+        bqiA3erPdxjg/EaZplFjAf/bxK8r7XZwAzmso/SHKTWAAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="Icons.16x16.ASPFileIcon" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAALEAAA
+        CxABrSO9dQAAAtpJREFUOE99kllPE2EUhqf1d/gfvCMao4A3eqPeGk2MXoDGjdio2FIFiVhEEQGrCCog
+        YgApixZoaaFlR4pFUUpKKqJURVlkKVJcHs90cLlykme+fDPzPnPOmdEBisfzjnB4SdHp9Iper1d+H3p1
+        v04Xu67Taatepyi7dq+X89qhCspKh3k2A1+//5/QxBI22wSFBT0SQ1GJne7dHcL/+QfergBOT4hm5xge
+        7wiL0R9ERBrjG6iCR7XjaviPJCbIy+vgbnMQtz+K5znUeyGzIMKh9EFeBj+wEP3J4pqgru4t/xITWK6P
+        YOuChj6Nm/WQcgU2G2CfdZiJTwt8iWoV/EtJiR+ltHqA7Bool7bud0hpLjCUwfEHsL8Ott2BgqJuxj9F
+        mFkhxrQQnIfi4kGU0xVBTrVB3iBkNMPJKglXwGWp6FwvbDFDasYrJmaXGZekytRXeL0ARUU+lO0XfRxt
+        BYs8bHbCgUcSdMtb/WB8CgmpcPjIEPa2AN7+SXqHpwhHQLrBau1HSbr9jCPtIuiHygDkyAz2OuCECC/L
+        QA23pIIsHy/Dc7HQW0Fd3y9Lu4W9KLnlXnbY5e0SrB4D+xswyTxSZBa3ByDJ8Q3zpcc0ugO4+ibpHJoi
+        tEisjfzrXdrPcOxqJ+nd8GAUuiahUURlPm1vKvXR1BfgxcdlgtK3OjyVafkq1655NYHhZDFncuswNU7T
+        EJLSpPRCRxhzbiWu0mRCLgPTfUbmhNleE7M9RiLPb5CT06YJ0tKqaL23kxumeC6k7CHj+B7yT2+lKWcD
+        wcqNLDUlsOpIZLU5kahdeJzIijeZbEurJrBYHHzsPkjQtgl/RRz+8jhGH27kfcMWIs54ok4J/xY8+SvI
+        ymrRBKop+uIQkc5E5t3xzLviibgTWBFWXRJuFVrWKlAFjXLPk0xmpl0TWK0tpKZWr1Elq4q6r+Hs2RqM
+        xlqMplrSTDbM5nrOCefPN3CnpJ1fcskIDurYc+MAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="Icons.SharpDevelopIcon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAAAAACoDAAAFgAAACgAAAAgAAAAQAAAAAEAGAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAABwcHBwcHBwcHBwcHBwcHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAyP8AyP8AYP8AAABw
+        cHBwcHBwcHBwcHBwcHAAAAAgICAICAhQUFAQEBAAAAAgICAgICAgICAgICCQkJAAAAAAAAA4ODgICAgg
+        ICAgICAYGBgQEBAICAgQEBAQEBAICAggICAAsNgAYP8AYP8AAABwcHBwcHBwcHBwcHAAAAAAAABVVVWq
+        qqqAgIBwcHBwcHBoaGhgYGBVVVU4ODhwcHAAAAAAAABAQECgoKCQkJCAgIBwcHBgYGBgYGBoaGhgYGBV
+        VVUoKCgISKgAYP8AYP8AAABwcHBwcHAAAAAAAAAAAABwcHDY2NjAwMCwsLCqqqqqqqp4eHiAgIBoaGhY
+        WFgAAAAAAAC4uLiYmJjY2NjIyMi4uLiqqqqwsLDIyMjAwMCoqKhwcHBVVVUIULgAYP8AAAAAAAAAAAAA
+        AAAAAAAAAACqqqr////o6Ojg4ODg4OD///9VVVUgICCQkJCIiIiQkJAAAAAAAAAAAAC4uLj////o6Oi4
+        uLhQUFAg0P9gqLj/8PDAwMCAgIBISEgIWOAAAAAAAAAAAAAAAAAAAAAAAADIyMj////////g4OCIiIgo
+        KCgAAABVVVWwsLCoqKiwsLAAAAAAAAAAAAC4uLj///////+oqKhYWFhQUFAAyP9AWFj////AwMBwcHAo
+        KCgAAAAAAAAAAAAAAAAAAAAAAAD///////+qqqoAAAAoKCh4eHjQ0NDg4ODg4ODAwMDQ0NAgICAAAAAA
+        AAC4uLj///////+oqKhQUFBVVVVVVVUAYHDIyMj/8PCQkJBYWFgAAAAAAAAAAAAAAAAAAAAAAAAQEBBA
+        QECIiIjY2Nj////w8PD/////8PDg4ODQ0NDgwMD/0NC4uLgAAAC4uLj///////+YmJgAyP9QUFBQUFAo
+        KCh4eHj////AwMCAgIAAAAAAAAAAAAAAAAAAAAAQEBAQEBDIyMj////////o6Ojw8PDw8PDw8PDg4OCw
+        mJj/oKD/yMi4uLgAAAC4uLj////Q0NBwcHAAyP8AyP9QUFAgICBwcHD////Q0NCYmJgAAABwcHAAAAAA
+        AAAAAAAAAACIiIj///////////////////+oqKhYWFhYWFiQeHjwoKD/0NC4uLgAAAC4uLj////AwMBo
+        aGhVVVUAyP8AyP8ICAiqqqr////g4OCgqLgAAABwcHBwcHAAAAAAAAAAAAC4uLj///////////9gYGCQ
+        WFgYGBgwMDDg4ODQ0NDguLj/yMi4uLgAAAC4uLj////g4OB4eHhVVVVQUFAAaIgwMDD////////w8PB4
+        oOAAAABwcHAAAAAAAAAAAAAAAACqqqr////////QsLAAAAAYGBhISEjo6Oj////g4OBwcHAAAAAAAAAA
+        AAC4uLj///////+YmJg4ODggICBISEjg4OD///////////9AQEAAAAAAAAAAAAAAAAAAAAAgICBAQED/
+        ///////////IyMjY2Nj/////////////////0NA4ODgwMDC4uLj/////////////////////////////
+        //////////9wcHAAAAAAAABwcHBwcHAAAAAAAAAAAAAAAABgYGDw8PD/////////////////////////
+        //////9AMDBISEj////////////////////////////////////o6OhQkP8AYP8AAAAAAABwcHBwcHAA
+        AAAAAABgMDBgMDAAAAAQEBDQwMDYyMhwcHDAoKCgaGhISEj/0ND/0ND/////yMj/2Nj///9ISEj/sLBI
+        SEhA2P9A2P94eHioqKiYmJj///8AYP8AYP8AAABwcHBwcHAAAAAAAABgMDBgMDAAAAD/yMj/0ND/yMj/
+        yMgAAACYYGAAAAD/0ND/yMj/0ND/////yMj/yMgAAAD/mJgAAAD///////8A//+YmJigoKCYmJj///8A
+        YP8AAABwcHBwcHAAAAAAAABgMDBgMDBgMDAAAAD/yMj/0ND/0ND/yMgAAAD/yMj/yMj/0ND/yMj/0ND/
+        ////0NAAAAAAAAAAAACYmJgA//8A//8A//+YmJigoKCYmJj///8AAABwcHBwcHAAAAAAAABgMDBgMDBg
+        MDBgMDAAAAD/yMj/0ND/yMj/yMj/oKD/yMj/0ND/yMj/yMj/yMj/////yMj/0ND///8AAACYmJgA//8A
+        //8A//+YmJiYmJiYmJgAAABwcHBwcHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/yMj/0ND/0ND/yMj/
+        yMgAAAAAAAAAAAAAAAD/yMj/////yMj/0ND///8AAACYmJgA//8A//8AAAAAAAAAAABwcHBwcHBwcHAA
+        AAAAAACYYGD/mJj/mJj/oKD/mJj/mJj/oKD/yMj/yMiYYGAAAABgMDBgMDCYYGCYYGAAAACgaGj/////
+        yMj/0ND///8AAAAAAAAAAAD/mJj/mJgAAAAAAAAAAAAAAAAAAAAAAAD/mJigaGj/mJj/mJj/oKD/mJj/
+        mJj/mJj/0NAAAABgMDBgMDBgMDCYYGCgaGiYYGAAAAD/yMj/////yMj/0ND/////mJj/mJj/mJj/oKAA
+        AAAAAAAAAAAAAAAAAAAAAAD/mJj/mJigaGj/mJj/mJj/mJj/oKD/mJj/mJigaGgAAABgMDBgMDBgMDBg
+        MDAAAACYYGD/0ND/yMj/////yMj/0ND/////mJj/mJj/mJgAAAAAAAAAAAAAAAAAAAAAAAD/mJj/mJj/
+        mJiYYGD/mJj/mJj/mJj/oKD/mJj/mJj/0NAAAAAAAAAAAAAAAAD/yMj/0ND/yMj/0ND/0ND/////yMj/
+        0ND/////mJj/mJgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/mJj/mJj/mJj/mJj/
+        mJj/yMj/0ND/yMj/0ND/mJj/yMj/0ND/yMj/yMgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAD/mJj/mJgAAAD/oKD/mJj/oKD/mJj/mJj/oKD/yMj/0ND/yMj/0ND/mJj/yMj/
+        0ND/yMj/yMgAAAD/mJgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/mJgAAAD/mJiY
+        YGD/mJj/mJgAAAD/mJj/mJj/mJj/0ND/yMj/0NAAAAAAAAD/yMj/0ND/yMj/yMgAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/mJj/mJj/oKCYYGAAAAAAAAD/mJj/mJj/mJj/mJj/
+        0ND/yMgAAAAAAAAAAAD/yMj/0ND/yMj/0NAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAD/mJj/mJj/mJj/mJgAAAAAAAAAAAD/mJj/mJj/mJj/mJj/mJj/yMgAAAAAAAAAAAAAAAD/yMj/yMgA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/mJj/mJgAAAAAAAAAAAAAAAD/
+        mJj/oKD/mJj/oKD/mJj/oKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/mJj/mJj/mJj/mJj/mJj/mJgAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAD///4B///4AIAYAACADAABgAwAB4AGAAeABgAHwAAAB8AAAAeAAAADgAAAAYAA
+        AAOAAAAHgAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAA8AAAAPAAAADwAAAA8AAAAP4AAAf+AA
+        AH/gACB/4EAwf/DAOf/5wD///8A//xo=
+</value>
+  </data>
+  <data name="Icons.16x16.Delegate" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAScwAA
+        EnMBjCK5BwAAAsVJREFUOE+Vk+tLk1Ecx4/4Z/Qq6F32qkDILi+KICwofCUFCZoSeYGCUgqDKCTCvCw1
+        LW+bl+0ZutDNuWleQjPndOo2t+VuWbO5qdOmbW5t3845S2v0qgPfh8PznO/n9/2dc56UL6vrxOrykrQj
+        h0gKoYM/CHRGF4lE4yQUCpMLp9KI2b6a+ELHnMlBzqYfJSeOHSaEAYYmTeTbWoB4mXwBSPtG0CQdQnWr
+        EvcqWlFYXoeRqSUmwlT5up/ojU4CgAE2OGD4QGY8b+pFampq3b4aOrXILnzM39W2aUjlGyUFuP4FDIwt
+        EPXYAqpalHwxq8BETbiS9yAJMGv6AwBNAJoAFIC3Wj3kgzOQqaYhVkygWRhHs3wcDV1a1LZrIKJ60awE
+        BVA2bWFixsYmSSMaB3ZCIWwFd+Az+OEocsA378eU4RNGpy3QTphwNf8hT0R7NyeZ4/EYwpEIAt93EHQH
+        uTkmxOAsdsCl8kBDzcoRAzJvlCYA6rFFDvBYBMzqpBAGBdRJBHj9W7AX2bk5Jo8BjYCzxInJXit6NHpk
+        5vwG9L0zHCSI0nXBHyFudnl8sN6yYF3kR7yR9tREl1FJL3ajq38K57LvJBLIB/XY25Tx6kxymqC+Q4Db
+        44cx1wgHjb7+bIObxSfFkGSI0U439wAgqHT4SSuHI1Fs0b6/eje5ed7mhinXxGMzMbOYmiUZEg44nVWY
+        SMCOai8aRSQgYG5GxtUt60FDpxwTPVaY88xYvm3jZtFxEV5S1XcM48w+QKKYxG4ojDX/NjzeAMx2DxZs
+        n+mRLWNUZ8EHhQ1LN5d4ZWZ+VaNGTZsa6ZcLEglahPfYDu5ilZpXVtexaFvBrNmNj/N2aOkRK+gmqyRz
+        B2ZWPQlA7zTuV7Sh6FED8kurUFBWjWvFT3C95CmyCspxKaeMb9j57Lu8b1aZqUU2kEjAruPfP87/zn8B
+        K+Co4J+BnvIAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="Icons.16x16.Class" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAScwAA
+        EnMBjCK5BwAAAdlJREFUOE+Nk98rQ2EYx5/Ocqw0P1YkV5LccOeW8m+4c2HGmG3FJqul5rBMmxzboW01
+        ZyE1d8o9V1yYIhcUKRdEtCg/Ul/nfadjJ8YuTj3v0/v9PE/f73sIABV/6+ud2tHY++tsEGezPfj4IKRS
+        bWVDdEA224X3d8LLCyGfJ4RC1rIgHLC11Y3XV8LzM+H+nnB9TTg7I3g85l8h2x0pvU+q2o63N8LTE+H2
+        lnBxSTg+JrjdZvT1iTCZTLFiD3a6VO5QukniEFKUFqystODmhnB+TsjlmFiEzWbDkN0O7/gY5EgE6XQa
+        m81RLs7TFU5pDZJoK7gty62Ynq7B4SFbm4kr9cny4iKvldpJLn7UxCe0gbAwjKjF/R1XMNgIl8uMgQHj
+        2slkkgMWLB4kGqa0yZtgddgywvuGGPv7jWKHw0GZ1VV9GyaU67yYqbLrPQOg2Cyn00l+v58ymYzByDnL
+        MKwRzYuvx1YSEAgESJIkSiUSHKCqKr/LxKwQe3sLKZR6pky8t7dLcVnGciwGZWkJ1rhSMO3uDrR/ANE3
+        Ud6bZxtUx+KFyw8PoFwOgtcHYdRVHoDpxNkQ6hVtg6MjCNpkYXDoZwr//YUV4XlUBIMQnKP/p1AKJvh8
+        hlQ+AfOzlM+IdjsdAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="Icons.16x16.AboutIcon" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAScwAA
+        EnMBjCK5BwAAAulJREFUOE9tk1lPU1EUhW/iX/AXmKiJ8U2f1CDRxBiNL0YTcYgxcYh1HmPiBA5xQqRY
+        caKgCI4QUDApFrwyWgcKVlAsXKECpRSKFNoy3HI/d2s0YnhY2efcrP2tc0/2UQDljyoqHYmdXt9xb28f
+        oVCISCRMOBzBPxDErWl6cand9K8/tv7b3Prdc24wGETXdQzDoKFJI2ljMvZqF4Y49ahBeGyCuga3Wlhc
+        kvgHFAd8afPY/X39RCcM9AmQwq4DOUxf+IAl6/MYl/1IFIRB//A4lc5Wcu49jEOU95+1eR2dXn08OkFk
+        HIbGYFiH9p4gt0o6afYMERgBXwj8kRjIwDMwRmbeSyrV8hmKw+VO9QZCDElzvxhiatR6SbtXHldmfhV+
+        AXiCAv0JXcOxqlNU/Y1Uc5aq2Goa6Roco0cSuofEIGrqDLJscx7KzAwS1ubgE4A7AF/74YsfWgJR1CYf
+        m3acRrHVftJb+0ZpHwRtANpEmqyzXjSgzDKTsD6fjjC4euVkvt9yeqOUNXazct1hlMIKJ07PsFChuU/S
+        JaFZkq4X1scBi5LyccupPnTDuy6R1CptlMc17ayIAQpe1fLS0SZkA6fQ63skQWraMwHMNrNAAC45Vc0P
+        qPZIs9RCoey+VMCGbSdRruaWJd59XkfJxy4c3QZ1kvJeICez3zJt7k1mLLuNwxfldQeUf4cnDh/m5w3M
+        TthJWobVHp+D9NxSNaOglkdVGmUtIxR9CrLmYDnbMtrZebODw9YWSr6OkvPmB1eefWD+6hNsMaWgVtjn
+        /Z3ElPQH6jFLMekFDiylLrIrPTytD1DaqmNVpVHuZPulImYuNsntnyI37+nvQfp3ts03spO3H00j6eB1
+        1uy/QUpuNdl1P9l6oZg5S/eQsNLE6fMW1WazTR7l/x9IbL/DdIi1R6xkCWDV3jucvZg5qXHSW5gKEPt2
+        4sxVdlsqWL7XyoXU28lT+Sb9wlSGfcevLd+45zKWW/enBPwCmuUeRwHv21IAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="PadIcons.LoadedModules" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAScwAA
+        EnMBjCK5BwAAAbhJREFUOE+lkktLG2EUhvVXuO8fsBuFgq6kBXfiwm6qQi1IC4IK2oIXEK0FdSGoUCrY
+        ovWCIIKENF6ot0JHS9CqqSYmkmQcolHjLWkymWQeZ8YmIMQgzQdn9fE+5z3vOdlAVkZPB3RP+nk/ekTr
+        F4l3g17qBty86XXxqttJ+Qc7ZW27lDTvUPx2i6L6DQprrORXr/P4pUCWDujSAB1ffbR8lmj8JFJrAA4M
+        wItOO8/b/twBFPwD5CYAIzOCxoF4XCWqqIRllWA4xlUoxsW1wtmlgj+g4DuVOfRH8R5HMK04yCuuunWQ
+        ChB4+uT/AbqYwX6ERznUDPio7JEobT/kWZNIYYM3vYOEmM5WeF1hQDyaZas9iHiqGLbvHSGVOBSJPxyg
+        B6l3pPq2s6qqnGshOsQwgu2aEdNGegf6FoYmLAgfc5CVOHtOD+Pz+8l6EEBfY9/wN6PTfZUyg4tgjMCV
+        tu/zKEdnUaQTGfFYxu2L4JIi7Gtj7HnC2Nx/2XaFGDX/vnsHy1aR7788LKy5mf15gPmHE9Oqg5klO9OL
+        u0wt2Jic22HCss2YeTOZR/KQ0llO92cAMqmMxHrjG7jk2kpzP7wtAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="Icons.16x16.CloseFileIcon" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAALEwAA
+        CxMBAJqcGAAAAU1JREFUOE+1kyFuwzAYhdMb5AguGwwczBF8hBzBsDCw0LBDtTRpqzZNMpjUSiOGg4GF
+        gYW+wdv7kyZ1thQEzNIj0f++9/xbWWULT6kNBkvwdrXQnmUCED3t9yNo7Q8WqUhd3yOL+eXt0EFe35+R
+        iTFePBA9oqglzFmh34UI/PP40UEyGZ6T43e3E9V/9HVkMs8IQAxskKpvhIujLMBWONdAYzhWoTbVeP9M
+        knrz7RqIibG9GpuKYxrNTv0CsGIKmKSK+cxUMX9TJ41gc5hKJw2uAFlgn0xJ5Rlz9CXCNkelU4CVBsmd
+        J2amSzKrizkeCvg6hy7LpAEB3TOOCxtqJ+ZTb25dDygfixvAbgdAWnvGLAAu0G0UigeVAjjcOi7KoOWS
+        Ws9BDjdOIdAQrGLqoBzWKCiVTwH1xsDwbStuV+uyqygpMqjyeS3+if7N8ANPrM3GWKs+LQAAAABJRU5E
+        rkJggg==
+</value>
+  </data>
+  <data name="Icons.16x16.AddInIcon" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAALEwAA
+        CxMBAJqcGAAAAilJREFUOE+tkk9Ik2EcxxeFBWKH/ogeuxRUFEVYdIxOIyro0qFjl0rMwpKUoEgPXYJa
+        olnNbNGfNadb6pzMzTZtbm5751o6szmhcmrT9kdNTfj0vqsF8ap16IEvz+n7eb7f5/dTKP73MdpD6K1B
+        Xrb7edrqQWN08qixi/taG9XPLNysaWDFNxtt74hPLzKVXCQW/87E1wXGphYYnZynSmNG9di0MkRn6WMy
+        +dM4LioqGj99mefjxFzaLKlAeXp5yAuzkDaOTS4Q8mgYbtpBaGiYSHQurQxAgkiS1ZF6S3EdXS7e6M/y
+        2bCWTn0J7tZSQqbjCD77H0lkAI2xh6C9kpB+DYY7OzHWlxJ8dQq39iizzasY0eUTCM+gqm9ZOkGd+OMj
+        5mN8a1EwXJWNtvwIusv76bq6h0DNOvy6w7QZbhE2Z3Gx6KC8Qm2JEuH2Jsb1WcTUOTSVKbEUbydanoft
+        XC7Oh7txd5uY7VXgbciRA8LPc7EXbab1/C7aC7eiqixDKM5PA5oLN9JbnY3b6WDGpcD2JFcOUNdew3Fh
+        G21XDtFRcUI05xEpzeNG4Uk+XN9A5F42Bp0aR8M+yi8VyAF3NSacgVF8gwl6PF6idevxPNiCSbVXrLWa
+        AeMBOlyDv8cpm4I0Z2FoGu97UdYz9JuVOIQoNtcAnb4Yr/sSdPoTKwM8oRSugRQ9/Sm6g0kcb5O/jHGs
+        vgQWb3x5gBQps7J/u5fcRAmQWdN/uX8AR+rqGRu86qoAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="C#.Project.WebProject" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAALEwAA
+        CxMBAJqcGAAABj9JREFUWEfNl31M1HUcx9v8N2u2lmVqmpamU0A0NefUmWk+YaICGhqSaVm4+oO0NZuW
+        ilvpePTMrNlm0bKabRauVgIH98Q9csDxdNwBBwfH8SQPJxy8+3y+vzs4PEFP5xbbd/C78fu93p/P+/35
+        3N0jj/wffvZd34PEP+KRcHUX9vwah/ifdmDXD9sRdykaMd9uwfbzmxGdtRFvpK5H1FfrsOn0a9hwYjVe
+        P7YKa4+uwJojy7E6eRlWfbQUKz5YjOXvLcKyfQuwdG8EFsfPx6K4eYjcMQcRW2cjbPOLCKqZBezXRCJR
+        uQBvFYQjPm8+dv4zDzF/zUV0zhxsuTYbm36fhQ2/vYC1P8/Aq9nPY9Xl6Vj+/XN45bspWPzNZETKJiEi
+        6xnMS5uIOWefwqwvn8TM009g2okJmHr8cUz6bDwmfvqoEDBu3LjMESL8At5WRiBBHo7deWHY9a8kYNt1
+        n4Crs7CeBVyZSQKmY+XlaSRgqiTgwmQsPP8swrOeFgLm+gTMSCEBJydgyucs4LGxBSRee1Oy4Be2IIYs
+        2EYWbEXMxQAL0siCMz4LTpIFx9mClVjzSYAFSWTBu2TBO2RBAlmwOwyLdo60IKgDN27cwODg4KhnYGAA
+        /f39uHXLg96eHnR1daOzsxPtbe1wu1vhanGhuakJzkYnHA4H6urqYLPbYLXWYPy58TA2GGGxWFBWVoak
+        pKRgC8YSMAy/hd7eXnR1d+Mmw9s70NraihZXi4A3EryhQYLb7XYBr66q9gkwoLS0FKUlpSEKGBiEV1Qu
+        wbsZfrMTHe3tEtxN8OZmUXmDowH19fUCWOwsRnV1NSoqK8W1wWFApioTZnNJaAK83n709fUFwG+io6MD
+        bW1taGlxE9wFZxNXLsFr7bUCaGo0obKqCuXl5eKa4UJYcfG9C/B6BwTc4/GgW/jeRfBOgrPvPrgzAF5b
+        C5vNNiSgvKICWeoscc0nQ5kOk8l0bwL8vjO8p1eCc+jaROvdcLlcaBK+N1LlDtSK0JHvNVYBO6c5hyxN
+        AFyVAb1eD6PBcHcBDO8j3z0e8j0w8QwXiW9BE/nOoRtKvM2OGgqdTCsbqlhU7Wu9geBarRb6uwm4PfHd
+        onLy3R86gnPoBJwSX19XD3stwanyQDi3nn3nlrMQrVYnfut0+jE6IBLvDQodj1tbGyeeW0+J9/leV0/j
+        RnBbjY0S72+91Haz2UyBMyGdfPdnILUwVXRh1D3g9UpwKXQ8bhw6KfFuSjz7LhLf6Es8ha6GQldttaKy
+        skr4zotGan2GCF0gXKFUoqioaHQBfngPwbsI3inglHhf6JxOCh2Nm0OETkq8leE0bhU0bhaCZ6qlcfOf
+        tMI08bfGpkFhYSHUGvXoAkTie2jTCd8J3k6V07LhNetPvINmXWw6ETorqhhO41ZGazYQnq5IR5oiDWq1
+        RghQ16ghlxdApVKNLqBnKPG+0FHiW3jHc+icjRS6hoA1ayXfq6j1FWLH85qVZj1DCl2tFhqNRgD5WlWj
+        Ql5ePpTKMQTw+0EoR8DLCU6t59Cx7wYaMwYW2YugJrhCoUBBQQHy8/ORm5srrkcNYShw/l9esxw6c4kZ
+        JlqxBqOBxkwaN41dQ9WOhPM9nIM7CnA6PSFVzw8rs5ShpKRE7Hej0QidXociLVWuVhNcKWByuRx5uXlD
+        z5YXyIMFNLvcyKYbQu1ASSnBzYFwLaWcKlcNw3PzhuH8/HwSFNQBC1WfmHEsZAF+uN4grVkNJV5FhSgU
+        hSjgym+DswB+LUiAUunBx9kdIQswGU0UOj10DPclfjh0Iyv3d5eDGCQg+0/3fQngxOt0WtpuVDn5zpsu
+        MPGjWRokQJbjFAIOZTqxOXkjFl7aK07kxYuIPVUsDr/+0omIoRNz5FTIHfMLChKQo3TioMwjDouIPpA8
+        QsTGZD2WxO0fEhF5dB/OyLJFK+/3jPhUbLE4BZgFxHzdFVQxw18+8DfWHUgRQqK2RIkx44c8yBnxxUT2
+        o0WI2PpFM7hirpJbzsD1sR8KAXzColJx8PDZ4K9WD/r90kLv8YfOGEX1Ee+fxfSEBAHnqgPhLIZ3/4Py
+        7ng/i0jJtggBElwm4OHbr2BJ7GFR+UODBypSUoWy7BzEHpYhljqQknJBeP5QqqaH/geu3XpQi1CjMQAA
+        AABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="Icons.16x16.Desktop" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAALEAAA
+        CxABrSO9dQAAAZ5JREFUOE99kyF0gzAQhpmbZK6TlZNIJplDIrFIJBIbWYmsRSKRmURGImsrmUP+u//S
+        jPLat7z3Fxru+y+5XF4QIfpvfPU/DwFN/B29v8VR8pm9CI7oPFiM1qEbJmT9stN5XtG7VecaCyTmgrZt
+        MI4DNPlRJgLEdwbby4png3E0KMsSw9BvBnYBCAMEvWiSjVClrfubf2rgYXERJf0G0uoqP97AZ6e64wHn
+        roObLHQL8/XKUBUNOAJ8Ed8AOgmZywNW8wGbxOj7szcANtEgwMxOeBKQMOvD/4TzPIMx7c1gnSWlFw0I
+        Up2pFO4mD1JR5ZClKeqq2lawLI8G8WsEKoB8MgENiqLY18DOUqTViyvgcu+lRbx9p8HjMarBpKJB2DPB
+        IBqwBg8GcTnCzh6mdtAiTXCTwsWo2q2ABpSbpU9X0R2UtLKiOx3TEllWoGnqrZUJR/mAOO93wQQ/0kKO
+        K5eMhWat6wonY7SNJ2kivQvNacAx7yS4RpqVWuEdcDJ6XIR4gSZr4ZxsV6+hGOhtlLY0bavufN8Bkuke
+        CGB4/gK+KLlQpAbRJwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="Icons.16x16.ResourceEditor.icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAACAAACAAAAAgIAAgAAAAIAAgACAgAAAwMDAAICAgAAAAP8AAP8AAAD//wD/AAAA/wD/AP//
+        AAD///8AAAAAAAAAAAAABwBwBwBwAAAHAHAHAHAAB3d3d3d3d3AAB4h4h4hwAAAHiHiHiHAAB3d3d3d3
+        d3AAB4h4h4hwAAAHiHiHiHAAB3d3d3d3d3AAB4h4hwAAAAAHiHiHCIAAB3d3d3cIAAAABwBwBwAAAAAH
+        AHAHAAAAAAAAAAAAAAD//wAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIAD
+        AACABwAAgA8AAIAfAAD//wAA
+</value>
+  </data>
+  <data name="Icons.16x16.ClosedReferenceFolder" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAALEwAA
+        CxMBAJqcGAAAAPdJREFUOE9jYBgMQHHNkv7/Tx7e+o9MAx2mSJTjQJrevXnxHx2sWtj7nyhDQDbv3Ljw
+        /6P7N+H08nmd/9++ev4fRD+8e/3//ClN/+/eugqnF0xt/n/98hmQBQwMKxZ0Y9hOjEBXfR7EgIf3bxCj
+        HkPNw7s3IQYsntVGlgGlGZEQA+4D/UgOOH3sIMSAORMbyNH/P9TTBmIAKHTJAUcO7oUYMLWrihz9/y31
+        1SEG3L5+iSwDdu3YBjGgv6X0/62rZ/+3Vyb8v3LhxP/8JL//p08c/B/kYfn/4L5d/031VP/v3Lblv5yk
+        yP/NGzf+lxDmg9NEJXWaKwIAlm1L2QiH9N0AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="Icons.16x16.SharpReport.Function" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAABAA
+        AAAAAAAAAACAAACAAAAAgIAAgAAAAIAAgACAgAAAgICAAMDAwAAAAP8AAP8AAAD//wD/AAAA/wD/AP//
+        AAD///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAD//wAA//8AAN//AADn/wAA9ycAAPOLAADzRwAA8ZMAAPn/AAD5/wAA8H8AAPz/
+        AAD8nwAA/j8AAP//AAD//wAA
+</value>
+  </data>
+  <data name="Icons.16x16.BrowserWindow" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAALEAAA
+        CxABrSO9dQAAAFdJREFUOE9jYBgFaCHQ8J+BgVSMYgSpmkHqkUBDQ8N/UgBQ6wAaAHIt2S44cOAA2Kdk
+        GQALJ7JcALOZLBcg2wxyPkkuQLcZZhhRYYDNZpwugJoIC12iaABHksm717kZbgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="Icons.16x16.ResourceEditor.bin" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAACAAACAAAAAgIAAgAAAAIAAgACAgAAAwMDAAICAgAAAAP8AAP8AAAD//wD/AAAA/wD/AP//
+        AAD///8AAAAAAAAAAACAAAAAAAAAAI93d3j3d3cAj3cHePdwdwCPcHB493B3AI93B3j3cHcAj3d3ePd3
+        dwCP///4////AIiIiIiIiIgAj3d3ePd3dwCPdwd493B3AI93B3j3BwcAj3cHePdwdwCPd3d493d3AIzM
+        zMzMzMwAiIiIiIiIiAD//wAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAAB
+        AAAAAQAAAAEAAAABAAAAAQAA
+</value>
+  </data>
+  <data name="C#.ProjectIcon" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAALEwAA
+        CxMBAJqcGAAAAlpJREFUOE+lk+tL01EYx/cHJEEQBVEQSMIgL4mGYpKSoOItWhpeMNEKIkQIIiKIIsI3
+        ZkE3Rr6o6EJSkYlpYI0gKzKLlG3u0jY3N3dzY25u3vj0O7/hZZQRdODhnBfP9/P9nodzFIr/XcffHKW5
+        p57G7iPUPTxMTddBVLfKqeospay9iJKLhRSdy6fgdC75p7LJbclkb0Mqe6qVpFWmoDg20MiJL5k0fUin
+        9t1uVANKKl6lUPwsmcJHO8m7t4Ns9TbSb2xF2bmZ5PZNbL+0kS3nN5BWsUsC9DfS9LKOhqc11D5QUX23
+        ikM3y6jsKKbsShHFFwo4cDaP/W057DuZRU5zBln1qWSolKSWSwCNRoNYS0uLzM/PEY3GiETChGZmCAYC
+        +P3TeLxepqbcTDqdOOx2bDYrBoOB1tZWFD3v9axXgelpfD4fbrcbl9OFw+Eg6XYSFosF/fj4KiAa7GbW
+        20XEcZ2w9TIhwxmyS1skdz8ej3B3yUL7xIS8i9LpdauA2ak766YQ6YT7slDsJpMJrW4NQLiKxvgsYHZu
+        iZnIIoHQgpxkWWyxWFfOWq12NUFI1yYDhFD92sO1x6N03B9mZMwmA+zS4NYmGJfunwAIfquXAcHwIr7g
+        AnZPDLMzytCIKSGB2WxeuX8CIDBUIgM8gfmEBG8/6mSA1RqPbjQa0evj7gkA/2CWDJhwz2GejDFqiTBi
+        DNOn+SEDxMS1WlFx4W8A0SQARkcUdZ9XmsEYV6UZvBj4KgPEg1mvVv6iAIz+jKD5pKN38DvP+4d50vtZ
+        BvzThxUA0fyn+hvgF57AdNPMWLG3AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="PadIcons.FindResults" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAScwAA
+        EnMBjCK5BwAAAolJREFUOE+tk0lPk1EUhtmZuPGn6EYTE125YmHiCjXqRo0mJsQxYgyYkKAiqAHUDYSg
+        oSUEkKFigQIdEGUsUyf6daCUFgoFCqXT1+nxUjCmO0m8yVmd+z7nfc/NLSj4H6e6bYOXygAvPvt51uDl
+        4ScP92pc3K52cuO1naJyG5dKzRSWLHDh0Szni42cuTvJqZvj5OZXCUCFYo2yJj9P61d4kAO4c4Drr+xc
+        LrfmAc4dAk7+ATSrxtk/mUyWZCpLNJ4hsBXD7Qvj8Ibx+COsBWXWNmV8G0m86wl6RyROF946cLAPEFqS
+        6SyReBqTtMm3kSWaNA4aNC5ahpfQT60K2B4r6zKeQIIegz0fkMqAnMzi9O6K5hLWlTCzoRRqX5puZ5Qv
+        Bi+DYz5cviju1QTdusV8gCysx+QMXTo3OimEZRtGtkCzCfowfPdGaVRLzDt2cPrjdGpt+YCEEO9nr2s3
+        Ywim0ArhRBLMIppN1JycFnEcTFm3kbwxOoYs+YCYyB6OpvnYYaXPJ6Neh/k0+MVyQ6Jc8ZTYicSksGZf
+        jtM+aM4HRGIZdiMir34ZpTGYs20WexEchBHsa3so+xeZWQxh88RoHVjIB+yK6XtBP8Y5O++URtrmg4zv
+        yNjF5ClPCJXBzfC4H7MrgsUdpaVv/i9AoRojumpBNpQwU/+YgaEJWvslattMfGg3oeiTGDUGckKLmG5y
+        RVGqDwHM1R4b1XSyrb6PsbKIjpp6tL+cqEed9P6QUOnt4mVsfBVLa9OYBdhEi3qO5t7ZAwdCdXW9p5jp
+        qmsoKqopflLD2Yt3cs1/qQJHV9nQdOUVOt+83+5RaJ9bTb7jR/qgAx3NjYq3dR6VUlc6+dNx4khicfk3
+        EauMNfMpmzMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="Icons.16x16.ResourceEditor.obj" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAACAAACAAAAAgIAAgAAAAIAAgACAgAAAwMDAAICAgAAAAP8AAP8AAAD//wD/AAAA/wD/AP//
+        AAD///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC7u7u7u7u7ALu7u7u7u7sAu7sAuwC7uwC7ALu7uw
+        C7ALC7u7u7uwsAuwC7u7sAuwC7uwC7ALu7ALu7u7u7u7sAu7u7u7u7uwAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAD//wAA//8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAA//8AAP//AAD//wAA
+</value>
+  </data>
+  <data name="PadIcons.Toolbar" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAScwAA
+        EnMBjCK5BwAAAnpJREFUOE+t0+9LU1EYB3D/gF7VmyiC6IXUqyRICIqK0UAkNAKJsDDtBwUD12D9WIpB
+        LtYG9WaMUFbidPmjy3TDGolrSsOtxJw6vSvbptt0y2levPuhjm/3nOXqrl524OG593Cfz3k495yiov8x
+        tN1xNHcsofFlBHdb5iHXB3Hr2Ryuar/i0mMWVQ9nUPlgCmV3vJDcHscJ2RhKb3hQUjsKuv4TAXhkWkTD
+        iwjq5A2iqFaz9H0bIM/HfwGHt4H2/lH4fD4YjUaYTCaaGYaB1WqF2+2G2WxGfGUTi8sZzIdCqNX1wjbs
+        x9GyulwHBJDL5RRhWRb19fWw2+1wOp3QaDRwuVxoa2uDTqdDKBiguc/J/g2QYpnsPvR6PV3VYDDQj3me
+        p/AXvx+R8AKdszhmxUAikaBdkEGySqWCw+EAx3G0gMSkd4Jmz2wUzNCMGEhnsuBTWRyrUaNC54ZUOSzs
+        wScsJTYQi63Swmgkgtd9g/DPJ9E7OC0GkqktcPwWBc4+j6BYycLMeBBd3oBN9xSDmmqoL5xEa91lsKEU
+        et5NiYH1ZBZr67+BfQqfUJxBOJ5B170mwHAEGLmC3otlmAkm8cruFQNrwuqrXA6oaImCAOHvwm9bSqOH
+        AM0HAeYcLOelmP7Go/PNhBj4Iay+wm1SoKZzGbsUk1iIZRBcTKNbKQDKA0CrBJbKM5ic49ExUAA4xxYw
+        9DEkAmwjfvS/Z8EQ4PoeQFsKa7kEnQOf0W4bF3dAThUJ0sG1rgR2K3ObRKJHIQBVOwHVIdikp/Pz+ZP4
+        54UkgMLKobiJzR1TYVCgfAdwcy/eSk7l5/95kQUgUAiQDz+U7A94JcWBwqKf2ehOyauU3DwAAAAASUVO
+        RK5CYII=
+</value>
+  </data>
+  <data name="Icons.16x16.CancelIcon" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAScwAA
+        EnMBjCK5BwAAAHZJREFUOE+9klEOwCAIQ93NuTkTM52phWlIZsKPsY9CvVS1pI4BMrUtllK0lUjt9zbd
+        AnjiNj7ax8eRmAOqxSFybH+OYHPOkGjJdAcIMJgH4QCw3t0wyLrEbn+KaziCCMMUlnQeMN7TGE9+Jh0h
+        BTgR0x38DrgByZ+dpaD6gocAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="PadIcons.Output" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAScwAA
+        EnMBjCK5BwAAAeZJREFUOE+tk8lrE1EAh/sf6UVPevLUmye96EUFQRDUg3qwQrFWaBEKoohSFGJLjLa2
+        JYx2obFasFVCNU1MJyYxS9MsTbM1mTWTzzdpUxhPQfvgHX/fb5l5PT2HcYY9Be6P5bj7MsPt5ymuP05w
+        ZSTGpeEo5x/InOkPc/pOkN5bAU7dWOPkVT/HL3/l6IUV2v5DAjDwKkvfiww3n6W51gbE24BzgzJn+386
+        ACf2AUc6ANfMCvaxrBaG2ULVW9TVJrVGk8quyU7VpFAyyRZ1NgsGqbyG91OEY70X9xLYAKFF8gWYmvPj
+        8a7imlxm9LWPJ655RkYlhp5Oc+/RBH0P3SRyGtNLshNgWqAbLRTNYlexqNablGomxYpBvmSwVTSEu05S
+        iONbGlO+DSdAF9G7SfA7qxHNqEwuhp0ATbdoqBY1pUm5Lpzt3mWT3I5BZlsXvXUSQhwT4khK4e1CyAlQ
+        xGjdJLA3kJMqb+aDTkD9oHeT7YpJvmz3tlfv9FaJbmrIwj2cUHDPBpyAqvhk3SSwxaF4g/H3P5yAyv7q
+        BeHc6Z0+6K3xK62yIaKHBGA91mBM+guw5E+z+C3JwmqC2S9xpOUo3s8RZj7KvPOFmRCjeeaCuD+sMy59
+        x+Vdcyaw/6p/uYfxFv+P8Qf3wGW8G6f0VQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="Icons.16x16.ResourceEditor.cursor" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAACAAACAAAAAgIAAgAAAAIAAgACAgAAAwMDAAICAgAAAAP8AAP8AAAD//wD/AAAA/wD/AP//
+        AAD///8AAAAAAAAAAAAAAAAAAAAAAAAO7u7gAAAAAAD4eAAAAAAAAI+HAADwAAAA/3cADwAAAAAPcAAP
+        AAAAAAAAAPAAAAAAD3D/8AAAAAD/cP//AAAAAP+A//AAAAAA+HD/AAAAAA7u4PAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAD//wAAwD8AAMA/AADgZwAA4GMAAOBHAADwxwAA+A8AAPADAADgBwAA4A8AAOAf
+        AADAPwAAwD8AAP7/AAD//wAA
+</value>
+  </data>
+  <data name="Icons.16x16.Assembly" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAScwAA
+        EnMBjCK5BwAAAMBJREFUOE+dk8ENgDAIRWVW1/LqCF3DVXr0WIXyGwqiiSZEbfmPQoFaa0v2EJFs3j6U
+        OjHAG2vY1qOJdUb0k+B2wwsBeIMIwAqXTaPq+wsi4v04+1Gd2P7zt5hLp0e/N2qtvyAD8AUZJ3AnmQAZ
+        JIg1Fa1dT8HaUzq2BqjbuFvUIYOgeOxXSpF6ceGn5sgguGIIWcyG9dhINh0TEUKODHHoxNFUptKZEB0c
+        5mCCaJPZiGFu0iHRgXobpMcUMmC2fgG+VHzraXvt8gAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="Icons.16x16.ClosedFolderBitmap" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAALEwAA
+        CxMBAJqcGAAAAgVJREFUOE/NkutLU2Ecx/cHSAiRKHbZMAysQUUiJL3QXg0NlIwCHQSjkC5kkgxGMi8r
+        2URng415oU09iWeGiIxQEgsqhVALoxspw/vSU52abPOcA9/O8zyIFxD2JuiB77vf5/O78Gg0/8PTPeWc
+        2B11MF1CwxFQWBxE/MczmqjAIzLnQqCzCQlJSOHu9Poa0dNhR0+7HVxbA7pbH8LvsbG462mctirSQKPp
+        9TdiQxzdkfifIGQhAPm7H8qSG0rIAfmLFfHpe1h/W47fL42wVJiYgHQigs0VYmIfJKEL8rIKztmhzFRD
+        +nAHsQkTIq8u4dewAe9a07YEZLxNgfRzANIatwPe+HgXsclriLy+QuEVPhvjziTcNF1mE/jUfYiAdJaF
+        J5BXvLSzPGvFdlh8XgBh8BwWuBN44UhC2UUDE3Q8qqHj053D7VAWnCpcy+Cpcqy/KYU4coHCYf405h8f
+        RbAuGQXnc5nA21yN6OqAejAflEUXhaVPVQweMzI4mIdwIBvL3VmY8RwCf/8Acs/omcDtsCAaDtBryyEb
+        g9/fYPBo0RbMHUeoTYvPLSnwmdOhP6ZlAleDGWKoC6uTFZgfMuBbfw6+8npMd2Zi3KvDSLMW/fWH0WdN
+        o50J7Kk8At3BFCYgH+KB5RbMt6/iurEYJYX5yDt7CiezMmhR6v59eyahr/7Pi/4CZnjPPzQtJvMAAAAA
+        SUVORK5CYII=
+</value>
+  </data>
+  <data name="Icons.16.16.SharpReport.Line" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAABAA
+        AAAAAAAAAACAAACAAAAAgIAAgAAAAIAAgACAgAAAgICAAMDAwAAAAP8AAP8AAAD//wD/AAAA/wD/AP//
+        AAD///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAD//wAA//8AAP//AAD/5wAA/8cAAP+PAAD/HwAA/j8AAPx/AAD4/wAA8f8AAOP/
+        AADn/wAA//8AAP//AAD//wAA
+</value>
+  </data>
+  <data name="Icons.16x16.ArrowUp" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAK7wAA
+        Cu8BfXaKSAAAAF1JREFUOE/tk0EKACAIBO3/f84yEazUDnstkA62I27aqBN4BIBEKSbiief6TVZdhMwa
+        FSSke/ELcgEicQXZANaz3V7oc77t1CDIA50NwMQP0N04vzSdWGSRViEQMADyZyM1D6JF+QAAAABJRU5E
+        rkJggg==
+</value>
+  </data>
+  <data name="Icons.16x16.FLOPPY" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAScwAA
+        EnMBjCK5BwAAALRJREFUOE+dk8ENxCAMBJOaefKFLq4NWuBJSz4vOiOCFnMKkmWE8bBswi0i12nknOmm
+        GON9AeBFCEE+uoGFHuw3AwwAG735DaApzeJvwNz0DtCa1FqlaS6l9DnyQ0FKSVjAAzSsNawNAIpYYAEA
+        TkZGg5k6FKD5NIbj5vwv93/IO31WpFvHVUwNBbC7ziDUKcAaV7kz0Mx0Fax+rMZSBbtPuFuHSns//SHt
+        XPbcfwBOL9KrfwH8yJ3JCuEonwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="Icons.16x16.MiscFiles" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAScwAA
+        EnMBjCK5BwAAALRJREFUOE+VksENhiAMheuNO6M4CyswhyeYgZng/K/gGJWHYiC/SmnykgbpR23fwszk
+        vWcShNaarLVLdxUA5xzv+2+oEAIbY3IJU1VJAJAEAIgWMg1AcRUe7wDoZCSlFMcY7y7+AES5zbRmdHgU
+        AO1vPALeinE+BHwNE5sSAoi3Mp4zaioGlOKrqqQXRAzAq10HGzFliQAjR37OAB8lel2jxM71TrXz7YOU
+        Es+oA7T+nsmxnAP2Kropb4kiVwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="Icons.16x16.MyComputer" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAALEAAA
+        CxABrSO9dQAAAchJREFUOE91U6GWpDAQzLq7Pzh7cuWtO7tyJXIsEonERkYiYyMjI2MjIyOzEgkOXF01
+        MPvm7oaZVy+k6So63ZUXKKjH37ZuWJZFratS26bUsqx83tTn56Le3n6o19ef6tt39fLFEQH5l1IgSCnv
+        8D7BuQgbMmyqGGOFHhxyLlhX4M476VDywrjAxAJXJkQmJebJ6olxAvrOIsZEAQZO5l8CNs8wFbBMFlI4
+        ybKXeN87BB+vBRwFhnIkyxeFKKvsJd7rCGcD1vlJBbVOCGlCl49kTdIdspd4qzNG4zDP8/9HkGN5n9Hw
+        4C2ThXCH7CV+Yzl6sM8FpCmRDWz8jI94EO6Q/UegIM/Sd+ZaIHFcrZvwi8m/T/Qcg/EThiGgvRnofrwW
+        KByfCAh5SCucr+i6iPd3R7LGqN3ukac+OMw0wdiMECpNVDCOmWS7o6MH9hE+TGB38d0QMgXpbq3zuVYK
+        FbStQ9NYaE2TmcD3nOsX60GglIppOkQOocpy6U4TcbsdAobwdOulD8TOQhSIoEzF2sjy3S7UtQZ29BdN
+        pO9T5MVhglykENK+ioDWnmSNgSO8vAtyLrkkmWWL24Rwa/odbTOwfLt/4N8m/gFMj8CH0FAWsAAAAABJ
+        RU5ErkJggg==
+</value>
+  </data>
+  <data name="Icons.16x16.NETWORK" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAScwAA
+        EnMBjCK5BwAAAJtJREFUOE+lk9EJwCAMRO3MrpCVXMFPP10n9VIirXhSUbhKwbxcYrxUNRwtAE7Ug0VE
+        d2Xu8Ykxaq3VlHPuSikpE2Ja6RqQdXch5gPw7NhLKVO1XC1bMHcUwILfZVEALP0RBfztgwPQwH4L1s1N
+        +ewsh8ihq0FbAmDXrTJIGDvs/9KuzAUIO4d3NK3/eSJqkGV/qLUBTM+dvETE3gAEjs4PDc5LAAAAAElF
+        TkSuQmCC
+</value>
+  </data>
+  <data name="Icons.16x16.OpenFolderBitmap" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAALEwAA
+        CxMBAJqcGAAAAihJREFUOE+1kl1I02EUxhd20ZVFVhRCoeWFN4Og6OsipIjCEIyyIOlDqGVRYRiyqWtT
+        m9PNLa2VLmubW9vcrDSjsGJQKCNCSx0lpmZBUSlmho78+vXfBuqqi9144Ll5eZ/fed7zHpFoHmtBpOy4
+        OpuevyWY4yICBIzdHWb8w+6gfg/ZmRgw4bKUERHEXaNjbMgRZp76WsmELwvH7RKsVSpM1wowXpFzQyvj
+        qjonAJ4tp1nD2HfzTOdpwUy3DHyS/+ofwJ1qNb++GIOxA+amOk1Qj12lNNrV3LeqcJkKsRuVWAyXuFWe
+        R5VOhkEjDaWxGlWMfKwgELuvWUG9Q8dUnxL6i8L1QTjrzYWubHh7hvbaNGw39YhMhkJ+9pTAJy0NzjK8
+        T7ShS3Of8OYotO5nsiUZ/9Mk3teIyZakBmaxWVRdruDHOyX9LfnU27VM9yqg81QI0J4hGA8x6U3B79nF
+        yKNtDNatR5mZIDxHFhpmpS6fwQ4pd20a2l4ISbqyBMAJaEtn+mUq48/3MNq0naH6DXxzJtJ6eQmHk+OJ
+        ioqSBwGGUhmdHjn3bKXQI4fXQtxXBxhv3svosySGGzcx4BLz2bwOnzYGhWQtZzOPzH5lRXEObksJvgen
+        adWLZuTVLsSjXsTDgsXU5i3HlBPL9QtrSJ/bPZBAX3QRveIkxdJj5J47yPmMFI6n7WTf7i3s2CpmoziB
+        xPhYVq9axoql0ayMiQ5fpIj2fT4v/QHcB7qkUG0K4gAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="Icons.16x16.PersonalFiles" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAALEAAA
+        CxABrSO9dQAAAU9JREFUOE+dkyGTgzAQhVPHucoiKyuR/Qv8hFpkJOewkUhkLBKJjOVcJJKTlUjk3r4F
+        WuiUtnNh3jCwb79sNsmOFKnl+C5+1j8WwevxrMzpV4VhqIKvYCchAJZPWjS0NS41EeS9p2EYSCafk72N
+        yBcR6dwRh6ju1sK/qLxrhggAyfPQpqae3c/ke56dBY8xhrquWyZbZlhKOHhlwGMF8zdi8GitqW1bBnDZ
+        NBSsXJRklQBeCZ41oDckPWAhWLv6pcRjDuScI9UUJ54uk2SMDot/M+Ap00D6MAJaPQEsU71AKt6FZ0IM
+        nlIHsgzV5AzwiWwhmjgDYNwSPFarNUAq+Q/A5UepQN4TADO8060CZyYA3gxAP9rqsq3yLD6bTEvAacKW
+        iLIDVdl+VLqXTou4YZjxJk6O43jcBVwKnGt8oKufCn7kyV0ABJXgaH4q+JH7B0P79BQAnbSiAAAAAElF
+        TkSuQmCC
+</value>
+  </data>
+  <data name="Icons.16x16.PreView" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAScwAA
+        EnMBjCK5BwAAAhhJREFUOE+lkm9PklEYxusb+FH6GLX1ulVrrbXW2uxFLTZmOQVt/bHBYGazZkjoUCEl
+        0LKQCTiTmBvKgwgkBgOjXrj+PEQpRb/O8xhEPbG1dbZrOzvnvn7nPtc5+4F9/zUUgKKBhQrXJ7Itdanb
+        h+1pQZTu1dfVmPTPf1Q2NaP2HSq7oADuxz5wz/vyN0gDYPFvtzTLO3uAZmk6ME2/aQCeLRWwuNfptUtY
+        H2bwLhRYzpbxBsoMOWQ6je5GF40Obk7mVcDsYoHxQI7lvExgu8bUhozJk8Ul1qQiRMUNLne5tIBrzrQK
+        sExmeLEpzKJ48QuEZPDlZPqcSdLxHLES6DudWoDRFkcJrPeBxJPXNSJVUJA5oUS1Rs9wnNWN9ywJsK5j
+        VAvouhNV01Y6GEvIRMV8S5R9FooUZcyupGoOCuJFnV0L6DCHUdK2z2QZDBR4LDJ49bVGUphdwTyDnhQh
+        EdPcJpy/MPR3wKewnjGTgduuNUzuFFcdCfo9GWwCqpysmGcycK797h+Ab5W2rel2IlcO4zBaSZaqPE/L
+        zMXeEcrsqGb/T/OjFJw5O9AE2C231aL6lRXDIUa6bxGKlpDeoqZdv3P9ZMU8sQanTlt/AUqSzyD1HFTN
+        wUixpVlEoJpHJThx0twEKJUOzDrHh3X6EWKpCjHxUaLi/SLr4h8kIZyAeWHyr8JUHFwxOHa8TxuiAvhX
+        HTl6owH4AeqTBolfRnOBAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="Icons.16x16.FindIcon" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAScwAA
+        EnMBjCK5BwAAAcJJREFUOE+lkutKAlEUhesNeq3qR1DQuxQFmoR0naSiTMQu5qXLGGVWlMikpI6amjpq
+        2Q2yiDKpLHIqV3smhIgRugx8f87stfba+5x6AHX/+iQDJSpA/bbvpHdoOpxX64PvPYbQu84cz29yx4z0
+        r6qpKTYtJ/wGhwBPpoDwvYjdggg2VUC/RcD4XCRaNVE02PaeMRMraWoC3JWBwD1gPQScl8DeE9BvE8C6
+        Unp5fKX4o9aDvIs6Hz0AW+eAuwh4yMRLYq4ELFESrZGn0xoGPVNh+Ioidq5I8AhEqDJJCESKCD6KUE0G
+        pYDKCaoGtiPqTCkk4QVxQ+SJ+JMIWmxtg5H5RHEhUcAaVe/RDnJUeku8Es+EO0fLNPE0TI0ETnfOPGjP
+        wEcze0mRpcpr4kVeKzDtymJ2IcIqG2QtqmQs6FAzWxheTMMh0DWWRCQpttR5hsRTtmha+Rr3GVNlow2x
+        gXasLNo9S+tJVmsMldR6HhpDCDpLvGRfTbHKDymmk8Wh7iaYuzTgfRlG6Yq/n32+A1ncCn9nsyx2WAPR
+        cvmt4WcGgpGpOFv+JJaXyC9rPf6Oxl93rqar4zhONdbbd/qb2F9H+wBFpu+Qv2qMcwAAAABJRU5ErkJg
+        gg==
+</value>
+  </data>
+  <data name="Icons.16x16.FindInFiles" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAALEAAA
+        CxABrSO9dQAAAp9JREFUOE+Nk11IU2EYx9+zQRQEXWRgF10YgQgRUV10UxdedNNNdCt9QPRlEZiE2cpm
+        GYFYS9FyazmorXTZUufU0Q5Tc7Pptsq5zY8xzbKZy29lOsp/z3uGpiThCz8453nP///834fzCgDYWouq
+        gugYKOgKjZ+eXfidLMhkbMumDSOpOzYbjxzeeVVgLCHkBkvQK9WZcFuplOne+Nqfvg3A3jMG91QcrWNx
+        mPxjKHwZQNkLz8dFQJCaL4nd6v3oLN8H1+O9aDaV4ElNkLaA8QXgwxTwqg+o/w4454DCygBMDX71sgEX
+        r1wVJG6gzv3TgPULIE4AdjJ5T+KWWaCaktx/1kFVSvBXzA0T3NG40TYRhy1CghnAQ9VuIkD4CddMHMpy
+        F+/JGI+NWDEw+3CZJYPKfupMKbjwGxElhonPc3Hkq118iALjZ0b0HiLicTi1yRL65yqYW6pg9Vrg7LfA
+        P2DBIDFKRIjm9iqoy4u4QQprL90DDN6QhGHxkjSK8NAkah1DCM5Tdxoi7zpJxPlmLAi7Zxj64suQy+XX
+        mKNkNx3wimQQixUB0zpEf9TCaK5BnbMNrq8+hOZDGCK6Ij7Y39XA0dEA7c3t3KCUtarSELakw2tIAUa1
+        WHRfwIApE8FPOvT21KHW1gRjoxWvrVY0ttrQ0aSCV8yAIXsjNyhjzQ9SJXHEcQaL3kyEdCfQUnEX0T49
+        ECn4hwkxXUqrvShPGIiFuxCuO4pfzlPoNZwlsRK+NgMwkk9ixWrCCimtVpEMzXkhYdBtOIaf1YcSYrUC
+        PlsF0JNF06OBroGoTZPiq8+xxAzqNddLbDkHoM/NgPFRFqpyt0of/A8ulslkFjLIY2az+aQyO8d0K0fl
+        SErapuGx1kke/QcHV93GlTdzvc9/AFBBuVWM1IfqAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="Icons.16x16.FindNextIcon" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAScwAA
+        EnMBjCK5BwAAAY9JREFUOE+lkktLAlEYhm3VIjCJNm1ifoKb9v4Et/2BoChoUWmrFi5bKGYS6CKKvFQy
+        VloUpgV2M3ImhUwjb1kQTDkZLTTl7RzJ0qZiqIGzmI/zPN97vnPaACj+9VGBnKW1alnFgAJKXTtCyZCG
+        mWQy9eZy4OY9FO6z9aJnqpOU/yBQjaqKFO7Sd8gX0M0UovDXxD8eIZd71DQWhWlsGl+WwBtIeU0uHgZ7
+        BEZ3HMqR7iqF6QDpIOlAGyJJgsBR3uzYToFPi9go1OCMibD4r8DuXNozQobh8py6OYVEMOOO3wcJvP8A
+        nFSA8xqwmRVhdPKkIr1yicBgO63672oIknGlCSGQlXytgdZlCSyuWHb1QkT4GSgQgoQAlxdhdkTpr6Rh
+        a+HpWr217ktML0axlhKRIp2Pb0TY2Xj54Kww9ruAwOJKf9GrG4THz3lnXXzCYItUrcux7CF3+y38+RLf
+        Yc/EMNilMFcuV1Vyn3j9CJU9fcgzPoSFud1iqVRm5MIfCXwuBztv8hQF4aXljuWI3gDmJcFTgST3AwAA
+        AABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="Icons.16x16.FullScreen" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAScwAA
+        EnMBjCK5BwAAAlNJREFUOE+lkztok1EYhuMiaiaLg4OooIggIjoJDsEhHdoiIVOzSAaLg6SW0pImhaa5
+        NQ5NhESaKzFpSJTQtKUttkONNEkvgaS10thUHNycHVx9fb/zJ7gqHng4/8/5zvtdzykAuv9esVgMyWQS
+        xWIRpVIJhUIBuVwOmUwGiURCkc1mkU6nEY1GEQ6Hxes1otelUim02220j4/x5eQEn1stfDo8xH6ziWaj
+        gY8HBzjY31ff9XodO9vb2K7V4PV6ReSBEmgdHSn1eDyOUCiEQCAAn88Hj8ejvmdnZzEzMwO3243p6WnU
+        qlW4XC4RsOskPPEol2X9Ij/IN9IgqyRBpsgT0hVwOp0i8FInuUvYIiTrpg64S26TMv9fEw95Sh51BCpb
+        WxgdHdUE5ufnVQ0ikQh+0uA7+Up2yFvygjwjJnJfIpmawvvNTQwNDWkCUnmJIBgMqsu36PkhuUeukovk
+        AjlPLvF8fHwcG+vrsFgsmkA+n1eV9vv9OKbBHtkgMfKcGMl10kP0ZGRkBKsrKzCZTJqA9HRvd1dVuEqD
+        G/QkdbhMeoienCXnyGmeS+5vOCdGo1ETkHZJW6S6SzSQXrjJ407OVzrez3CnBmw2GzIsfG9vrybQbYvs
+        gkQiSJ8nJiYwNjam8rbb7RgeHsbg4CCic3N/IugKSBRdqpUKPpTLeLe2huWlJSwvLqK0sIA8xzvBsX/F
+        tA0GgxaBzLR4k/ZMTk7C4XAor1arFf39/Qqz2ayKNjAwgL6+vq73VTWJ6kHITGs/ovi3iL3cU0tE5HXd
+        +QfUa/wNzO85rGAclUYAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="Icons.16x16.CSSIcon" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAlhJREFUOE+NktFP
+        UlEcx08PwN/QW29u/QW991SzF+d6ab2UW665eGDJdG5q6hLTCwLaYAZrCtrQkVfyZklJq65zRs2WbUZW
+        IGq4iFiShfDtdw7IuI2H7vbZ93d/9/y+53fO/R1j5WdwcF4tFg2n9Hod0+n0IqvT6ZjBYBAkk/GDurqT
+        Z+rrjy8d1Wh0ePQFQhtAEbWxeqKQpHDhssl5tqZBX58C5QPwhxzynALFhIiJPv86ZDmJfnukcK1r4nTF
+        JBQHOHNfAPkzMEsEN4GZj8B0DGC3tpHLA1bfGoLBOEKhHUjWJwWbTWkQJnNU7HlTxO1XhxhSD3Bj6Seu
+        L2RwZXYPFwK7YJY4pmZkOPxvhQnvxHZnBQMDSoHKT7D7n4CxaAGOlTz6n/9CRzgL43wal4IpnJ/cBuvd
+        wHhARmofSOUI0uUt2tSzAjLoYLxd1+ohJPU3eiL7MD/K4Kr8DRenv6LBtwXW8x7eezK2shAkiNc7gNut
+        coMuxpw5MHsWzJYGG0qJM7Obm2JnXsxx+2XE0kDsO0H6bg/wetfKBqXrPNfYaIZ7UsbIRBXjFHMot54q
+        FXK4icu1qjFgra1Tlfai1GKF3VLLnCjFPM+P4XC81BqYTL7KBfFLUhME6TKpeOdxGX6ZkhTRGhiNd5E5
+        AJ7RPESIf/Uox/M/aJ3Fsqg1aGnxiIFZpL9Si3BVnq/r7VW0Bs3NbjG6Ck0fH2mhxMMq5TGHj3ln56zW
+        oLs7oLa3+2G1PoBtWBHY7QtwOB/DObII52iYeAoH0dY2DbN5LFGaA+3TVE7yD/9D0183rYOnFhgFSAAA
+        AABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="Icons.32x32.ResourceFileIcon" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAALEwAA
+        CxMBAJqcGAAABIZJREFUWEe1V99PU2cYrvGC6JJl3ribebMLl3C3JQv+BxvX2xK52wWS3bA5drfL/Upm
+        No0SlmEWE11m6OYvZDJBUVqmDASlhVY6QLBQCrSF0yK0fNQ+e5+v59SW2Z62cyRPwun5cp7neb/3fb5z
+        dgFw5P9d9AMv707nfspkHI50Wunr7cxW7vetZMax++mzddvpbX0vs60cNXtecoT8A45Pjnywq+Dhz7ug
+        gHxMLKahlCpAIpVBMpVEIhHXMIw1jVg0qrG0FMb8fDCHK55VHLs4gqamJnl04fN3XheQ8+bQXCH51pZC
+        SpBMKWwkFZ4I1jcV4gJjQ2HticKqILquEIkrLAsuj8XwwyTwWfs9WxFFBWhiISU2TfJ1IU+QXIgNISV5
+        TIijCYUVk3xxTaFjMIKv7wPvX8vgo5/GSoooKsByTXLtOo98TQTQNckjQk7XS4KwkC8IzvRH8GEf8KYT
+        eP1cGu+dKF6JfwkYnN7Q+9/S0qJx9Oin2kHD4QbUv1uPurq6rGtBsTUnu0N45+wqDrWF8dbxGbz9hQ8f
+        H7vx3EqUFMAOsv6MuIGpqSnU1tbi8/MeXXIKKLamqyuJCxeSOHd2E6dPp/DNKV/5Atjx+Q83jLgmd7td
+        eO3AAS2AJbdbM7mk4A8r3PY+xZcn/OUL4Kg1Nzdrc4aRde52u9Hh7MC+fa9IcHylUWoNRfoXFSZCWQHf
+        tk2WJ8Dli+keaGxsfEbucsHpdOJUaytqamp0BRZW7deMiwDvQlZA2VtAAaxAQ8Nh1Nez6Q7h4BsH8er+
+        /dizdy9jUwt4HFO2azxC/mC+QgG3PMtaQEzGi0QWWPL869mowsxK4Zr8+/z/QVBhVFBRBSwBK+Z8hw2F
+        kMw2BQTF9ZzgUSRLPrWsEBBMSqP5zP32yp6Piev7JvmwJGtFAnqGg7oC7HKmWkj2mvtNAXPiulQ+cL9Z
+        cpLfe6xA8r9mqxRgOZ8Xx9xvCpgR56Vmn2VnyUk+JMSDgruPqhDAk46ugwK6nhVia/TsZn8n+cB0lQK4
+        32w07ve07DcFBCRY7GafJR8U13cEAzMK7qkKBVx1BfQZr7vcJGejUQBTzS4fWPI/SSzOXST/u0oBJNdd
+        Lq7Z5RTAVLPLB5Kz7Bb5rUCVAizyh+aIUQC7nCO2c97zr1nyftP5TSG/OVmlAB4kFvm4EFMAg6XUGLrE
+        eb+UnK5JfkPIex5WKOBSr1f3QC5YTNcUMGIKKHVM95mue4W4x6/wh6CiIKIAvmSOy37rkgsYLBQwLPNt
+        N4Z03Su4LgJI3u2rUoB1kFjBUu4RzJJfN51fE/LfJyoU8FtfQL9eM1JHxXEuWMzZthtDkncLLPKr4xUK
+        +LV7VAvgfjPLrUjVwSJNZjeGJKfrLkLIO70VCujozArg9wFTzQoWkjNcbsuIscuLjaImF2I67xRcqbQC
+        lgDG6V0JFStYrNnukzHjbLPRrP1mo1klz5GL88uCS54qKsCxeZFoH0H5r2StP3vQ/osPJ8+M4nj7EL7/
+        cVDju7Y7/wllv5Ty+5AfIv8XbD9O7b5mX/T9fwDTQSVZR+fRkAAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="FileIcons.XmlIcon" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAALEAAA
+        CxABrSO9dQAAAvFJREFUOE990u1PU2cYx/G2+zv2B/gP+MK92CgaXy2b2zvjkr0DQ7BxLhtQ0CUYMkeR
+        p1JBmE4TssSupV1xlofSQ0tbUKDWPqgdnS2CBgtri1DsA3x3n3PQ+WLZnfzuk3NyXZ9z5dxHC2gk6Tnr
+        6zsarVan0el0mrdLJ99/oFWea7XqVafVaD77/EOxHy4ZuPVLlOUt2Kv+f1KZHez2DOb+oGhDI0fZbt54
+        SEQARQHsVtRsFErEM3kcM09JrOXZ3CkjA7/ZnsnN7xAFGBkJE83B6zIUSgdEUlkMQw/omUhyJ/yYNvs0
+        xpEQoeUXygRjY6vvogDXry+RyEO+BKubu1wc9hLbfkSONLG8k75IAxd8fs73Bognt5RJ5MgvVoDBwfsk
+        C5At7jO1mKbd9Se21CTO5xZ6wl/ytesyJ10NnLl9k0B0jezegVI/PLykAhbLPH9tw/rrCkNjS3w3UeKU
+        tYhBOs0p+xEMkzk+tn1EvaORG66wUifXDw0tqoB5IIiYiHSuhNUTpd72ii/uwTe+ICecR/nUfpIzjq+o
+        Gx3F4U+QyZeVeotlQQX6+gO8KEIqV8Yfy9BwVaIvBqNJaJv/nrOTxzDNp6kzScw/WSOVryj1ZnNIBXp6
+        /WzswUphn+XVHLfGFzjfPc2AZ4Pb4TA/OD00mrz86l4kIo50ZftAqe/rnVOB7u5ZNsUJyB8mni0RSL7E
+        Ki1zzebH2D/O4NgcNukhodQGic2yUifXy30K0NXlZe/ZNQrxVgqPWskuNpP2fctj9zmirkYSfxhIey7w
+        aq6JraCRv4Mt7EYG6OycUQGTaYZK/Cz792vZD9VSDdRSmtVT9NSwO/kJRXcNb0TK9/SU7oq49LyZrePK
+        j1Mq0NnpUYDqgmg+BCo+PRWplsqMnvKUyISIDIz/C3R0uFXgpyvTVGMycJxqUCBzIj7R7BWI5xBwvwf8
+        LiaS6mhvv/v2R3LT1HTnP2KludlKS4uNFqONVqOdtjYHF0UuXXLy84iXfwCOEgRz2rp+4gAAAABJRU5E
+        rkJggg==
+</value>
+  </data>
+  <data name="Icons.16x16.TextFileIcon" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAuJJREFUOE9tk11I
+        U2EYx7dFN3Vbt5FBSBBBEPRx111ChUEQUUHRRdGFYJGfWaQQzaKZns1sK/uwqPwoU9dKkVpiLZyudMvW
+        MW0Oy9qm21GXzuOv90yLFr7wO8/7Xvz/53ne53n1un9WTY3vqTju0usNOoNBoMUlep121uvno0Gv02Xu
+        WSW+i6zbt3rpDkN8NpWpxBzeTzKOVhf19UNIFZ0salB908N7YTAlDCYT8ygzKvamZl7s2c6IrZTS41kk
+        EonFTWy2HnrHNJFAiMd/qTQ7Wnl2p5pJ43FC+7bh2LSWsrJmGhq+8vhxIDWT69fd+MaFcBoicZUWhx2f
+        00hc6SMajdJ34iDWdatpbHbi/xJF+2FKKdeuvcMfhZ9TKk1CLL/KYW6igbmAkXD/Ax5JFVRKlfQPj/Ix
+        MovV6k41sFjeIo+rNNrnxapSx/TgeX65DuG6lUF51Q3e+QYYCk8yEJ2jqqor1aBC6qCu5RmyMw81Vktc
+        PkOscz+dlVsorzTT2Svj/6EwrKh8nQCLxZViYCgqNAtxPonYQxR/LmHnXpzmTZRZzLwWYt+owlBsXjwy
+        BZL05q+B4fCB3cfk1/nMRB8w1n+K7+2ZtJdv5IpF4uUHmb5vSrK8LzEYUGA0DuVXO5IG+oyMjB3dL61M
+        R+sIebMItO2k1bSBy2aJNo+MZ0Shf0zFL8TaJWuERKdMpldJg6U5OTnWYDBILOxnsC0Th2k9pUL8vEfG
+        HVToi6jJ9n4UM6LFP62+dKk9abDcZrMFI5EIXq8X+71sjBUSdreMS4jfh9XkcP1PTAya8WIruuLi4q1p
+        aWniQiTy8kqovnuPpi6ZN8MK3SEVjxhtT2SBhb027tqYX7jgQJeenr5GcFRksvlktpXPgwE6AhN0/VST
+        D8st6A4JFqJb7DW0B1dS0pIsYZlgpWDFkSMm++nT98nNfSiyeSSoJT+/loKCegoK6zlT2EBR0RPOCs6d
+        a+TUyZqnvwGW0phiNvRJPAAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="Icons.16x16.ResourceFileIcon" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAALEwAA
+        CxMBAJqcGAAAANxJREFUOE+lk7ENwjAQRWEqYARqpohEgagYgCILIGWEG+EKBvAIZgFk0dFZSvHJB9kk
+        sUkiYukpkZx793OJlwAWsxYFc4jFpTj0OVwcyO78iKyPd5DQtCMQ41Hpl1I8TvJ8s698ZFVc84KQgAXt
+        zqFruGYFogZ1XcMYC23gPanEdHDOY7Mt0gRBEArbAj7NRRnlWQE3+8W5BAMCzQooYWxiG0YFqjeIfmbg
+        fPNFejPg3o9XSBOwKwXtGXBWkwTszshpghGBtQ7G2vg5GbnLgIDRppL8yv8eqFknkU1fbi3l27VO8oIA
+        AAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="Icons.16x16.HTMLIcon" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAxRJREFUOE9tk11M
+        k2cUx9+i8WpXBneByVxidNnFTLzR+IEGJOIEDU6jUWMkOpPGqiQuiIDYRZSgJFTwY6BEJLymCGsLBWu1
+        E4W6NkQotQWCqKwIKlQ+Ci1TU93Ppy9mwchJfu/Jk7zPP/9znnNU0rSQ5S6zOG5SqaKkqChBJM9SSZGz
+        SjWVo1SSlLLlO/GdISque3GNwNsPM/O8L4TR2MfFCw5mFCi/5sbhC9Hp7cPj6mVwJMSkEFMIQ0TgT8M/
+        ROIrkSOpp6JvGL3YPR10Bjw4XldSXK+hsLaIV2+CBD8LmEwvmI7iZHei5lvZUhvoHB3CN9lB93gLfwuB
+        UvcekqqTSMjpwDc4rjiYTllZu1LKbI3ujL7FX40ncJ/HgnsDMiWefaTZ4kgsj+enAh3ZFTaGQmFG3sGw
+        oGccrl5tQ1q8OGF+Un4f5+0N3OhupMaXx5lHyWgerGarvIsdZojXl7GhaAlu3wBDb1HonYDS0lak/esO
+        p8SVQkoVHLrbzwlnPEebVpJqWo66wc0uC6yW1SRURHPL5qI/9JGXkyCq4fLlFqTUteptv96EJD2kWSGz
+        WUuy/geSq1ZwxOZH3Qir5O/5uTKGGksLvYGwcvnVv+IlLjqRYmKW/Liz0Md2kxAQP19wgdZuIcG0iMS6
+        lRxucvNLxR5if4/F8NDJ09Ewz4NTZRQXPVSaOC/2QH3D2krYJuyeEwKXPKJu41LiqhawVx9HshF25Dbg
+        eDZI99hHpYHD70Gna1IEvomZt3DZZm17cKdwUdQKd3pFfW0FaKyrOG5/wsa8dmoeuGjtn6Bz7D+6AhAQ
+        AgUFjVPPGHERPXfBmk1pdazXPSPdIZpqOcjGwlMcKG5Gtjpp6hnC/SaMdwyFCTFYZ/Nt/4/0nIhIeno5
+        t/9qJv8PI2dLDJSYbZicXdzv8fNo8D1usSfuUXgscmS08/KsX+zE7NO59fS/9nPbO4C1Y4B7T/zYXwTF
+        5bCyZK5haPtMZOFyc299uVRq9RVzRsZNjh3TK2RkVJOZWUNWloGsbAMnso3k5NRyUqDV1vHbUdn8Cee5
+        k6wGfr1zAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="AddIns.HtmlHelp2.Back" xml:space="preserve">
+    <value>回退</value>
+  </data>
+  <data name="AddIns.HtmlHelp2.EnterURL" xml:space="preserve">
+    <value>跳转</value>
+  </data>
+  <data name="AddIns.HtmlHelp2.Forward" xml:space="preserve">
+    <value>前进</value>
+  </data>
+  <data name="AddIns.HtmlHelp2.Homepage" xml:space="preserve">
+    <value>主页</value>
+  </data>
+  <data name="AddIns.HtmlHelp2.NewWindow" xml:space="preserve">
+    <value>打开新窗口</value>
+  </data>
+  <data name="AddIns.HtmlHelp2.Refresh" xml:space="preserve">
+    <value>刷新</value>
+  </data>
+  <data name="AddIns.HtmlHelp2.Search" xml:space="preserve">
+    <value>搜索</value>
+  </data>
+  <data name="AddIns.HtmlHelp2.Stop" xml:space="preserve">
+    <value>停止</value>
+  </data>
+  <data name="MainWindow.Windows.SDCatalog" xml:space="preserve">
+    <value>目录</value>
+    <comment>Catalog</comment>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="start_here_gnome_blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\start_here_gnome_blue.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="htc_sense_footprint_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\htc_sense_footprint_icon.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="DataAdd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DataAdd.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ElementSelectTool16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ElementSelectTool16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Find" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Find.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GenericArrowLeftBlueFat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GenericArrowLeftBlueFat.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GenericArrowRightBlueFat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GenericArrowRightBlueFat.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GenericOpen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GenericOpen.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GenericSave" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GenericSave.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Icons.16x16.PanTool16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PanTool16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IdentifyTool" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IdentifyTool.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pan.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Save" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Save.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SelectionSelectTool" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SelectionSelectTool.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wacom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wacom.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ZoomFixedZoomIn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ZoomFixedZoomIn.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ZoomFixedZoomOut" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ZoomFixedZoomOut.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ZoomFullExtent" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ZoomFullExtent.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ZoomInTool" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ZoomInTool.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ZoomOutTool" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ZoomOutTool.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
